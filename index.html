@@ -1,129 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>XHS Styles Repository</title>
-	<meta content="XHS Styles Repository" property="og:title">
-	<meta content="Repository for my custom userstyles" name="description">
-	<meta content="Repository for my custom userstyles" property="og:description">
-	<meta content="website" property="og:type">
-	<link rel="shortcut icon" href="xhs-styles/https://xhenos.com/favicon.ico" type="image/icon">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8">
-	<meta content="#1A1A1D" name="theme-color">
-	<meta content="https://xhenos.com/img/og-img.png" property="og:image">
-	<meta content="256" property="og:image:width">
-	<meta content="256" property="og:image:height">
-	<style>
-		:root {
-			--xhs-primary: #1A1A1D;
-			--xhs-secondary: #1E1E21;
-			--xhs-border: #17171A;
-			--xhs-highlight: #232326;
-			--xhs-title: #C8C8C8;
-			--xhs-body: #AAAAAA;
-			--xhs-orange: #F47447;
-			--xhs-blue: #3779A1;
-			--xhs-green: #648E76;
-			--xhs-purple: #8E78A2;
-			--xhs-brown: #7A6A5A;
-			--xhs-red: #EF4A4B;
-		}
-		body {
-			background-color: var(--xhs-primary);
-		}
-		a {
-			text-decoration: none;
-			color: var(--xhs-body);
-		}
-		a:hover {
-			text-decoration: none;
-			opacity: 0.75;
-		}
-		@font-face {
-			font-family: 'Open Sans';
-			font-weight: 400;
-			font-style: normal;
-			src: url("https://xhenos.com/fonts/open-sans-regular.woff") format("woff")
-		}
-		.xhs {
-			width: 300px;
-			height: 485px;
-			background-color: transparent;
-
-			position:absolute;
-			left:0; right:0;
-			top:0; bottom:0;
-			margin:auto;
-
-			max-width:100%;
-			max-height:100%;
-			overflow:auto;
-		}
-		.xhs-head {
-			color: var(--xhs-title);
-			font-family: 'Open Sans', sans-serif;
-			font-size: 1.5em;
-			-webkit-user-select: none;
-			-moz-user-select: none;
-			-ms-user-select: none;
-			user-select: none;
-		}
-		.xhs-code {
-			color: var(--xhs-body);
-			font-family: 'Open Sans', sans-serif;
-			font-size: 1.5em;
-			margin-bottom: 0px;
-			margin-top: 0px;
-			margin-left: 16px;
-			margin-right: 16px;
-			-webkit-user-select: none;
-			-moz-user-select: none;
-			-ms-user-select: none;
-			user-select: none;
-		}
-		.xhs-desc {
-			font-family: 'Open Sans', sans-serif;
-			color: #aaa;
-			font-size: 1.1em;
-			font-weight: 400;
-			margin-bottom: 0px;
-			margin-top: 5px;
-			margin-left: 32px;
-			margin-right: 32px;
-			-webkit-user-select: none;
-			-moz-user-select: none;
-			-ms-user-select: none;
-			user-select: none;
-		}
-		.xhs h2 span.purple {
-			color: var(--xhs-purple);
-			text-transform: uppercase;
-		}
-		.xhs h2 span.green {
-			color: var(--xhs-green);
-			text-transform: uppercase;
-		}
-		.xhs h2 span.red {
-			color: var(--xhs-red);
-			text-transform: uppercase;
-		}
-		
-		
-	</style>
-</head>
-<body>
-    <div class="xhs">
-        <h1 class="xhs-head"><a href="xhs-styles/https://github.com/Soitora/xhs-styles">XHS Styles Repository</a></h1></br>
-        <h2 class="xhs-code"><span class="purple">Project</span> License</h2>
-        <p class="xhs-desc"><a href="xhs-styles/LICENSE">LICENSE</a></p></br>
-        <h2 class="xhs-code"><span class="green">Updated</span> Projects</h2>
-		<p class="xhs-desc"><a href="xhs-styles/animefillerlist.css">animefillerlist.css</a></p>
-		<p class="xhs-desc"><a href="xhs-styles/crunchyroll.css">crunchyroll.css</a></p>
-		<p class="xhs-desc"><a href="xhs-styles/sweclockers.css">sweclockers.css</a></p>
-		<p class="xhs-desc"><a href="xhs-styles/sweclockers-userstyles.css">sweclockers-userstyles.css</a></p></br>
-        <h2 class="xhs-code"><span class="red">Abandoned</span> Projects</h2>
-        <p class="xhs-desc"><a href="xhs-styles/google.css">google.css</a></p>
-        <p class="xhs-desc"><a href="xhs-styles/utorrent.css">utorrent.css</a></p>
-    </div>
-</body>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Tachiyomi</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <script src="/scripts/remove_service_worker.js"></script>
+    <meta name="description" content="Free and open source manga reader for Android">
+    <meta name="keywords" content="Download, Official, Android app, Manga">
+    <meta name="theme-color" content="#2e84bf">
+    <meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://tachiyomi.org/icons/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="/assets/css/0.styles.0f9474cc.css" as="style"><link rel="preload" href="/assets/js/app.139df6ab.js" as="script"><link rel="preload" href="/assets/js/2.5f385921.js" as="script"><link rel="preload" href="/assets/js/1.bbab1aa6.js" as="script"><link rel="preload" href="/assets/js/28.23da5a76.js" as="script"><link rel="prefetch" href="/assets/js/10.6f9483fb.js"><link rel="prefetch" href="/assets/js/11.f04606c2.js"><link rel="prefetch" href="/assets/js/12.654c6832.js"><link rel="prefetch" href="/assets/js/13.3ffd7a63.js"><link rel="prefetch" href="/assets/js/14.48beb275.js"><link rel="prefetch" href="/assets/js/15.41288e99.js"><link rel="prefetch" href="/assets/js/16.098f6b39.js"><link rel="prefetch" href="/assets/js/17.8438c560.js"><link rel="prefetch" href="/assets/js/18.ea9fb39c.js"><link rel="prefetch" href="/assets/js/19.61720ade.js"><link rel="prefetch" href="/assets/js/20.ee881bae.js"><link rel="prefetch" href="/assets/js/21.90575ca4.js"><link rel="prefetch" href="/assets/js/22.43f6c987.js"><link rel="prefetch" href="/assets/js/23.5a78da0d.js"><link rel="prefetch" href="/assets/js/24.203c283e.js"><link rel="prefetch" href="/assets/js/25.6c77ab20.js"><link rel="prefetch" href="/assets/js/26.e22d90ce.js"><link rel="prefetch" href="/assets/js/27.1af89b9f.js"><link rel="prefetch" href="/assets/js/29.bfe0b0d0.js"><link rel="prefetch" href="/assets/js/30.c6eee317.js"><link rel="prefetch" href="/assets/js/31.3defc2ba.js"><link rel="prefetch" href="/assets/js/32.f9460ee4.js"><link rel="prefetch" href="/assets/js/33.802fbc79.js"><link rel="prefetch" href="/assets/js/34.cef33ce5.js"><link rel="prefetch" href="/assets/js/35.1e4a1019.js"><link rel="prefetch" href="/assets/js/36.0b00b206.js"><link rel="prefetch" href="/assets/js/37.14ec5ef7.js"><link rel="prefetch" href="/assets/js/38.1fdb5cca.js"><link rel="prefetch" href="/assets/js/39.2fc9d367.js"><link rel="prefetch" href="/assets/js/40.87628ab9.js"><link rel="prefetch" href="/assets/js/41.bd4e2842.js"><link rel="prefetch" href="/assets/js/42.c21fa046.js"><link rel="prefetch" href="/assets/js/43.8a8e71fd.js"><link rel="prefetch" href="/assets/js/44.30b51107.js"><link rel="prefetch" href="/assets/js/45.1e1248c8.js"><link rel="prefetch" href="/assets/js/46.667f096f.js"><link rel="prefetch" href="/assets/js/47.14bd6138.js"><link rel="prefetch" href="/assets/js/48.8cc26b25.js"><link rel="prefetch" href="/assets/js/49.45e9f796.js"><link rel="prefetch" href="/assets/js/5.01152399.js"><link rel="prefetch" href="/assets/js/50.d9d7768b.js"><link rel="prefetch" href="/assets/js/51.39d61fb1.js"><link rel="prefetch" href="/assets/js/6.1427f999.js"><link rel="prefetch" href="/assets/js/7.1ecd1b68.js"><link rel="prefetch" href="/assets/js/8.4df297a3.js"><link rel="prefetch" href="/assets/js/9.09e14201.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.dd2101d1.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.0f9474cc.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" aria-current="page" class="home-link router-link-exact-active router-link-active"><img src="/icons/logo.svg" alt="Tachiyomi" class="logo"> <span class="site-name can-hide">
+			Tachiyomi
+		</span></a> <div class="links"><form id="search-form" role="search" class="algolia-search-wrapper search-box"><input id="algolia-search-input" class="search-query"></form> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Home
+</a></div><div class="nav-item"><a href="/help/" class="nav-link">
+  Help Center
+</a></div><div class="nav-item"><a href="/download/" class="nav-link">
+  Download
+</a></div><div class="nav-item"><a href="/extensions/" class="nav-link">
+  Extensions
+</a></div> <a href="https://github.com/tachiyomiorg/tachiyomi" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Home
+</a></div><div class="nav-item"><a href="/help/" class="nav-link">
+  Help Center
+</a></div><div class="nav-item"><a href="/download/" class="nav-link">
+  Download
+</a></div><div class="nav-item"><a href="/extensions/" class="nav-link">
+  Extensions
+</a></div> <a href="https://github.com/tachiyomiorg/tachiyomi" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <!----> </aside> <main aria-labelledby="main-title" class="home"><header class="hero"><img src="/icons/logo.svg" alt="Logo"> <h1 id="main-title">
+			Tachiyomi
+		</h1> <p class="description">
+			Free and open source manga reader for Android
+		</p> <p class="action"><a tabindex="0" rel="next" href="/download/" class="action-button action-button__Download"><span aria-label="Cloud Download icon" role="img" class="material-design-icon cloud-download-icon"><svg fill="currentColor" width="24" height="24" viewBox="0 0 24 24" class="material-design-icon__svg"><path d="M17,13L12,18L7,13H10V9H14V13M19.35,10.03C18.67,6.59 15.64,4 12,4C9.11,4 6.6,5.64 5.35,8.03C2.34,8.36 0,10.9 0,14A6,6 0 0,0 6,20H19A5,5 0 0,0 24,15C24,12.36 21.95,10.22 19.35,10.03Z"><title>Cloud Download icon</title></path></svg></span>
+				Download
+			</a> <a tabindex="0" rel="help" href="/help/guides/getting-started" class="action-button action-button__Guides"><span aria-label="Book Open Variant icon" role="img" class="material-design-icon book-open-variant-icon"><svg fill="currentColor" width="24" height="24" viewBox="0 0 24 24" class="material-design-icon__svg"><path d="M17.5 14.33C18.29 14.33 19.13 14.41 20 14.57V16.07C19.38 15.91 18.54 15.83 17.5 15.83C15.6 15.83 14.11 16.16 13 16.82V15.13C14.17 14.6 15.67 14.33 17.5 14.33M13 12.46C14.29 11.93 15.79 11.67 17.5 11.67C18.29 11.67 19.13 11.74 20 11.9V13.4C19.38 13.24 18.54 13.16 17.5 13.16C15.6 13.16 14.11 13.5 13 14.15M17.5 10.5C15.6 10.5 14.11 10.82 13 11.5V9.84C14.23 9.28 15.73 9 17.5 9C18.29 9 19.13 9.08 20 9.23V10.78C19.26 10.59 18.41 10.5 17.5 10.5M21 18.5V7C19.96 6.67 18.79 6.5 17.5 6.5C15.45 6.5 13.62 7 12 8V19.5C13.62 18.5 15.45 18 17.5 18C18.69 18 19.86 18.16 21 18.5M17.5 4.5C19.85 4.5 21.69 5 23 6V20.56C23 20.68 22.95 20.8 22.84 20.91C22.73 21 22.61 21.08 22.5 21.08C22.39 21.08 22.31 21.06 22.25 21.03C20.97 20.34 19.38 20 17.5 20C15.45 20 13.62 20.5 12 21.5C10.66 20.5 8.83 20 6.5 20C4.84 20 3.25 20.36 1.75 21.07C1.72 21.08 1.68 21.08 1.63 21.1C1.59 21.11 1.55 21.12 1.5 21.12C1.39 21.12 1.27 21.08 1.16 21C1.05 20.89 1 20.78 1 20.65V6C2.34 5 4.18 4.5 6.5 4.5C8.83 4.5 10.66 5 12 6C13.34 5 15.17 4.5 17.5 4.5Z"><title>Book Open Variant icon</title></path></svg></span>
+				User Guide
+			</a></p></header> <div class="features"><div class="feature"><div class="feature__Details"><h2>Tracking</h2> <p>Automatically keep track of your manga with MyAnimeList, AniList, Kitsu, Shikimori, and Bangumi</p></div></div><div class="feature"><div class="feature__Details"><h2>Extensions</h2> <p>Online and offline reading from hundred of different sources</p></div></div><div class="feature"><div class="feature__Details"><h2>Customization</h2> <p>A configurable reader with multiple reading modes, custom color filters, and other settings</p></div></div></div> <div class="theme-default-content custom content__default"></div> <footer><div class="footer"><div class="copyright"><a href="https://www.apache.org/licenses/LICENSE-2.0">Open-source Apache Licensed</a>
+				| Copyright © 2015 - 2021 Javier Tomás
+			</div> <div class="netlify"><a target="_blank" href="https://www.netlify.com/">This site is powered by Netlify</a> <img src="/assets/img/netlify.48638dee.svg"></div></div></footer></main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.139df6ab.js" defer></script><script src="/assets/js/2.5f385921.js" defer></script><script src="/assets/js/1.bbab1aa6.js" defer></script><script src="/assets/js/28.23da5a76.js" defer></script>
+  </body>
 </html>
