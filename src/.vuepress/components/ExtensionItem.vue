@@ -22,7 +22,7 @@ export default {
 	props: ["item"],
 	computed: {
 		pkgId: function () {
-			return this.item.pkg.replace("eu.kanade.tachiyomi.extension.", "");
+			return this.item.pkg.replace("eu.kanade.tachiyomi.animeextension.", "");
 		},
 		pkgName: function () {
 			return this.item.name.split(": ")[1];
@@ -32,10 +32,10 @@ export default {
 		},
 		iconUrl: function () {
 			const pkgName = this.item.apk.substring(0, this.item.apk.lastIndexOf("."));
-			return `https://raw.githubusercontent.com/tachiyomiorg/tachiyomi-extensions/repo/icon/${pkgName}.png`;
+			return `https://raw.githubusercontent.com/jmir1/aniyomi-extensions/repo/icon/${pkgName}.png`;
 		},
 		apkUrl: function () {
-			return `https://raw.githubusercontent.com/tachiyomiorg/tachiyomi-extensions/repo/apk/${this.item.apk}`;
+			return `https://raw.githubusercontent.com/jmir1/aniyomi-extensions/repo/apk/${this.item.apk}`;
 		},
 	},
 };

@@ -14,8 +14,8 @@ const redirectList = [
 		redirect: "/help/guides/troubleshooting/",
 	},
 	{
-		path: "/help/guides/reading-local-manga/",
-		redirect: "/help/guides/local-manga/",
+		path: "/help/guides/reading-local-anime/",
+		redirect: "/help/guides/local-anime/",
 	},
 	{
 		path: "/help/guides/creating-backups/",

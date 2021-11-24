@@ -15,7 +15,7 @@ module.exports = {
 				"/help/guides/backups",
 				"/help/guides/tracking",
 				"/help/guides/categories",
-				"/help/guides/local-manga",
+				"/help/guides/local-anime",
 				"/help/guides/reader-settings",
 			],
 		},

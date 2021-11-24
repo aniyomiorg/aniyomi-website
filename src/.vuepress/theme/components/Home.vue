@@ -4,11 +4,11 @@
 			<img v-if="data.heroImage" :src="$withBase(data.heroImage)" :alt="data.heroAlt || 'Logo'" />
 
 			<h1 v-if="data.heroText !== null" id="main-title">
-				{{ data.heroText || "Tachiyomi" }}
+				{{ data.heroText || "Aniyomi" }}
 			</h1>
 
 			<p v-if="data.tagline !== null" class="description">
-				{{ data.tagline || "Free and open source manga reader for Android" }}
+				{{ data.tagline || "Unofficial fork of Tachiyomi for anime" }}
 			</p>
 
 			<p v-if="data.buttonDownload || data.buttonGuides" class="action">

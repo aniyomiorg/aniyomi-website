@@ -114,7 +114,7 @@ Tachiyomi adds a `.nomedia` file to the Downloads folder by default to prevent t
 ### Local Manga
 
 #### How do I import my downloaded manga into Tachiyomi?
-We recommend you to read [this](/help/guides/local-manga) guide on how to do so.
+We recommend you to read [this](/help/guides/local-anime) guide on how to do so.
 
 #### What do I do if I cannot find the Tachiyomi folder?
 If you do not see the **Tachiyomi** folder, create one with a file manager.
@@ -123,7 +123,7 @@ If you do not see the **Tachiyomi** folder, create one with a file manager.
 Sometimes some covers for local manga are not displayed. Follow these steps to fix it:
 
 ::: guide
-1. Make sure you have created the right folder structure. To check that you have, open the manga with the missing cover and check if you can read chapters in the app. If not, follow [this](/help/guides/local-manga) guide first.
+1. Make sure you have created the right folder structure. To check that you have, open the manga with the missing cover and check if you can read chapters in the app. If not, follow [this](/help/guides/local-anime) guide first.
 1. Take a screenshot of which chapters you have read, and then remove manga from the library.
 1. Go to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_advanced"/> and tap **Clear database**. This will only affect manga that are not in your library.
 1. Go back to the <Navigation item="browse"/> → **Local source** and find the manga. The cover should be fixed now. Add the manga back to your library, mark your read chapters, and re-add tracking if needed.

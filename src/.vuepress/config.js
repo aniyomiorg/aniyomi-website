@@ -6,8 +6,8 @@ module.exports = {
 	dest: "./public",
 	temp: "./node_modules/.temp/theme",
 
-	title: "Tachiyomi",
-	description: "Free and open source manga reader for Android",
+	title: "Aniyomi",
+	description: "Unofficial fork of Tachiyomi for anime",
 
 	// prettier-ignore
 	head: [
@@ -24,8 +24,8 @@ module.exports = {
 
 	themeConfig: {
 		logo: "/icons/logo.svg",
-		repo: "tachiyomiorg/tachiyomi",
-		docsRepo: "tachiyomiorg/website",
+		repo: "jmir1/aniyomi",
+		docsRepo: "jmir1/aniyomi-website",
 		docsDir: "src",
 		smoothScroll: true,
 		algolia: {

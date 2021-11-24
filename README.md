@@ -56,6 +56,6 @@ If you got any questions, [join our Discord server](https://discord.gg/tachiyomi
 
 Thank you to all the people who have already contributed!
 
-<a href="https://github.com/tachiyomiorg/website/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=tachiyomiorg/website" />
+<a href="https://github.com/jmir1/aniyomi-website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jmir1/aniyomi-website" />
 </a>
