@@ -2,9 +2,9 @@
 	<p align="center">
 		<img src="./src/.vuepress/public/icons/logo.png" height="100px">
 	</p>
-	<h1 align="center">Tachiyomi Website</h1>
+	<h1 align="center">Stolen Aniyomi Website</h1>
 	<p align="center">
-		<a href="https://discord.gg/tachiyomi">
+		<a href="https://discord.gg/F32UjdJZrR">
 			<img src="https://img.shields.io/discord/349436576037732353.svg?label=Discord&labelColor=7289da&color=2c2f33&style=flat" alt="Discord">
 		</a>
 	</p>
@@ -18,17 +18,17 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 - [Contributing guide](./CONTRIBUTING.md)
 - [Project style guide](https://tachiyomi.org/sandbox/style-guide/)
 
-If you got any questions, [join our Discord server](https://discord.gg/tachiyomi).
+If you got any questions, [join our Discord server](https://discord.gg/F32UjdJZrR).
 
 ## Repositories
 
 <div>
 	<p align="center">
-		<a href="https://github.com/tachiyomiorg/tachiyomi/">
-			<img src="https://github-readme-stats.vercel.app/api/pin/?username=tachiyomiorg&repo=tachiyomi&bg_color=0000&text_color=777&hide_border=true" alt="Android App">
+		<a href="https://github.com/jmir1/aniyomi/">
+			<img src="https://github-readme-stats.vercel.app/api/pin/?username=jmir1&repo=aniyomi&bg_color=0000&text_color=777&hide_border=true" alt="Android App">
 		</a>
-		<a href="https://github.com/tachiyomiorg/tachiyomi-extensions/">
-			<img src="https://github-readme-stats.vercel.app/api/pin/?username=tachiyomiorg&repo=tachiyomi-extensions&bg_color=0000&text_color=777&hide_border=true" alt="App Extensions">
+		<a href="https://github.com/jmir1/aniyomi-extensions/">
+			<img src="https://github-readme-stats.vercel.app/api/pin/?username=jmir1&repo=aniyomi-extensions&bg_color=0000&text_color=777&hide_border=true" alt="App Extensions">
 		</a>
 	</p>
 </div>
