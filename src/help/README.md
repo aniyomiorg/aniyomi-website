@@ -28,15 +28,11 @@ help:
     contribution: true
   - title: Discord
     description: Primary communication platform
-    linkExt: https://discord.gg/tachiyomi
+    linkExt: https://discord.gg/F32UjdJZrR
     discord: true
-  - title: Reddit
-    description: Community forums
-    linkExt: https://reddit.com/r/Tachiyomi
-    reddit: true
   - title: GitHub
     description: Repository for the app
-    linkExt: https://github.com/tachiyomiorg/tachiyomi
+    linkExt: https://github.com/jmir1/aniyomi
     github: true
 ---
 
