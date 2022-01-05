@@ -33,18 +33,18 @@ If you are on desktop, fill out [this](https://support.google.com/googleplay/and
 #### How can I see how many chapters I have downloaded or unread?
 Enable badges by going to <Navigation item="library"/> → <Navigation item="filter"/> → **Display** tab and then checking **Download badges** or **Unread badges** at the bottom.
 
-#### How do I ignore duplicate chapters?
-Sometimes, you find a manga that is translated by more than one group. Because of this, you get multiple releases for each chapter in the manga. There are several ways to skip the duplicate chapters:
+#### How do I ignore duplicate chapters/episodes?
+Sometimes, you find a manga/anime that is translated by more than one group. Because of this, you get multiple releases for each chapter in the manga/anime. There are several ways to skip the duplicate chapters:
 
-* On the manga page, tap on <Navigation item="filter"/> → **Sort** and choose **By chapter number**. Doing this will cause the reader to skip duplicates as you read.
+* On the manga/anime page, tap on <Navigation item="filter"/> → **Sort** and choose **By chapter number**. Doing this will cause the reader to skip duplicates as you read.
 * Bookmark or mark as read the unwanted chapters, then tap on <Navigation item="filter"/> → **Filter** and double-tap **Bookmarked** or single-tap **Unread**, respectively. This will hide any bookmarked or read chapters and skip them as you read along, as long as you have **Skip filtered chapters** enabled under <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_reader"/> → **Reading**.
-* Migrate to another source that does not have duplicates. For more information on how to migrate a manga, see the [migration guide](/help/guides/source-migration/).
+* Migrate to another source that does not have duplicates. For more information on how to migrate a manga/anime, see the [migration guide](/help/guides/source-migration/).
 
 #### Why are some cover thumbnails corrupted, white, showing a broken page, or wrong?
 The thumbnail download likely did not complete correctly. To fix this, refresh covers in settings.
 
 ::: guide
-Refresh your covers by going to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_advanced"/> then pressing **Refresh library manga covers**.
+Refresh your covers by going to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_advanced"/> then pressing **Refresh library manga/anime covers**.
 :::
 
 #### Why have some manga chapters/anime episodes been marked as unread when I have not touched them?
@@ -60,46 +60,32 @@ Enable the language of the source by going to <Navigation item="browse"/> → So
 ##### If it is an NSFW extension
 <Navigation item="settings"/> → <Navigation item="browse"/> → Check show in sources list.
 
-#### How do I find a manga I am looking for?
-Sometimes you can struggle to find a source that has the manga you are looking to read. Here are some tips to help you find it:
-::: guide Tips to find your manga
-1. Look up the manga on [Google](https://google.com/) or a manga database such as [MangaUpdates](https://www.mangaupdates.com/).
-1. See if the manga has any alternate spellings or other title variations. Try searching again in your sources with the alternate titles you found.
-1. If you still cannot find the manga in any of your sources, then try to search for an extension for the website you found in step 1 in the [extensions](/extensions/) list.
+#### How do I find a manga/anime I am looking for?
+Sometimes you can struggle to find a source that has the manga/anime you are looking to read/watch. Here are some tips to help you find it:
+::: guide Tips to find your manga/anime
+1. Look up the manga/anime on [Google](https://google.com/) or a manga/anime database such as [MangaUpdates](https://www.mangaupdates.com/) or [AniDB](https://anidb.net/).
+1. See if the manga/anime has any alternate spellings or other title variations. Try searching again in your sources with the alternate titles you found.
+1. If you still cannot find the manga/anime in any of your sources, then try to search for an extension for the website you found in step 1 in the [extensions](/extensions/) list.
 
-#### If you find the manga on a specific scanlator or aggregator and they do have an extension
-Download the corresponding extension, tap on it under <Navigation item="browse"/> → **Sources**, and then search for the manga there.
-#### If you find the manga on a specific scanlator or aggregator and they do not have an extension
-Check if adding the site as an extension has [already been requested](https://github.com/jmir1/aniyomi-extensions/issues). If it has not been requested, you can [request it here](hhttps://github.com/jmir1/aniyomi-extensions/issues/new/choose).
+### Player
 
-If the scanlator or aggregator does not have an online manga reader, you can download the manga from their website and set up the series as a [local manga](/help/guides/local-manga/).
-:::
-
-### Reader
-
-#### Why are some images not displayed?
-Aside from network issues, sometimes Aniyomi does not register the image as existing, exit and re-enter the reader to fix this.
-
-#### Will there ever be a dual-page reader option?
-The logic required to make a dual-page reader automatically work along with scanlator page inconsistencies and other issues means it is unlikely to be added at this time.
-
-#### How can I make Aniyomi turn pages with the volume rocker? Can I reverse the tapping direction? Can I change the tapping zones? 
-Refer to the guides section of the site [here](/help/guides/reader-settings/#navigation-layout). Refer to [here](/help/guides/reader-settings/#volume-keys) if you want to use your volume rocker to navigate pages.
+#### Why are some episodes not displayed?
+Aside from network issues, sometimes Aniyomi does not register the video as existing, exit and re-enter the player to fix this.
 
 ### Downloads
 
-#### How do I download several chapters or manga simultaneously?
+#### How do I download several chapters/episodes simultaneously?
 The app does not allow parallel downloads from one source to prevent IP bans caused by too many requests. We know that speed is being sacrificed, but it is better than an overall inaccessible source.
 
-However, if you download several manga from different sources, the app will start downloading simultaneously from up to five different sources.
+However, if you download several manga/anime from different sources, the app will start downloading simultaneously from up to five different sources.
 
 #### Why do my downloads sometimes stop midway through?
 It is likely an issue to do with your connection to your network or the source. Aniyomi will notify you of what error it has encountered trying to download.
 
 #### How do I cancel or change the download queue?
-Go to <Navigation item="more"/> → Download Queue and cancel items in the queue or cancel all items by tapping on the <Navigation item="overflow"/> next to a manga chapter or on the top right. If you would like the change the order of the queue, tap and hold the = on the side of a item in the queue.
+Go to <Navigation item="more"/> → Download Queue and cancel items in the queue or cancel all items by tapping on the <Navigation item="overflow"/> next to a manga/anime chapter/episode or on the top right. If you would like the change the order of the queue, tap and hold the = on the side of a item in the queue.
 
-#### Can you make it possible to store manga on both internal storage and external SD-card?
+#### Can you make it possible to store manga/anime on both internal storage and external SD-card?
 At the moment, no. You could try using symlinks, but that requires having your device rooted.
 ::: note
 Read more about rooting your device [here](https://www.xda-developers.com/root/)
@@ -108,7 +94,7 @@ Read more about rooting your device [here](https://www.xda-developers.com/root/)
 #### Why can I see manga pages from my downloads in my device's photo gallery?
 Aniyomi adds a `.nomedia` file to the Downloads folder by default to prevent this from happening, but sometimes it does not work, or something goes wrong. To fix this, all you need to do is create the file yourself. Name it `.nomedia` and place it in your downloads folder. If you have the same problem with your local manga, place the `.nomedia` file in the local folder.
 
-### Local Manga
+### Local manga/anime
 
 #### How do I import my downloaded manga/anime into Aniyomi?
 We recommend you to read [this](/help/guides/local-anime) guide on how to do so.
@@ -116,14 +102,14 @@ We recommend you to read [this](/help/guides/local-anime) guide on how to do so.
 #### What do I do if I cannot find the Aniyomi folder?
 If you do not see the **Aniyomi** folder, create one with a file manager.
 
-#### How do I fix empty/blank covers on my local manga?
-Sometimes some covers for local manga are not displayed. Follow these steps to fix it:
+#### How do I fix empty/blank covers on my local manga/anime?
+Sometimes some covers for local manga/anime are not displayed. Follow these steps to fix it:
 
 ::: guide
-1. Make sure you have created the right folder structure. To check that you have, open the manga with the missing cover and check if you can read chapters in the app. If not, follow [this](/help/guides/local-anime) guide first.
-1. Take a screenshot of which chapters you have read, and then remove manga from the library.
-1. Go to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_advanced"/> and tap **Clear database**. This will only affect manga that are not in your library.
-1. Go back to the <Navigation item="browse"/> → **Local source** and find the manga. The cover should be fixed now. Add the manga back to your library, mark your read chapters, and re-add tracking if needed.
+1. Make sure you have created the right folder structure. To check that you have, open the manga/anime with the missing cover and check if you can read chapters in the app. If not, follow [this](/help/guides/local-anime) guide first.
+1. Take a screenshot of which chapters/episodes you have read, and then remove manga/anime from the library.
+1. Go to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_advanced"/> and tap **Clear database**. This will only affect manga/anime that are not in your library.
+1. Go back to the <Navigation item="browse"/> → **Local source** and find the manga/anime. The cover should be fixed now. Add the manga/anime back to your library, mark your read chapters, and re-add tracking if needed.
 :::
 
 ::: note
@@ -190,7 +176,7 @@ Learn how to use the backup and restore feature [here](/help/guides/backups/), a
 
 ### General
 
-#### What are some recommended extensions? What source is the best? What is the replacement for source X? Where to read manga Y?
+#### What are some recommended extensions? What source is the best? What is the replacement for source X? Where to read manga/anime Y?
 Aniyomi does not endorse or recommend any manga/anime source, and there is no best extension. Instead, we encourage users to spend some time trying out a few sources themselves and discover what sources work best for them. What works well for somebody else might not work well for you.
 
 <ElAlert type="info" title="Disclaimer" description="Aniyomi is not hosting any content, we are not affiliated with or responsible for any source that is; slow, down, missing chapters, or has subpar image quality." show-icon :closable="false"></ElAlert>
@@ -233,31 +219,6 @@ Extensions for **Aniyomi** are technically installed the same as standard apps. 
 ::: guide
 To uninstall an extension from within **Aniyomi**, go to <Navigation item="browse"/> → **Extensions** then tap **Uninstall** on the extension you want to remove.
 :::
-
-### MangaDex
-
-#### Version 5 API Rewrite
-
-##### Why are all my manga saying "Manga ID format has changed, migrate from MangaDex to MangaDex to continue reading"?
-You need to [migrate](./source-migration.md) all your MangaDex manga from MangaDex to MangaDex as MangaDex has changed their manga ID system from IDs to UUIDs.
-
-##### Why can I not restore from a JSON backup?
-JSON backups are now unusable due to the ID change. You will have to manually re-add your manga.
-
-### Mangakakalot, Manganelo, Mangabat and Mangairo
-
-#### What do `Page list is empty` and `Source URL has changed` mean?
-The former **Mangabox** extensions have created new entries for many of the manga on their websites. The old entries are obsolete and will not work. To resolve this, [migrate](/help/guides/source-migration/) the manga from the source to itself to get the new entry, or better yet, to a different source entirely to avoid similar errors in the future.
-
-### MangaPark
-
-#### How do I deal with duplicate chapters in MangaPark?
-To solve this issue, follow the below steps.
-
-1. Go to <Navigation item="browse"/> → <Navigation item="extensions"/>.
-1. Click on **MangaPark** extension and then **Chapter List Source**.
-1. Choose an option like **Smart list** or **Prioritize source**.
-1. Go back to **MangaPark**'s chapter list and refresh it.
 
 ### Removed Extensions
 
