@@ -24,20 +24,52 @@
 import { simpleLangName, langName } from "../scripts/languages";
 import ExtensionItem from "./ExtensionItem.vue";
 
-export default {
-	components: { ExtensionItem },
-	props: ["list", "totalCount"],
-	computed: {
-		groupName: function () {
-			const firstItem = this.list[0];
-			return firstItem.lang === "en" ? simpleLangName(firstItem.lang) : langName(firstItem.lang);
+if (showMangaExt == true) {
+	export default {
+		components: { ExtensionItem },
+		props: ["list", "totalCount"],
+		computed: {
+			groupName: function () {
+				const firstItem = this.list[0];
+				return firstItem.lang === "en" ? simpleLangName(firstItem.lang) : langName(firstItem.lang);
+			},
 		},
-	},
-	methods: {
-		simpleLangName,
-		langName,
-	},
-};
+		methods: {
+			simpleLangName,
+			langName,
+		},
+	};
+	export mangaExt {
+		components: { ExtensionItem },
+		props: ["list", "totalCount"],
+		computed: {
+			groupName: function () {
+				const firstItem = this.list[0];
+				return firstItem.lang === "en" ? simpleLangName(firstItem.lang) : langName(firstItem.lang);
+			},
+		},
+		methods: {
+			simpleLangName,
+			langName,
+		},
+	};
+} else {
+	export default {
+		components: { ExtensionItem },
+		props: ["list", "totalCount"],
+		computed: {
+			groupName: function () {
+				const firstItem = this.list[0];
+				return firstItem.lang === "en" ? simpleLangName(firstItem.lang) : langName(firstItem.lang);
+			},
+		},
+		methods: {
+			simpleLangName,
+			langName,
+		},
+	};
+}
+
 </script>
 <style lang="stylus">
 .extensions-total

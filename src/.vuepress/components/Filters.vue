@@ -27,6 +27,15 @@
 				<ElRadioButton label="Don't care"></ElRadioButton>
 			</ElRadioGroup>
 		</div>
+
+		<div>
+			Display Manga extensions?
+			<ElRadioGroup v-model="filters.showMangaExt">
+				<ElRadioButton label="Yes"></ElRadioButton>
+				<ElRadioButton label="No"></ElRadioButton>
+				<ElRadioButton label="Don't care"></ElRadioButton>
+			</ElRadioGroup>
+		</div>
 	</span>
 </template>
 <script>
@@ -41,6 +50,34 @@ export default {
 				search: "",
 				lang: [],
 				nsfw: "Don't care",
+				showMangaExt: "Don't care",
+				sort: "Ascending",
+			},
+		};
+	},
+	watch: {
+		filters: {
+			handler(value) {
+				this.$emit("filters", this.filters);
+			},
+			deep: true,
+		},
+	},
+	methods: {
+		simpleLangName,
+		langName,
+	},
+};
+export mangaExt {
+	props: ["extensions"],
+	emits: ["filters"],
+	data() {
+		return {
+			filters: {
+				search: "",
+				lang: [],
+				nsfw: "Don't care",
+				showMangaExt: "Don't care",
 				sort: "Ascending",
 			},
 		};
