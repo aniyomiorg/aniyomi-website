@@ -1,7 +1,7 @@
 ---
 layout: Help
 title: Help Center
-description: From common questions to guides, find help for everything Tachiyomi.
+description: From common questions to guides, find help for everything Aniyomi.
 lang: en-US
 hideSearch: true
 help:

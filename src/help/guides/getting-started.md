@@ -1,6 +1,6 @@
 ---
 title: Getting started
-description: Essential information to help you get set up with Tachiyomi.
+description: Essential information to help you get set up with Aniyomi.
 lang: en-US
 ---
 
@@ -8,7 +8,7 @@ lang: en-US
 
 ## Installation
 
-You can download the latest version of **Tachiyomi** by going to our [download](../../download/README.md) page.
+You can download the latest version of **Aniyomi** by going to our [download](../../download/README.md) page.
 When you've completed the download, open the <VersionTag fileName/> file and proceed with installing it.
 
 ## Installing an extension
@@ -17,12 +17,12 @@ When you've completed the download, open the <VersionTag fileName/> file and pro
 [<MaterialIcon icon="videocam"/> Click for video guide](/assets/guides_extension-install.webm)
 :::
 
-Now that **Tachiyomi** is installed, open the app and navigate to <Navigation item="browse"/> and then switch to the **Extensions** tab.
+Now that **Aniyomi** is installed, open the app and navigate to <Navigation item="browse"/> and then switch to the **Extensions** tab.
 
 Find the extension that you'd like to use then press the <Navigation item="install"/> button next to your desired extension and then accept the installation prompt.
 
 ::: c-warning
-You *might* need to give **Tachiyomi** the permission to *install unknown apps*, you can read how to do so [here](/help/faq/#how-do-i-allow-third-party-installations).
+You *might* need to give **Aniyomi** the permission to *install unknown apps*, you can read how to do so [here](/help/faq/#how-do-i-allow-third-party-installations).
 :::
 
 ## Adding manga to your library
