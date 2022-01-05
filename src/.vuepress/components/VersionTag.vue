@@ -8,7 +8,7 @@
 	<span v-else-if="preview" class="downloadTag">{{ $data.previewTagName }}</span>
 	<span v-else-if="previewFileName" class="fileNameContainer" title="File name">
 		<MaterialIcon class="fileNameIcon" icon="get_app" />
-		<span class="fileName">tachiyomi-{{ $data.previewTagName }}.apk</span>
+		<span class="fileName">aniyomi-{{ $data.previewTagName }}.apk</span>
 		<slot />
 	</span>
 	<span v-else>You need to specify props.</span>

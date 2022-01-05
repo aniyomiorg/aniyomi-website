@@ -34,7 +34,7 @@ export default {
 	async mounted() {
 		try {
 			const { data } = await this.$store.dispatch("getStableReleaseData");
-			const apkAsset = data.assets.find((a) => /^tachiyomi-v\d+\.\d+\.\d+.apk/.test(a.name));
+			const apkAsset = data.assets.find((a) => /^aniyomi-v\d+\.\d+\.\d+.apk/.test(a.name));
 			this.$data.tagName = data.tag_name.slice(1);
 			this.$data.browserDownloadUrl = apkAsset.browser_download_url;
 		} catch (e) {
@@ -42,7 +42,7 @@ export default {
 		}
 		try {
 			const { data } = await this.$store.dispatch("getPreviewReleaseData");
-			const apkAsset = data.assets.find((a) => /^tachiyomi-r\d{4,}.apk/.test(a.name));
+			const apkAsset = data.assets.find((a) => /^aniyomi-r\d{4,}.apk/.test(a.name));
 			this.$data.previewTagName = data.tag_name;
 			this.$data.previewbrowserDownloadUrl = apkAsset.browser_download_url;
 		} catch (e) {
@@ -54,7 +54,7 @@ export default {
 		downloadStable() {
 			this.$swal({
 				title: "Downloading",
-				html: `Started downloading <strong>Tachiyomi Stable</strong>`,
+				html: `Started downloading <strong>Aniyomi Stable</strong>`,
 				icon: "success",
 				focusConfirm: false,
 				focusCancel: false,
@@ -68,18 +68,18 @@ export default {
 				},
 			});
 			window.location.assign(this.$data.browserDownloadUrl || GITHUB_STABLE_RELEASE);
-			window.ga("send", "event", "Action", "Download", "Tachiyomi");
+			window.ga("send", "event", "Action", "Download", "Aniyomi");
 		},
 		downloadPreview() {
 			this.$swal({
 				icon: "warning",
 				title: "Are you sure?",
 				html: `
-					<strong>Tachiyomi Preview</strong> is not recommended if you're not willing to test for – and endure – issues.
+					<strong>Aniyomi Preview</strong> is not recommended if you're not willing to test for – and endure – issues.
 					<div class="note">
 						<p>
-							Read more about Tachiyomi Preview
-							<a href="../help/faq/#what-is-tachiyomi-preview" rel="help">here</a>.
+							Read more about Aniyomi Preview
+							<a href="../help/faq/#what-is-aniyomi-preview" rel="help">here</a>.
 						</p>
 					</div>`,
 				confirmButtonText: "I am sure.",
@@ -100,7 +100,7 @@ export default {
 					this.$swal({
 						icon: "success",
 						title: "Downloading",
-						html: `Started downloading <strong>Tachiyomi Preview</strong>`,
+						html: `Started downloading <strong>Aniyomi Preview</strong>`,
 						confirmButtonText: "Dismiss",
 						showCloseButton: false,
 						showCancelButton: false,
@@ -114,7 +114,7 @@ export default {
 						},
 					});
 					window.location.assign(this.$data.previewbrowserDownloadUrl || GITHUB_PREVIEW_RELEASE);
-					window.ga("send", "event", "Action", "Download", "Tachiyomi Preview");
+					window.ga("send", "event", "Action", "Download", "Aniyomi Preview");
 				}
 			});
 		},

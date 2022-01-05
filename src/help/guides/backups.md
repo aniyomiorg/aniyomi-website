@@ -6,7 +6,7 @@ lang: en-US
 
 # Backups
 
-Backups are inter-compatible between **Aniyomi** versions, with a few exceptions listed under [forks information](#forks-information).
+Backups are inter-compatible between **Aniyomi** versions.
 
 Backups can hold the following information:
 1. **Titles**
