@@ -17,15 +17,6 @@ export default {
 		},
 	},
 };
-export mangaExt {
-	components: { ExtensionGroup },
-	props: ["extensions"],
-	computed: {
-		totalCount() {
-			return this.extensions.reduce((sum, item) => sum + item.length, 0);
-		},
-	},
-};
 </script>
 <style lang="stylus">
 .extension-list

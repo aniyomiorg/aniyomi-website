@@ -22,7 +22,6 @@ export default {
 				search: "",
 				lang: [],
 				nsfw: "Don't care",
-				showMangaExt: "Don't care"
 				sort: "Ascending",
 			},
 			loading: true,
@@ -46,9 +45,6 @@ export default {
 				}
 				filteredGroup = filteredGroup.filter((ext) =>
 					filters.nsfw === "Don't care" ? true : ext.nsfw === (filters.nsfw === "Yes" ? 1 : 0)
-				);
-				filteredGroup = filteredGroup.filter((ext) =>
-					filters.showMangaExt === "Don't care" ? true : ext.showMangaExt === (filters.showMangaExt === "Yes" ? 1 : 0)
 				);
 
 				if (filters.sort && filters.sort === "Descending") {
