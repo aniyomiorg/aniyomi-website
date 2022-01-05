@@ -27,10 +27,6 @@
 									<ClipboardListIcon />
 									<h3>{{ helpItem.title }}</h3>
 								</header>
-								<header v-else-if="helpItem.forks">
-									<SourceForkIcon />
-									<h3>{{ helpItem.title }}</h3>
-								</header>
 								<header v-else-if="helpItem.contribution">
 									<LifebuoyIcon />
 									<h3>{{ helpItem.title }}</h3>

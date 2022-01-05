@@ -20,10 +20,10 @@ module.exports = {
 			],
 		},
 		{
-			title: "Tachiyomi",
+			title: "Aniyomi",
 			collapsable: false,
 			sidebarDepth: 2,
-			children: ["/help/contribution", "/download/", "/extensions/", "/forks/"],
+			children: ["/help/contribution", "/download/", "/extensions/"],
 		},
 	],
 	sandbox: [

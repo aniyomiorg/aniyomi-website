@@ -1,4 +1,4 @@
-# Tachiyomi Website Contributing Guide
+# Aniyomi Website Contributing Guide
 
 Before submitting your contribution, please make sure to take a moment and read through the following guidelines:
 
@@ -100,7 +100,7 @@ $ npm run lint
 
 ### Videos
 - Use `.webm` format
-  - Encode it with our [HandBrake profile](.github/assets/tachiyomi-handbrake-profile.json)
+  - Encode it with our [HandBrake profile](.github/assets/aniyomi-handbrake-profile.json)
 
 - Remove audio track
 
@@ -108,6 +108,6 @@ $ npm run lint
 
 Thank you to all the people who have already contributed!
 
-<a href="https://github.com/tachiyomiorg/website/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=tachiyomiorg/website" />
+<a href="https://github.com/jmir1/aniyomi-website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jmir1/aniyomi-website" />
 </a>

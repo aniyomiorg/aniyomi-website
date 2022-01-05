@@ -16,7 +16,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 - [Code of Conduct](./CODE_OF_CONDUCT.md)
 - [Contributing guide](./CONTRIBUTING.md)
-- [Project style guide](https://tachiyomi.org/sandbox/style-guide/)
+- [Project style guide](https://aniyomi.jmir.xyz/sandbox/style-guide/)
 
 If you got any questions, [join our Discord server](https://discord.gg/F32UjdJZrR).
 
@@ -29,17 +29,6 @@ If you got any questions, [join our Discord server](https://discord.gg/F32UjdJZr
 		</a>
 		<a href="https://github.com/jmir1/aniyomi-extensions/">
 			<img src="https://github-readme-stats.vercel.app/api/pin/?username=jmir1&repo=aniyomi-extensions&bg_color=0000&text_color=777&hide_border=true" alt="App Extensions">
-		</a>
-	</p>
-</div>
-
-<div>
-	<p align="center">
-		<a href="https://github.com/tachiyomiorg/tachiyomi-1.x/">
-			<img src="https://github-readme-stats.vercel.app/api/pin/?username=tachiyomiorg&repo=tachiyomi-1.x&bg_color=0000&text_color=777&hide_border=true alt="Android App (Rewrite)">
-		</a>
-		<a href="https://github.com/tachiyomiorg/tachiyomi-extensions-1.x/">
-			<img src="https://github-readme-stats.vercel.app/api/pin/?username=tachiyomiorg&repo=tachiyomi-extensions-1.x&bg_color=0000&text_color=777&hide_border=true" alt="App Extensions (Rewrite)">
 		</a>
 	</p>
 </div>

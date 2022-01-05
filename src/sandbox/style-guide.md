@@ -54,7 +54,7 @@ Some **DO**s and **DO NOT**s for [FAQ](../help/faq/README.md).
 - **DO** bold important words in your text:
 > ...checking the **Download badges** option...
 
-- **DO** use **[Navigation](https://github.com/tachiyomiorg/website/blob/master/src/.vuepress/components/Navigation.vue#L35-L82)** items when applicable:
+- **DO** use **[Navigation](https://github.com/jmir1/aniyomi-website/blob/master/src/.vuepress/components/Navigation.vue#L35-L82)** items when applicable:
 > <Navigation item="library"/>
 
 - **DO** use unordered lists when writing a list of stuff that's not an instruction:
@@ -103,7 +103,7 @@ Some **DO**s and **DO NOT**s for [FAQ](../help/faq/README.md).
 > ::::::
 
 - **DO** use alerts to give the user a heads up:
-> <ElAlert type="info" title="Disclaimer" description="Tachiyomi is not hosting any content, we are not affiliated with or responsible for any source that is; slow, down, missing chapters, or has subpar image quality." show-icon :closable="false"></ElAlert>
+> <ElAlert type="info" title="Disclaimer" description="Aniyomi is not hosting any content, we are not affiliated with or responsible for any source that is; slow, down, missing chapters, or has subpar image quality." show-icon :closable="false"></ElAlert>
 > <ElAlert type="warning" title="Warning!" description="This feature requires you to be on Android 7 or above." show-icon :closable="false"></ElAlert>
 > <ElAlert type="error" title="Attention!" description="Make sure you have created a backup before following these instructions!" show-icon :closable="false"></ElAlert>
 > ::: note
@@ -124,7 +124,7 @@ Some **DO**s and **DO NOT**s for [FAQ](../help/faq/README.md).
 - **DO** use code tags for error codes and file names:
 > Storage related error: `Attempt to invoke virtual method 'com.hippo.unifile...`
 
-> File name for the phone to ignore images from Tachiyomi: `.nomedia`
+> File name for the phone to ignore images from Aniyomi: `.nomedia`
 
 ## Guide Style
 Many of the stuff previously mentioned generally applies when making guides too, some stuff unique to guide would probably be these:
@@ -134,7 +134,7 @@ Many of the stuff previously mentioned generally applies when making guides too,
 > 1. Go to <Navigation item="more"/> and tap <Navigation item="source_migration"/>.
 > 1. Select the **Source** you're migrating from.
 > 1. Find and select the title that you want to migrate.
-> 	> **Tachiyomi** will do a global search of all the sources you have installed and enabled. If you don't find the manga you want, try searching for other titles it might go under.
+> 	> **Aniyomi** will do a global search of all the sources you have installed and enabled. If you don't find the manga you want, try searching for other titles it might go under.
 > 1. Once you find the manga you want to migrate, select it and then choose which data you want to transfer over, and you're done.
 > :::
 
@@ -155,7 +155,7 @@ Many of the stuff previously mentioned generally applies when making guides too,
 >::: guide File tree
 ><ul class="file-tree">
 >		<li>
->			/sdcard/Tachiyomi/local
+>			/sdcard/Aniyomi/local
 >			<ul>
 >				<li>
 >					My manga
