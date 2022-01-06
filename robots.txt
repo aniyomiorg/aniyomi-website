@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
-Sitemap: https:/tachiyomi.org/sitemap.xml
-Host: https://tachiyomi.org
+Sitemap: https:/aniyomi.jmir1.xyz/sitemap.xml
+Host: https://aniyomi.jmir1.xyz
