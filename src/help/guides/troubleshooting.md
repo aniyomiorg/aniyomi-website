@@ -16,7 +16,7 @@ If error-specific instructions didn't help or your error isn't on the list, go t
 
 :::: el-collapse
 ::: el-collapse-item title="Java.lang Exception: Challenge not found"
-Often **Java.lang Exception: Challenge not found** will be resolved by force-quitting and reopening **Tachiyomi**.
+Often **Java.lang Exception: Challenge not found** will be resolved by force-quitting and reopening **Aniyomi**.
 :::
 ::: el-collapse-item title="Java.lang Exception: Failed to bypass Cloudflare"
 **Java.lang Exception: Failed to bypass Cloudflare** means that the source you selected has [Cloudflare](#solving-the-cloudflare-issue) protection on, refer to the [Cloudflare](#solving-the-cloudflare-issue) guide to fix it.
@@ -66,12 +66,12 @@ Backup your data, uninstall the app, then restore the data in the fresh install.
 The **Attempt to invoke virtual method' com.hippo.unifile...** error can be caused by various reasons, but they all have to do with storage.
 
 - Most commonly, it is caused by full storage. Check to see if your device or SD Card is full.
-- Check if **Tachiyomi** has access to the SD card. You can enable it in the android settings for app permissions.
+- Check if **Aniyomi** has access to the SD card. You can enable it in the android settings for app permissions.
 - If you're downloading and this error pops up, that means the app might not be able to access the folder you're trying to download to. This may be because the folder is corrupted or does not exist. Use a file manager to check that the folder(s) exist and every folder in the sequence is available and accessible.
 - The drive you're writing to is corrupted. Check using a file manager to see if it is accessible.
 :::
 ::: el-collapse-item title="Cannot Access SD Card"
-**Cannot Access SD Card** error is typically caused by having a file or folder name that is too long. Android's file manager does not support filenames longer than 255 characters. If you know the file or folder name that is the culprit, you can connect your SD card to your computer and shorten it. Otherwise, delete the Tachiyomi downloads folder off of the SD Card.
+**Cannot Access SD Card** error is typically caused by having a file or folder name that is too long. Android's file manager does not support filenames longer than 255 characters. If you know the file or folder name that is the culprit, you can connect your SD card to your computer and shorten it. Otherwise, delete the Aniyomi downloads folder off of the SD Card.
 :::
 ::: el-collapse-item title="Storage issues with Android 11"
 Following the introduction of [Scoped Storage](https://www.xda-developers.com/android-q-storage-access-framework-scoped-storage/) in **Android 11**, your library could load slowly, or the app is unable to delete chapters automatically.
@@ -116,11 +116,7 @@ With platform-tools downloaded and USB debugging enabled, you can now follow the
 
 
 If you're using Preview, or a Fork, replace `eu.kanade.tachiyomi` with the other app's ID.
-  * **Tachiyomi Preview** → `eu.kanade.tachiyomi.debug`
-  * **TachiyomiAZ** → `eu.kanade.tachiyomi.az`
-  * **TachiyomiJ2K** → `eu.kanade.tachiyomi.j2k`
-  * **TachiyomiSY** → `eu.kanade.tachiyomi.sy`
-  * **Neko** → `tachiyomi.mangadex`
+  * **Aniyomi Preview** → `eu.kanade.tachiyomi.debug`
 
 ***Please note that the command will not show any output if it is successful.***
 
@@ -129,7 +125,7 @@ If you're using Preview, or a Fork, replace `eu.kanade.tachiyomi` with the other
 
 ## Diagnosis
 * Verify your extensions are up to date (<Navigation item="browse"/> → **Extensions**, make sure no extensions have an **Update** button).
-* Check if **Tachiyomi** has an update (<Navigation item="more"/> → <Navigation item="about"/> then tap **Check for updates**).
+* Check if **Aniyomi** has an update (<Navigation item="more"/> → <Navigation item="about"/> then tap **Check for updates**).
 * Verify that [WebView](#update-webview) is updated.
 * Try opening the manga in <Navigation item="webview"/>. If there is a [Cloudflare](#solving-the-cloudflare-issue) protection, wait for it to load. If there is a [CAPTCHA](#solving-the-cloudflare-issue), solve it and see if it helped.
 * Change your internet connection (*switch to Wi-Fi, mobile data or a VPN, use a "What's my IP" site to confirm your IP has changed*), then try again.
@@ -142,7 +138,7 @@ If you're using Preview, or a Fork, replace `eu.kanade.tachiyomi` with the other
   * **Clear Database**
   * **DNS over HTTPS**
 * If your downloads are getting stuck, try deleting the queue and trying again.
-* Force close **Tachiyomi** and reopen it.
+* Force close **Aniyomi** and reopen it.
 
 ::: c-tip
 The Preview version may have already fixed your issue. Just wait for a new Stable release.
@@ -151,10 +147,10 @@ The Preview version may have already fixed your issue. Just wait for a new Stabl
 If any of these solutions help, go to [it only happens to me](#it-only-happens-to-me).
 If it's not just you, go to [everyone is having this problem](#everyone-is-having-this-problem).
 
-If none of these solutions help, try asking in our [Discord Server](https://discord.gg/tachiyomi). State your app version and the source, manga, and chapter with the problem.
+If none of these solutions help, try asking in our [Discord Server](https://discord.gg/F32UjdJZrR). State your app version and the source, manga, and chapter with the problem.
 
 ### It only happens to me
-You may be getting a [Cloudflare](#solving-the-cloudflare-issue) protection, may have been IP-banned, or encountered some other counter-measure that website owners deploy against programs like **Tachiyomi**. If that is the case, there is probably nothing that **Tachiyomi** can do to solve it. Some of them (like [Cloudflare](#solving-the-cloudflare-issue)) have to be manually solved, and some are temporary (IP bans).
+You may be getting a [Cloudflare](#solving-the-cloudflare-issue) protection, may have been IP-banned, or encountered some other counter-measure that website owners deploy against programs like **Aniyomi**. If that is the case, there is probably nothing that **Aniyomi** can do to solve it. Some of them (like [Cloudflare](#solving-the-cloudflare-issue)) have to be manually solved, and some are temporary (IP bans).
 
 **Workarounds that can the lower chance of an issue happening again:**
 * Don't use downloads with the source.
@@ -166,8 +162,8 @@ The above are very imprecise and fuzzy rules because each site has its non-publi
 
 ### Everyone is having this problem
 If the site is reachable and fully functional, there may be an issue with the extension or app.
-1. Have a look at open issues [for the app](https://github.com/tachiyomiorg/tachiyomi/issues) and/or [extensions](https://github.com/tachiyomiorg/tachiyomi-extensions/issues).
-1. It may have been fixed already but not released yet, so look at closed issues ([app](https://github.com/tachiyomiorg/tachiyomi/issues?q=is%3Aissue+is%3Aclosed) / [extensions](https://github.com/tachiyomiorg/tachiyomi-extensions/issues?q=is%3Aissue+is%3Aclosed)) issues as well.
+1. Have a look at open issues [for the app](https://github.com/jmir1/aniyomi/issues) and/or [extensions](https://github.com/jmir1/aniyomi-extensions/issues).
+1. It may have been fixed already but not released yet, so look at closed issues ([app](https://github.com/jmir1/aniyomi/issues?q=is%3Aissue+is%3Aclosed) / [extensions](https://github.com/jmir1/aniyomi-extensions/issues?q=is%3Aissue+is%3Aclosed)) issues as well.
 1. If you can't find the issue there, open a new one.
 
 If the site is not reachable or has issues, all you can do is wait for the site to become functional again.
@@ -215,7 +211,7 @@ Users on Android 7.0 and up can also see and change **WebView implementation** i
 :::
 
 ::: c-warning
-Non-standard implementations like Firefox can lead to **Tachiyomi** not working correctly or, in the worst-case crash. We recommend to set **WebView implementation** to [Android System WebView](https://play.google.com/store/apps/details?id=com.google.android.webview) or [Google Chrome](https://play.google.com/store/apps/details?id=com.android.chrome).
+Non-standard implementations like Firefox can lead to **Aniyomi** not working correctly or, in the worst-case crash. We recommend to set **WebView implementation** to [Android System WebView](https://play.google.com/store/apps/details?id=com.google.android.webview) or [Google Chrome](https://play.google.com/store/apps/details?id=com.android.chrome).
 :::
 
 ## Unable to install the app or extensions

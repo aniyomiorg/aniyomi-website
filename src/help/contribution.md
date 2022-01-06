@@ -12,17 +12,15 @@ Skilled at code? Know how to improve something or you generally want to support 
 
 ### Application
 The main application.
-- Current: [tachiyomiorg/tachiyomi](https://github.com/tachiyomiorg/tachiyomi) ![GitHub issues](https://img.shields.io/github/issues/tachiyomiorg/tachiyomi?style=social)
-- Rewrite project: [tachiyomiorg/tachiyomi-1.x](https://github.com/tachiyomiorg/tachiyomi-1.x) ![GitHub issues](https://img.shields.io/github/issues/tachiyomiorg/tachiyomi-1.x?style=social)
+- Current: [jmir1/aniyomi](https://github.com/jmir1/aniyomi) ![GitHub issues](https://img.shields.io/github/issues/jmir1/aniyomi?style=social)
 ***
 ### Extensions
 Used to read from different manga services.
-- Current: [tachiyomiorg/tachiyomi-extensions](https://github.com/tachiyomiorg/tachiyomi-extensions) ![GitHub issues](https://img.shields.io/github/issues/tachiyomiorg/tachiyomi-extensions?style=social)
-- Rewrite project: [tachiyomiorg/tachiyomi-extensions-1.x](https://github.com/tachiyomiorg/tachiyomi-extensions-1.x) ![GitHub issues](https://img.shields.io/github/issues/tachiyomiorg/tachiyomi-extensions-1.x?style=social)
+- Current: [jmir1/aniyomi-extensions](https://github.com/jmir1/aniyomi-extensions) ![GitHub issues](https://img.shields.io/github/issues/jmir1/aniyomi-extensions?style=social)
 ***
 ### Website
 The repository that hosts this very website you're reading on now.
-- [tachiyomiorg/website](https://github.com/tachiyomiorg/website) ![GitHub issues](https://img.shields.io/github/issues/tachiyomiorg/website?style=social)
+- [jmir1/aniyomi-website](https://github.com/jmir1/aniyomi-website) ![GitHub issues](https://img.shields.io/github/issues/jmir1/aniyomi-website?style=social)
 
 ## Translation
 <a href="https://hosted.weblate.org/engage/tachiyomi/?utm_source=widget"><img src="https://hosted.weblate.org/widgets/tachiyomi/-/svg-badge.svg" alt="Translation status"/></a>
@@ -45,8 +43,8 @@ Visit our translation project [here](https://hosted.weblate.org/projects/tachiyo
 </a>
 
 ## Donation
-If you can't contribute code or translations but you still wish to help, then you can choose to contribute directly to the projects founder, [Inorichi](https://github.com/inorichi/) by using the button below, or going [directly to Ko-Fi](https://ko-fi.com/inorichi).
+If you can't contribute code or translations but you still wish to help, then you can choose to contribute directly to this projects maintainer, [Jmir](https://github.com/jmir1/) by using the button below, or going [directly to Ko-Fi](https://ko-fi.com/jmir1).
 ***
-<a href="https://ko-fi.com/inorichi" target="_blank" rel="noopener">
+<a href="https://ko-fi.com/jmir1" target="_blank" rel="noopener">
 	<img height="36" style="border:0px;height:36px;" src="https://cdn.ko-fi.com/cdn/kofi1.png?v=2" border="0" alt="Buy Me a Coffee at ko-fi.com" />
 </a>

@@ -2,7 +2,7 @@ module.exports = [
 	[
 		"@mr-hope/vuepress-plugin-sitemap",
 		{
-			hostname: "https://tachiyomi.org",
+			hostname: "https://aniyomi.jmir1.xyz",
 		},
 	],
 	[
@@ -18,7 +18,7 @@ module.exports = [
 	[
 		"vuepress-plugin-robots",
 		{
-			host: "https://tachiyomi.org",
+			host: "https://aniyomi.jmir1.xyz",
 			allowAll: true,
 			sitemap: "/sitemap.xml",
 		},

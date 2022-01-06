@@ -1,6 +1,6 @@
 ---
 title: Reader settings
-description: Reader settings for Tachiyomi.
+description: Reader settings for Aniyomi.
 lang: en-US
 ---
 
@@ -211,7 +211,7 @@ You can change scale type when reading a chapter. Tap the middle of the screen, 
 
 ## Zoom start position <Badge text="Automatic" type="default-indicator" vertical="middle" />
 Depending on your scale type the page can be wider than the screen, and with zoom start position you can choose where
-Tachiyomi will start on that zoomed in page.
+Aniyomi will start on that zoomed in page.
 
 ### Examples
 

@@ -1,14 +1,14 @@
 blank_issues_enabled: true
 contact_links:
   - name: ⚠️ Application issue
-    url: https://github.com/tachiyomiorg/tachiyomi/issues/new/choose
-    about: Issues and requests about the app itself should be opened in the tachiyomi repository instead
+    url: https://github.com/jmir1/aniyomi/issues/new/choose
+    about: Issues and requests about the app itself should be opened in the Aniyomi repository instead
   - name: ⚠️ Extension/source issue
-    url: https://github.com/tachiyomiorg/tachiyomi-extensions/issues/new/choose
-    about: Issues and requests for extensions and sources should be opened in the tachiyomi-extensions repository instead
-  - name: 📦 Tachiyomi extensions
-    url: https://tachiyomi.org/extensions
+    url: https://github.com/jmir1/aniyomi-extensions/issues/new/choose
+    about: Issues and requests for extensions and sources should be opened in the Aniyomi-extensions repository instead
+  - name: 📦 Aniyomi extensions
+    url: https://aniyomi.jmir.xyz/extensions/
     about: List of all available extensions with download links
-  - name: 🖥️ Tachiyomi website
-    url: https://tachiyomi.org/help/
+  - name: 🖥️ Aniyomi website
+    url: https://aniyomi.jmir.xyz/help/
     about: Guides, troubleshooting, and answers to common questions

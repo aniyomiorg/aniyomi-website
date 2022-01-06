@@ -27,10 +27,6 @@
 									<ClipboardListIcon />
 									<h3>{{ helpItem.title }}</h3>
 								</header>
-								<header v-else-if="helpItem.forks">
-									<SourceForkIcon />
-									<h3>{{ helpItem.title }}</h3>
-								</header>
 								<header v-else-if="helpItem.contribution">
 									<LifebuoyIcon />
 									<h3>{{ helpItem.title }}</h3>
@@ -92,7 +88,6 @@ import Navbar from "@theme/components/Navbar.vue";
 import AlgoliaSearchBox from "@theme/components/AlgoliaSearchBox.vue";
 
 import ClipboardListIcon from "vue-material-design-icons/ClipboardList.vue";
-import SourceForkIcon from "vue-material-design-icons/SourceFork.vue";
 import DiscordIcon from "vue-material-design-icons/Discord.vue";
 import RedditIcon from "vue-material-design-icons/Reddit.vue";
 import GithubIcon from "vue-material-design-icons/Github.vue";
@@ -105,7 +100,6 @@ export default {
 		Navbar,
 		AlgoliaSearchBox,
 		ClipboardListIcon,
-		SourceForkIcon,
 		DiscordIcon,
 		RedditIcon,
 		GithubIcon,
