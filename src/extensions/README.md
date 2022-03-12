@@ -8,4 +8,4 @@ lang: en-US
 
 List of available extensions to use with Aniyomi, you can download them from here or from the app. If you need a list of all available manga extensions, please visit [Tachiyomi Manga extensions](https://tachiyomi.org/extensions/).
 
-<Extensions/>
+<Extensions/
