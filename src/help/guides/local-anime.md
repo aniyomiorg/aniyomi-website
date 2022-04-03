@@ -29,7 +29,7 @@ Remember to give the app storage permissions.
 
 ## Folder Structure
 
-Aniyomi requires a specific folder structure for local manga to be correctly processed. Local manga will be read from the `Aniyomi/localanime` folder. Each anime must have a `Anime` folder. Episode videos will then go into the anime folder. See below for more information on archive files. You can refer to the following example:
+Aniyomi requires a specific folder structure for local anime to be correctly processed. Local anime will be read from the `Aniyomi/localanime` folder. Each anime must have a `Anime` folder. Episode videos will then go into the anime folder. See below for more information on archive files. You can refer to the following example:
 
 ::: guide Example (Folder)
 <div class="side-by-side">
@@ -83,7 +83,7 @@ The path to the folder with videos must contain both the anime title (as seen ab
 ::: guide-empty
 <figure class="centered">
 	<h4>Example structure using the file manager</h4>
-	<p>Here, the anime name is <strong>test</strong> so the file structure is <code>/Aniyomi/local/test/episodes</code>.</p>
+	<p>Here, the anime name is <strong>test</strong> so the file structure is <code>/Aniyomi/localanime/test</code>.</p>
 	<img class="zoomable" height="300" :src="$withBase('/assets/guides_local-manga.jpg')">
 </figure>
 :::
