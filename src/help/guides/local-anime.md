@@ -84,7 +84,7 @@ The path to the folder with videos must contain both the anime title (as seen ab
 <figure class="centered">
 	<h4>Example structure using the file manager</h4>
 	<p>Here, the anime name is <strong>test</strong> so the file structure is <code>/Aniyomi/localanime/test</code>.</p>
-	<img class="zoomable" height="300" :src="$withBase('/assets/guides_local-manga.jpg')">
+	<img class="zoomable" height="300" :src="$withBase('/assets/guides_local-anime.jpg')">
 </figure>
 :::
 
