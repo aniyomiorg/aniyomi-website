@@ -32,7 +32,7 @@ This setting let's you configure after watching how much percentage of episode s
 - This option will mark the episode as seen after you went past the first 70% of episode .
 
 ## Double tap to skip length <Badge text="10s" type="default-indicator" vertical="middle" />
-Double tapping on left or right portion of the palyer will skip video forward or backward respectively by selected time.
+Double tapping on left or right portion of the player will skip video forward or backward respectively by selected time.
 
 **30s**
 - Applying this option will skip the episode by 30 seconds.
