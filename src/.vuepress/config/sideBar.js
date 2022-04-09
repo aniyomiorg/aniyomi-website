@@ -18,7 +18,6 @@ module.exports = {
 				"/help/guides/local-anime",
 				"/help/guides/local-manga",
 				"/help/guides/reader-settings",
-				"/help/guides/player-settings",
 			],
 		},
 		{
