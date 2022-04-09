@@ -53,13 +53,13 @@ This option toggles margin to the left side of player so that phones with notch 
 <CarouselItem>
 <figure class="centered">
 	<h4>Show content in display cutout turned on</h4>
-	<img height="auto" width= auto :src="$withBase('/assets/guides_player-display-cutout-on.jpg')">
+	<img height="auto" width= auto :src="$withBase('/assets/guides_player-display-cutout-on.png')">
 </figure>
 </CarouselItem>
 <CarouselItem>
 <figure class="centered">
 	<h4>Show content in display cutout turned off</h4>
-	<img height="auto" width= auto :src="$withBase('/assets/guides_player-display-cutout-off.jpg')">
+	<img height="auto" width= auto :src="$withBase('/assets/guides_player-display-cutout-off.png')">
 </figure>
 </CarouselItem>
 </Carousel>
