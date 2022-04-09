@@ -49,14 +49,29 @@ Double tapping on left or right portion of the palyer will skip video forward or
 ## Show content in display cutout <Badge text="True" type="default-indicator" vertical="middle" />
 This option toggles margin to the left side of player so that phones with notch won't obstruct the player UI.
 
+<Carousel name="carousel-crop-borders">
+<CarouselItem>
+<figure class="centered">
+	<h4>Show content in display cutout turned on</h4>
+	<img height="auto" width= auto :src="$withBase('/assets/guides_player-display-cutout-on.jpg')">
+</figure>
+</CarouselItem>
+<CarouselItem>
+<figure class="centered">
+	<h4>Show content in display cutout turned off</h4>
+	<img height="auto" width= auto :src="$withBase('/assets/guides_player-display-cutout-off.jpg')">
+</figure>
+</CarouselItem>
+</Carousel>
+
 ## Always use external player <Badge text="Fasle" type="default-indicator" vertical="middle" />
-For those people who wants to use external player like MX Player or MPV can toggle this option on.
+For those people who wants to use external player like MX Player or MPV as a default player can toggle this option on.
 
 ## External plyaer preference <Badge text="None" type="default-indicator" vertical="middle" />
 Shows you list of players curretnly installed in your phone which are supported by Aniyomi as external player and let's you select your prefered one.
 
 **None**
-- If None option is selcted then Aniyomi will present you with all the supported external players available in your phone when you tap on an episode to play it.
+- If 'None' option is selcted then Aniyomi will present you with all the supported external players available in your phone when you tap on an episode to play it.
 
 ::: c-tip
 Below 'None' all the other external players available in your phone will be displayed and selecting one of them will make it default for Aniyomi.
@@ -66,5 +81,5 @@ Below 'None' all the other external players available in your phone will be disp
 As the name suggests it enables 'Picture in Picture' functionality.
 
 ::: c-warning
-Note that this is still a experimental feature.
+Note that this is still an experimental feature.
 :::
