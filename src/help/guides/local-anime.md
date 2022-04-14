@@ -111,8 +111,8 @@ You can copy the following example and edit the details as needed:
 
 ### Using a custom cover image
 
-It is also possible to use a custom image as a cover for each local manga.
+It is also possible to use a custom image as a cover for each local anime.
 
 To do this, you only need to place the image file, that needs to be named
-`cover.jpg`, in the root of the manga folder. The app will then use your
+`cover.jpg`, in the root of the anime folder. The app will then use your
 custom image in the local source listing.
