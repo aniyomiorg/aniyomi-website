@@ -41,10 +41,10 @@ Aniyomi requires a specific folder structure for local anime to be correctly pro
 					<span class="ft-icon ft-folder">Anime title</span>
 					<ul>
 						<li>
-							<span class="ft-icon ft-image">ep1.mp4</span>
+							<span class="ft-icon ft-video">ep1.mp4</span>
 						</li>
 						<li>
-							<span class="ft-icon ft-image">ep2.mkv</span>
+							<span class="ft-icon ft-video">ep2.mkv</span>
 						</li>
 						<li>
 							<span class="ft-icon ft-image">cover.jpg</span>
@@ -63,10 +63,10 @@ Aniyomi requires a specific folder structure for local anime to be correctly pro
 					<span class="ft-icon ft-folder">Anime title</span>
 					<ul>
 						<li>
-							<span class="ft-icon ft-image">ep3.mp4</span>
+							<span class="ft-icon ft-video">ep3.mp4</span>
 						</li>
 						<li>
-							<span class="ft-icon ft-image">ep4.mkv</span>
+							<span class="ft-icon ft-video">ep4.mkv</span>
 						</li>
 					</ul>
 				</li>
