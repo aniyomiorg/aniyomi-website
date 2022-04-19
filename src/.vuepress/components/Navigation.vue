@@ -34,6 +34,8 @@ export default {
 			return {
 				/* Menus */
 				library: { text: "Library", icon: "collections_bookmark" },
+				anime_library: { text: "Anime Library", icon: "video_library" },
+				manga_library: { text: "Manga Library", icon: "collections_bookmark" },
 				updates: { text: "Updates", icon: "new_releases" },
 				history: { text: "History", icon: "history" },
 				browse: { text: "Browse", icon: "explore" },
