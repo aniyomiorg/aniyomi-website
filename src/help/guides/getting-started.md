@@ -17,7 +17,7 @@ When you've completed the download, open the <VersionTag fileName/> file and pro
 [<MaterialIcon icon="videocam"/> Click for video guide](/assets/guides_extension-install.webm)
 :::
 
-Now that **Aniyomi** is installed, open the app and navigate to <Navigation item="browse"/> and then switch to the **Extensions** tab.
+Now that **Aniyomi** is installed, open the app and navigate to <Navigation item="browse"/> and then switch to the **Anime Extensions** or **Manga Extensions** tab.
 
 Find the extension that you'd like to use then press the <Navigation item="install"/> button next to your desired extension and then accept the installation prompt.
 
@@ -25,23 +25,23 @@ Find the extension that you'd like to use then press the <Navigation item="insta
 You *might* need to give **Aniyomi** the permission to *install unknown apps*, you can read how to do so [here](/help/faq/#how-do-i-allow-third-party-installations).
 :::
 
-## Adding manga/anime to your library
+## Adding anime/manga to your library
 
 ::: videolink
 [<MaterialIcon icon="videocam"/> Click for video guide](/assets/guides_library-add.webm)
 :::
 
-Now that you've installed the desired extension, it will show in the **Sources** tab. This page contains all of your sources, which is obtained through extensions, some extensions contain *multiple* sources.
+Now that you've installed the desired extension, it will show in the **Anime Sources** or **Manga Sources** tab depnding on if it was an anime extension or manga extension. This pages contains all of your sources, which is obtained through extensions, some extensions contain *multiple* sources.
 
-To find and add manga/anime to your library, tap **Latest** for a source's most recently updated manga/anime, or tap on the source itself to browse and search their catalog.
+To find and add anime/manga to your library, tap **Latest** for a source's most recently updated anime/manga, or tap on the source itself to browse and search their catalog.
 
-Now that you've presumably found manga/anime that you want to add, click on it and then press the <Navigation item="bookmark"/> button, it should now appear in your <Navigation item="library"/> ready to be read!
+Now that you've presumably found anime/manga that you want to add, click on it and then press the <Navigation item="bookmark"/> button, it should now appear in your <Navigation item="anime_library"/> if it's an anime or in <Navigation item="manga_library"/> if it's a manga ready to be watched or read!
 
-::: guide Other ways to search for manga/anime
-You can also search for manga/anime globally across all your sources by using <Navigation item="search"/> located in the top-right of <Navigation item="browse"/> → **Sources**.
+::: guide Other ways to search for anime/manga
+You can also search for anime/manga globally across all your sources by using <Navigation item="search"/> located in the top-right of <Navigation item="browse"/> → **Anime Sources**/**Manga Sources**.
 :::
-:::: guide Trouble finding a specific manga/anime
-Check your spelling and try again, there's also the chance that your used source may not host the manga/anime you're looking for.
+:::: guide Trouble finding a specific anime/manga
+Check your spelling and try again, there's also the chance that your used source may not host the anime/manga you're looking for.
 * Some sources use **Japanese romanized** titles instead of **English** ones.
   > For example **Boku no Hero Academia** instead of **My Hero Academia**.
 * Some sources use different spellings.
