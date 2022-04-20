@@ -33,7 +33,7 @@ export default {
 			// prettier-ignore
 			return {
 				/* Menus */
-				library: { text: "Library", icon: "collections_bookmark" },
+				// library: { text: "Library", icon: "collections_bookmark" },
 				anime_library: { text: "Anime Library", icon: "video_library" },
 				manga_library: { text: "Manga Library", icon: "collections_bookmark" },
 				updates: { text: "Updates", icon: "new_releases" },
@@ -50,7 +50,9 @@ export default {
 				/* More */
 				downloaded_only: { text: "Downloaded only", icon: "cloud_off" },
 				download_queue: { text: "Download queue", icon: "get_app" },
-				categories: { text: "Categories", icon: "label" },
+				//categories: { text: "Categories", icon: "label" },
+				anime_categories: { text: "Anime Categories", icon: "label" },
+				manga_categories: { text: "Manga Categories", icon: "label" },
 				settings: { text: "Settings", icon: "settings" },
 				about: { text: "About", icon: "info" },
 				help: { text: "Help", icon: "help" },
@@ -60,7 +62,7 @@ export default {
 				settings_library: { text: "Library", icon: "collections_bookmark" },
 				settings_reader: { text: "Reader", icon: "chrome_reader_mode" },
 				settings_downloads: { text: "Downloads", icon: "get_app" },
-				settings_tracking: { text: "Tracking", icon: "autorenew" },
+				settings_tracking: { text: "Tracking", icon: "sync" },
 				settings_browse: { text: "Browse", icon: "explore" },
 				settings_backup: { text: "Backup and Restore", icon: "settings_backup_restore" },
 				settings_security: { text: "Security", icon: "security" },
@@ -79,10 +81,12 @@ export default {
 				sources: { text: "Sources" },
 				latest: { text: "Latest" },
 				extensions: { text: "Extensions" },
+				anime_extensions: {text: "Anime Extensions"},
+				manga_extensions: {text: "Manga Extensions"},
 				migrate: { text: "Migrate" },
 				/* Misc */
 				install: { text: "INSTALL", class:"ext-installation" },
-				reorder: { text: "Reorder", icon:"reorder" },
+				reorder: { text: "Reorder", icon:"drag_handle" },
 				overflow: { text: "Overflow", icon:"more_vert" },
 			}[this.item];
 		},

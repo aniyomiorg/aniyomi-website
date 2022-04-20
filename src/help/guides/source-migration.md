@@ -13,9 +13,9 @@ Always make sure to have a [backup](/help/guides/creating-backups/) in case anyt
 :::
 
 ::: c-warning
-Downloaded chapter(s) do not transfer with migrations.
+Downloaded chapter(s)/episode(s) do not transfer with migrations.
 
-Migrations with downloaded chapter(s) may leave the download behind. You will need to remove these manually with a file manager.
+Migrations with downloaded chapter(s)/episode(s) may leave the download behind. You will need to remove these manually with a file manager.
 :::
 
 ## Migrating on Stable/Preview
@@ -38,7 +38,7 @@ Migrations with downloaded chapter(s) may leave the download behind. You will ne
 :::
 
 1. Tap into <Navigation item="browse"/> on the bottom navbar.
-1. Press the <Navigation item="migrate" /> tab at the top next to <Navigation item="extensions" />.
+1. Press the <Navigation item="migrate" /> tab at the top next to <Navigation item="manga_extensions" />.
 1. Select the **Source** that you'd like to migrate *from*.
 1. Tap the **Manga/Anime** you'd like to migrate *from* the **Source**.
 	> **Aniyomi** will do a global search of all the sources you have installed and enabled.

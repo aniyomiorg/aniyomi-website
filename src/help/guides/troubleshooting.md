@@ -162,8 +162,8 @@ The above are very imprecise and fuzzy rules because each site has its non-publi
 
 ### Everyone is having this problem
 If the site is reachable and fully functional, there may be an issue with the extension or app.
-1. Have a look at open issues [for the app](https://github.com/jmir1/aniyomi/issues) and/or [extensions](https://github.com/jmir1/aniyomi-extensions/issues).
-1. It may have been fixed already but not released yet, so look at closed issues ([app](https://github.com/jmir1/aniyomi/issues?q=is%3Aissue+is%3Aclosed) / [extensions](https://github.com/jmir1/aniyomi-extensions/issues?q=is%3Aissue+is%3Aclosed)) issues as well.
+1. Have a look at open issues [for the app](https://github.com/jmir1/aniyomi/issues) and/or [Aniyomi extensions](https://github.com/jmir1/aniyomi-extensions/issues) for anime exetnsion and check [Tachiyomi extensions](https://github.com/tachiyomiorg/tachiyomi-extensions/issues)for manga extension.
+1. It may have been fixed already but not released yet, so look at closed issues ([app](https://github.com/jmir1/aniyomi/issues?q=is%3Aissue+is%3Aclosed) / [Aniyomi extensions](https://github.com/jmir1/aniyomi-extensions/issues?q=is%3Aissue+is%3Aclosed) / [Tachiyomi extensions](https://github.com/tachiyomiorg/tachiyomi-extensions/issues?q=is%3Aissue+is%3Aclosed)) issues as well.
 1. If you can't find the issue there, open a new one.
 
 If the site is not reachable or has issues, all you can do is wait for the site to become functional again.
