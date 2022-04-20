@@ -15,7 +15,7 @@ You can even add your bookmarked manga/anime in multiple categories and can easi
 To create a category, follow the steps below.
 
 ::: guide
-1. Go to <Navigation item="more"/> → <Navigation item="categories"/>.
+1. Go to <Navigation item="more"/> → <Navigation item="anime_categories"/>/<Navigation item="manga_categories"/>.
 1. Press the **+ Add**  button in the bottom right.
 1. Enter a name and press **OK**.
 :::
@@ -25,19 +25,19 @@ To create a category, follow the steps below.
 To edit a category follow the steps below.
 
 ::: guide
-1. Go to <Navigation item="more"/> → <Navigation item="categories"/>.
+1. Go to <Navigation item="more"/> → <Navigation item="anime_categories"/>/<Navigation item="manga_categories"/>.
 1. Long press a category.
 1. Tap <Navigation item="edit"/> on the top-right.
 :::
 
 ## Change category order
 
-You can change the order of Categories, such as bringing a certain Category to the top. This category will appear as the first tab on <Navigation item="library"/>.
+You can change the order of Categories, such as bringing a certain Category to the top. This category will appear as the first tab on <Navigation item="anime_library"/>/<Navigation item="manga_library"/>.
 
 To do this, follow the steps below.
 
 ::: guide
-1. Go to <Navigation item="more"/> → <Navigation item="categories"/>.
+1. Go to <Navigation item="more"/> → <Navigation item="anime_categories"/>/<Navigation item="manga_categories"/>.
 1. Drag the category to your prefered position using the <Navigation item="reorder"/> icon.
 :::
 
@@ -46,7 +46,7 @@ To do this, follow the steps below.
 To delete a category, follow the steps below.
 
 ::: guide
-1. Go to <Navigation item="more"/> → <Navigation item="categories"/>.
+1. Go to <Navigation item="more"/> → <Navigation item="anime_categories"/>/<Navigation item="manga_categories"/>.
 1. Long press a category.
 1. Tap <Navigation item="delete"/> on the top-right.
 :::

@@ -13,7 +13,7 @@ Backups can hold the following information:
 1. **Categories**
 1. **Read/Watched chapters/episodes**
 1. **Tracking settings**
-1. **Reading history**
+1. **Reading/Watching history**
 1. **Manga/Anime information** such as Author, Artist, Date Added to Library, Selected Viewer, etc.
 
 ::: guide
