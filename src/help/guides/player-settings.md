@@ -47,7 +47,7 @@ Double tapping on left or right portion of the player will skip video forward or
 - Applying this option will skip the episode by 5 seconds.
 
 ## Show content in display cutout <Badge text="True" type="default-indicator" vertical="middle" />
-This option toggles margin to the left side of player so that phones with notch won't obstruct the player UI.
+This option toggles the margin to the left side of player so that phones with notches won't obstruct the player UI.
 
 <Carousel name="carousel-crop-borders">
 <CarouselItem>
@@ -64,17 +64,17 @@ This option toggles margin to the left side of player so that phones with notch 
 </CarouselItem>
 </Carousel>
 
-## Always use external player <Badge text="Fasle" type="default-indicator" vertical="middle" />
+## Always use external player <Badge text="False" type="default-indicator" vertical="middle" />
 For those people who want to use external players like MX Player or MPV as a default player can toggle this option on.
 
 ## External player preference <Badge text="None" type="default-indicator" vertical="middle" />
-Shows you list of players curretnly installed in your phone which are supported by Aniyomi as external player and let's you select your prefered one.
+Shows you a list of players currently installed on your phone which are supported by Aniyomi as an external player and lets you select your preferred one.
 
 **None**
-- If 'None' option is selcted then Aniyomi will present you with all the supported external players available in your phone when you tap on an episode to play it.
+- If the 'None' option is selected then Aniyomi will present you with all the supported external players available on your phone when you tap on an episode to play it.
 
 ::: c-tip
-Below 'None' all the other external players available in your phone will be displayed and selecting one of them will make it default for Aniyomi.
+Below 'None' are all of the external players available on your phone that will be displayed and selecting one of them will make it the default for Aniyomi.
 :::
 
 ## Enable picture in picture mode <Badge text="false" type="default-indicator" vertical="middle" />
