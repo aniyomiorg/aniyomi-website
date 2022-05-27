@@ -65,9 +65,9 @@ This option toggles margin to the left side of player so that phones with notch 
 </Carousel>
 
 ## Always use external player <Badge text="Fasle" type="default-indicator" vertical="middle" />
-For those people who wants to use external player like MX Player or MPV as a default player can toggle this option on.
+For those people who want to use external players like MX Player or MPV as a default player can toggle this option on.
 
-## External plyaer preference <Badge text="None" type="default-indicator" vertical="middle" />
+## External player preference <Badge text="None" type="default-indicator" vertical="middle" />
 Shows you list of players curretnly installed in your phone which are supported by Aniyomi as external player and let's you select your prefered one.
 
 **None**
