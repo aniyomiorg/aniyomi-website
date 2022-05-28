@@ -77,7 +77,7 @@ Shows you a list of players currently installed on your phone which are supporte
 Below 'None' are all of the external players available on your phone that will be displayed and selecting one of them will make it the default for Aniyomi.
 :::
 
-## Enable picture in picture mode <Badge text="false" type="default-indicator" vertical="middle" />
+## Enable picture in picture mode <Badge text="False" type="default-indicator" vertical="middle" />
 As the name suggests it enables 'Picture in Picture' functionality.
 
 ::: c-warning
