@@ -15,7 +15,7 @@ Follow the steps below to create local anime.
     </ul>
 1. Place correctly structured anime inside `/Aniyomi/localanime/`.
 	<ul>
-  		<li>Optional: If adding anime in folders, add a file named `.nomedia` to the local folder so images do not show up in the gallery</li>
+  		<li>Optional: If you're adding anime in folders, add a file named `.nomedia` to the local folder so images do not show up in the gallery</li>
 	</ul>
 1. You can then access the anime in <Navigation item="browse"/> → **Local anime source**.
 
