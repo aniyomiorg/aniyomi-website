@@ -26,14 +26,14 @@ This setting sets the reader's default direction when you open a manga.
 - Similar to webtoon but with a little space between pages.
 
 ::: c-tip
-You can change viewer for different series by going to the series, opening a chapter, tapping the middle of the screen, pressing the gear icon, and selecting a different viewer in **Viewer for this series**.
+You can change the viewer for different series by going to the series, opening a chapter, tapping the middle of the screen, pressing the gear icon, and selecting a different viewer in **Viewer for this series**.
 :::
 
 ## Double tap animation speed <Badge text="Normal" type="default-indicator" vertical="middle" />
 Double tap animation speed changes the speed in which the zoom happens when double tapping.
 
 ## Show reading mode <Badge text="True" type="default-indicator" vertical="middle" />
-Briefly show current mode when reader is opened
+Briefly show current mode when the reader is opened
 
 ## 32-bit color <Badge text="False" type="default-indicator" vertical="middle" />
 This setting decodes images in `ARGB888` format to allow the reader to display more colors.
@@ -43,7 +43,7 @@ This setting will only show up on smartphones running **Android 8.0** or higher.
 :::
 
 ## Animate page transitions <Badge text="True" type="default-indicator" vertical="middle" />
-This setting applies a smooth transition when tapping to change page.
+This setting applies a smooth transition when tapping to change the page.
 
 ## Rotation <Badge text="Free" type="default-indicator" vertical="middle" />
 This allows you to control how the screen is going to be oriented.

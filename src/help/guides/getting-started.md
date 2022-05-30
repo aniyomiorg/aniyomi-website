@@ -31,7 +31,7 @@ You *might* need to give **Aniyomi** the permission to *install unknown apps*, y
 [<MaterialIcon icon="videocam"/> Click for video guide](/assets/guides_library-add.webm)
 :::
 
-Now that you've installed the desired extension, it will show in the **Anime Sources** or **Manga Sources** tab depnding on if it was an anime extension or manga extension. This pages contains all of your sources, which is obtained through extensions, some extensions contain *multiple* sources.
+Now that you've installed the desired extension, it will show in the **Anime Sources** or **Manga Sources** tab depending on if it was an anime extension or manga extension. This pages contains all of your sources, which is obtained through extensions, some extensions contain *multiple* sources.
 
 To find and add anime/manga to your library, tap **Latest** for a source's most recently updated anime/manga, or tap on the source itself to browse and search their catalog.
 
