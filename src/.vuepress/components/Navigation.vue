@@ -33,7 +33,7 @@ export default {
 			// prettier-ignore
 			return {
 				/* Menus */
-				library: { text: "Library", icon: "collections_bookmark" },
+				//library: { text: "Library", icon: "collections_bookmark" },
 				anime_library: { text: "Anime Library", icon: "video_library" },
 				manga_library: { text: "Manga Library", icon: "collections_bookmark" },
 				updates: { text: "Updates", icon: "new_releases" },
@@ -84,6 +84,8 @@ export default {
 				anime_extensions: {text: "Anime Extensions"},
 				manga_extensions: {text: "Manga Extensions"},
 				migrate: { text: "Migrate" },
+				migrate_anime: { text: "Migrate Anime"},
+				migrate_manga: { text: "Migrate Manga"},
 				/* Misc */
 				install: { text: "INSTALL", class:"ext-installation" },
 				reorder: { text: "Reorder", icon:"drag_handle" },

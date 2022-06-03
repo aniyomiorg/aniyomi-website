@@ -32,7 +32,7 @@ Some **DO**s and **DO NOT**s for [FAQ](../help/faq/README.md).
 
 - **DO** use guide containers for quickly showing how to achieve something:
 > ::: guide Instructions
-> Enable it by going to <Navigation item="library"/> → <Navigation item="filter"/> → **Display** section and then checking the **Download badges** option at the bottom.
+> Enable it by going to <Navigation item="anime_library"/>/<Navigation item="manga_library"/> → <Navigation item="filter"/> → **Display** section and then checking the **Download badges** option at the bottom.
 > :::
 
 - **DO** include video guides as a text under the header:
@@ -55,7 +55,7 @@ Some **DO**s and **DO NOT**s for [FAQ](../help/faq/README.md).
 > ...checking the **Download badges** option...
 
 - **DO** use **[Navigation](https://github.com/jmir1/aniyomi-website/blob/master/src/.vuepress/components/Navigation.vue#L35-L82)** items when applicable:
-> <Navigation item="library"/>
+> <Navigation item="anime_library"/>/<Navigation item="manga_library"/>
 
 - **DO** use unordered lists when writing a list of stuff that's not an instruction:
 > - This thing.

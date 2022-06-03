@@ -124,7 +124,7 @@ If you're using Preview, or a Fork, replace `eu.kanade.tachiyomi` with the other
 ::::
 
 ## Diagnosis
-* Verify your extensions are up to date (<Navigation item="browse"/> → **Extensions**, make sure no extensions have an **Update** button).
+* Verify your extensions are up to date (<Navigation item="browse"/> → **Anime Extensions/Manga Extensions**, make sure no extensions have an **Update** button).
 * Check if **Aniyomi** has an update (<Navigation item="more"/> → <Navigation item="about"/> then tap **Check for updates**).
 * Verify that [WebView](#update-webview) is updated.
 * Try opening the manga in <Navigation item="webview"/>. If there is a [Cloudflare](#solving-the-cloudflare-issue) protection, wait for it to load. If there is a [CAPTCHA](#solving-the-cloudflare-issue), solve it and see if it helped.

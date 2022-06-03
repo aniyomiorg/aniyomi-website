@@ -11,10 +11,10 @@ Backups are inter-compatible between **Aniyomi** versions.
 Backups can hold the following information:
 1. **Titles**
 1. **Categories**
-1. **Read/Watched chapters/episodes**
+1. **Seen/Read episodes/chapters**
 1. **Tracking settings**
-1. **Reading/Watching history**
-1. **Manga/Anime information** such as Author, Artist, Date Added to Library, Selected Viewer, etc.
+1. **Watching/Reading history**
+1. **Anime/Manga information** such as Author, Artist, Date Added to Library, Selected Viewer, etc.
 
 ::: guide
 You can do this by going to <Navigation item="more"/> → <Navigation item="settings_backup"/> and then selecting **Create backup** and select a location to save it.
