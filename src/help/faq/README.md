@@ -30,25 +30,25 @@ If you are on desktop, fill out [this](https://support.google.com/googleplay/and
 
 ### Library
 
-#### How can I see how many chapters I have downloaded or unread?
-Enable badges by going to <Navigation item="library"/> → <Navigation item="filter"/> → **Display** tab and then checking **Download badges** or **Unread badges** at the bottom.
+#### How can I see how many episodes/chapters I have downloaded or unseen/unread?
+Enable badges by going to <Navigation item="anime_library"/>/<Navigation item="manga_library"/> → <Navigation item="filter"/> → **Display** tab and then checking **Download badges** or **Unseen/Unread badges** at the bottom.
 
-#### How do I ignore duplicate chapters/episodes?
-Sometimes, you find a manga/anime that is translated by more than one group. Because of this, you get multiple releases for each chapter in the manga/anime. There are several ways to skip the duplicate chapters:
+#### How do I ignore duplicate episodes/chapters?
+Sometimes, you find a anime/manga that is translated by more than one group. Because of this, you get multiple releases for each episode/chapter in the anime/manga. There are several ways to skip the duplicate episodes/chapters:
 
-* On the manga/anime page, tap on <Navigation item="filter"/> → **Sort** and choose **By chapter number**. Doing this will cause the reader to skip duplicates as you read.
+* On the anime/manga page, tap on <Navigation item="filter"/> → **Sort** and choose **By chapter number**. Doing this will cause the player/reader to skip duplicates as you watch/read.
 * Bookmark or mark as read the unwanted chapters, then tap on <Navigation item="filter"/> → **Filter** and double-tap **Bookmarked** or single-tap **Unread**, respectively. This will hide any bookmarked or read chapters and skip them as you read along, as long as you have **Skip filtered chapters** enabled under <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_reader"/> → **Reading**.
-* Migrate to another source that does not have duplicates. For more information on how to migrate a manga/anime, see the [migration guide](/help/guides/source-migration/).
+* Migrate to another source that does not have duplicates. For more information on how to migrate a anime/manga, see the [migration guide](/help/guides/source-migration/).
 
 #### Why are some cover thumbnails corrupted, white, showing a broken page, or wrong?
 The thumbnail download likely did not complete correctly. To fix this, refresh covers in settings.
 
 ::: guide
-Refresh your covers by going to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_advanced"/> then pressing **Refresh library manga/anime covers**.
+Refresh your covers by going to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_advanced"/> then pressing **Refresh library covers**.
 :::
 
-#### Why have some manga chapters/anime episodes been marked as unread when I have not touched them?
-The URLs of the manga chapters/anime episodes have changed, so Aniyomi detects the chapter(s)/episode(s) as new.
+#### Why have some anime episodes/manga chapters been marked as unseen/unread when I have not touched them?
+The URLs of the anime episodes/manga chapters have changed, so Aniyomi detects the episode(s)/chapter(s) as new.
 
 ### Browse
 
@@ -58,14 +58,14 @@ The URLs of the manga chapters/anime episodes have changed, so Aniyomi detects t
 Enable the language of the source by going to <Navigation item="browse"/> → Sources tab → <Navigation item="language"/> → Turn on the language of the source you would like to use.
 
 ##### If it is an NSFW extension
-<Navigation item="settings"/> → <Navigation item="browse"/> → Check show in sources list.
+<Navigation item="settings"/> → <Navigation item="browse"/> → Check Show in sources and extensions list.
 
-#### How do I find a manga/anime I am looking for?
-Sometimes you can struggle to find a source that has the manga/anime you are looking to read/watch. Here are some tips to help you find it:
-::: guide Tips to find your manga/anime
-1. Look up the manga/anime on [Google](https://google.com/) or a manga/anime database such as [MangaUpdates](https://www.mangaupdates.com/) or [AniDB](https://anidb.net/).
-1. See if the manga/anime has any alternate spellings or other title variations. Try searching again in your sources with the alternate titles you found.
-1. If you still cannot find the manga/anime in any of your sources, then try to search for an extension for the website you found in step 1 in the [extensions](/extensions/) list.
+#### How do I find an/a anime/manga I am looking for?
+Sometimes you can struggle to find a source that has the anime/manga you are looking to watch/read. Here are some tips to help you find it:
+::: guide Tips to find your anime/manga
+1. Look up the anime/manga on [Google](https://google.com/) or a anime/manga database such as [AniDB](https://anidb.net/) or [MangaUpdates](https://www.mangaupdates.com/).
+1. See if the anime/manga has any alternate spellings or other title variations. Try searching again in your sources with the alternate titles you found.
+1. If you still cannot find the anime/manga in any of your sources, then try to search for an extension for the website you found in step 1 in the [extensions](/extensions/) list.
 
 ### Player
 
@@ -74,18 +74,18 @@ Aside from network issues, sometimes Aniyomi does not register the video as exis
 
 ### Downloads
 
-#### How do I download several chapters/episodes simultaneously?
+#### How do I download several episodes/chapters simultaneously?
 The app does not allow parallel downloads from one source to prevent IP bans caused by too many requests. We know that speed is being sacrificed, but it is better than an overall inaccessible source.
 
-However, if you download several manga/anime from different sources, the app will start downloading simultaneously from up to five different sources.
+However, if you download several anime/manga from different sources, the app will start downloading simultaneously from up to five different sources.
 
 #### Why do my downloads sometimes stop midway through?
 It is likely an issue to do with your connection to your network or the source. Aniyomi will notify you of what error it has encountered trying to download.
 
 #### How do I cancel or change the download queue?
-Go to <Navigation item="more"/> → Download Queue and cancel items in the queue or cancel all items by tapping on the <Navigation item="overflow"/> next to a manga/anime chapter/episode or on the top right. If you would like the change the order of the queue, tap and hold the = on the side of a item in the queue.
+Go to <Navigation item="more"/> → Download Queue and cancel items in the queue or cancel all items by tapping on the <Navigation item="overflow"/> next to a anime/manga episode/chapter or on the top right. If you would like the change the order of the queue, tap and hold the = on the side of a item in the queue.
 
-#### Can you make it possible to store manga/anime on both internal storage and external SD-card?
+#### Can you make it possible to store anime/manga on both internal storage and external SD-card?
 At the moment, no. You could try using symlinks, but that requires having your device rooted.
 ::: note
 Read more about rooting your device [here](https://www.xda-developers.com/root/)
@@ -94,26 +94,26 @@ Read more about rooting your device [here](https://www.xda-developers.com/root/)
 #### Why can I see manga pages from my downloads in my device's photo gallery?
 Aniyomi adds a `.nomedia` file to the Downloads folder by default to prevent this from happening, but sometimes it does not work, or something goes wrong. To fix this, all you need to do is create the file yourself. Name it `.nomedia` and place it in your downloads folder. If you have the same problem with your local manga, place the `.nomedia` file in the local folder.
 
-### Local manga/anime
+### Local anime/manga
 
-#### How do I import my downloaded manga/anime into Aniyomi?
-We recommend you to read [this](/help/guides/local-anime) guide on how to do so.
+#### How do I import my downloaded anime/manga into Aniyomi?
+We recommend you to read this guide for [local anime](/help/guides/local-anime) or [local manga](/help/guides/local-manga) on how to do so.
 
 #### What do I do if I cannot find the Aniyomi folder?
 If you do not see the **Aniyomi** folder, create one with a file manager.
 
-#### How do I fix empty/blank covers on my local manga/anime?
-Sometimes some covers for local manga/anime are not displayed. Follow these steps to fix it:
+#### How do I fix empty/blank covers on my local anime/manga?
+Sometimes some covers for local anime/manga are not displayed. Follow these steps to fix it:
 
 ::: guide
-1. Make sure you have created the right folder structure. To check that you have, open the manga/anime with the missing cover and check if you can read chapters in the app. If not, follow [this](/help/guides/local-anime) guide first.
-1. Take a screenshot of which chapters/episodes you have read, and then remove manga/anime from the library.
-1. Go to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_advanced"/> and tap **Clear database**. This will only affect manga/anime that are not in your library.
-1. Go back to the <Navigation item="browse"/> → **Local source** and find the manga/anime. The cover should be fixed now. Add the manga/anime back to your library, mark your read chapters, and re-add tracking if needed.
+1. Make sure you have created the right folder structure. To check that you have, open the anime/manga with the missing cover and check if you can watch/read episodes/chapters in the app. If not, follow this guide for [local anime](/help/guides/local-anime) or [local manga](/help/guides/local-manga) first.
+1. Take a screenshot of which episodes/chapters you have seen/read, and then remove anime/manga from the library.
+1. Go to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_advanced"/> and tap **Clear database**. This will only affect anime/manga that are not in your library.
+1. Go back to the <Navigation item="browse"/> → **Local source** and find the anime/manga. The cover should be fixed now. Add the anime/manga back to your library, mark your seen/read episodes/chapters, and re-add tracking if needed.
 :::
 
 ::: note
-Related GitHub issue: [#932](https://github.com/Aniyomiorg/tachiyomi/issues/932)
+Related GitHub issue: [#932](https://github.com/tachiyomiorg/tachiyomi/issues/932)
 :::
 
 ### Application Updates
@@ -151,11 +151,11 @@ On **Android 10**, a bug was introduced that prevented users from uninstalling t
 #### Can I revert from the Material Design 2 update of Aniyomi? 
 It won't be reverted.
 
-#### How do I pause reading history or go incognito?
+#### How do I pause history or go incognito?
 
 Enable Incognito Mode by going to <Navigation item="more"/> → Incognito Mode.
 
-#### Can I make Aniyomi only read/watch my downloaded chapters/episodes? Why am I not able to disable downloaded only?
+#### Can I make Aniyomi only watch/read my downloaded episodes/chapters? Why am I not able to disable downloaded only?
 
 Enable Download only by going to <Navigation item="more"/> → Download only.
 
@@ -167,7 +167,7 @@ It provides the advantage of not being vulnerable to Man-in-the-middle attacks (
 You can enable this feature by going to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_advanced"/>.
 
 #### What should I do if I cannot screenshot within Aniyomi?
-You have Secure Screen on, disable it if you want to screenshot by going to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_security"/> → Secure Screen.
+You have Secure Screen set on **Always**, disable it if you want to screenshot by going to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_security"/> → Secure Screen.
 
 #### How do I backup my library automatically? How do I move data from one phone to another?
 Learn how to use the backup and restore feature [here](/help/guides/backups/), and learn how to enable automatic backups [here](/help/guides/backups/#turning-on-auto-backups/)
@@ -176,8 +176,8 @@ Learn how to use the backup and restore feature [here](/help/guides/backups/), a
 
 ### General
 
-#### What are some recommended extensions? What source is the best? What is the replacement for source X? Where to read manga/anime Y?
-Aniyomi does not endorse or recommend any manga/anime source, and there is no best extension. Instead, we encourage users to spend some time trying out a few sources themselves and discover what sources work best for them. What works well for somebody else might not work well for you.
+#### What are some recommended extensions? What source is the best? What is the replacement for source X? Where to watch/read anime/manga Y?
+Aniyomi does not endorse or recommend any anime/manga source, and there is no best extension. Instead, we encourage users to spend some time trying out a few sources themselves and discover what sources work best for them. What works well for somebody else might not work well for you.
 
 <ElAlert type="info" title="Disclaimer" description="Aniyomi is not hosting any content, we are not affiliated with or responsible for any source that is; slow, down, missing chapters, or has subpar image quality." show-icon :closable="false"></ElAlert>
 
@@ -242,7 +242,7 @@ No, unless expressly stated, the internal ID of sources has not changed, so migr
 In Android 11, Google began forcing users to use [Scoped Storage](https://developer.android.com/about/versions/11/privacy/storage), which was introduced in Android 5.0 Lollipop, but Google only began forcing developers to use it on Android 11. Some OEMs seem to better implement Scoped Storage than others, with some users not running into any issues while users using other phone brands have multitudes of problems.
 
 ### What does it mean for Aniyomi?
-The introduction of Scoped Storage means that many storage-related functions that Aniyomi uses may be much slower due to the inherent slowness of Scoped Storage, as outlined [here](https://www.xda-developers.com/android-q-storage-access-framework-scoped-storage/). These include deleting chapters, library load times, accessing the folders outside the data folders to download to or read from, and more.
+The introduction of Scoped Storage means that many storage-related functions that Aniyomi uses may be much slower due to the inherent slowness of Scoped Storage, as outlined [here](https://www.xda-developers.com/android-q-storage-access-framework-scoped-storage/). These include deleting episodes/chapters, library load times, accessing the folders outside the data folders to download to or watch/read from, and more.
 
 ### Is there any way to improve performance?
 

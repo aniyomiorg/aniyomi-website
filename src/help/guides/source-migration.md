@@ -6,29 +6,29 @@ lang: en-US
 
 # Source migration
 
-Migration is the process of moving manga/anime between sources without losing progress. This is most often used when a source is no longer accessible or another source is more up-to-date.
+Migration is the process of moving anime/manga between sources without losing progress. This is most often used when a source is no longer accessible or another source is more up-to-date.
 
 ::: c-warning
 Always make sure to have a [backup](/help/guides/creating-backups/) in case anything unexpected occurs.
 :::
 
 ::: c-warning
-Downloaded chapter(s)/episode(s) do not transfer with migrations.
+Downloaded episode(s)/chapter(s) do not transfer with migrations.
 
-Migrations with downloaded chapter(s)/episode(s) may leave the download behind. You will need to remove these manually with a file manager.
+Migrations with downloaded episode(s)/chapter(s) may leave the download behind. You will need to remove these manually with a file manager.
 :::
 
 ## Migrating on Stable/Preview
 
-:::: guide Migrating from manga/anime
+:::: guide Migrating from anime/manga
 ::: videolink
 [<MaterialIcon icon="videocam"/> Click for video guide](/assets/guides_migrate-preview-manga.webm)
 :::
 
-1. Tap into a **Manga/Anime** you would like to migrate.
+1. Tap into a **Anime/Manga** you would like to migrate.
 1. Go to <Navigation item="overflow"/> and tap <Navigation item="migrate" />.
 	> **Aniyomi** will do a global search of all the sources you have installed and enabled.
-1. Select the **Source** that you'd like to migrate *to* by tapping the **Manga/Anime** thumbnail.
+1. Select the **Source** that you'd like to migrate *to* by tapping the **Anime/Manga** thumbnail.
 1. Choose which data you want to transfer over, and you're done.
 ::::
 
@@ -38,11 +38,11 @@ Migrations with downloaded chapter(s)/episode(s) may leave the download behind. 
 :::
 
 1. Tap into <Navigation item="browse"/> on the bottom navbar.
-1. Press the <Navigation item="migrate" /> tab at the top next to <Navigation item="manga_extensions" />.
+1. Press the <Navigation item="migrate_anime" />/<Navigation item="migrate_manga" /> tab at the top right side of <Navigation item="manga_extensions" /> tab.
 1. Select the **Source** that you'd like to migrate *from*.
-1. Tap the **Manga/Anime** you'd like to migrate *from* the **Source**.
+1. Tap the **Anime/Manga** you'd like to migrate *from* the **Source**.
 	> **Aniyomi** will do a global search of all the sources you have installed and enabled.
-1. Select the **Source** you'd like to migrate *to* by tapping the **Manga/Anime** thumbnail.
+1. Select the **Source** you'd like to migrate *to* by tapping the **Anime/Manga** thumbnail.
 1. Choose which data you want to transfer over, and you're done.
 ::::
 
