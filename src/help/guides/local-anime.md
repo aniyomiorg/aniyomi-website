@@ -105,7 +105,7 @@ You can copy the following example and edit the details as needed:
 	"description": "Example Description",
 	"genre": ["genre 1", "genre 2", "etc"],
 	"status": "0",
-	"_status values": ["0 = Unknown", "1 = Ongoing", "2 = Completed", "3 = Licensed"]
+	"_status values": ["0 = Unknown", "1 = Ongoing", "2 = Completed", "3 = Licensed", "4 = Publishing finished", "5 = Cancelled"]
 }
 ```
 If you don't want to manually create the `details.json` file for anime, you can alternatively use [this tool](https://aniyomi-local.netlify.app).
