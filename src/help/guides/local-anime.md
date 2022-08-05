@@ -108,6 +108,7 @@ You can copy the following example and edit the details as needed:
 	"_status values": ["0 = Unknown", "1 = Ongoing", "2 = Completed", "3 = Licensed"]
 }
 ```
+If you don't want to manually create the `details.json` file for anime, you can alternatively use [this tool](https://aniyomi-local.netlify.app).
 
 ### Using a custom cover image
 
