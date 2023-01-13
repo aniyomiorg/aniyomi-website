@@ -16,7 +16,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 - [Code of Conduct](./CODE_OF_CONDUCT.md)
 - [Contributing guide](./CONTRIBUTING.md)
-- [Project style guide](https://aniyomi.jmir.xyz/sandbox/style-guide/)
+- [Project style guide](https://aniyomi.org/sandbox/style-guide/)
 
 If you got any questions, [join our Discord server](https://discord.gg/F32UjdJZrR).
 
