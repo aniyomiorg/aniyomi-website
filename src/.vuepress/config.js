@@ -14,7 +14,7 @@ module.exports = {
 		// Embed headers
 		["link", { rel: "icon", href: "/favicon.ico" }],
 		["meta", { name: "theme-color", content: "#2e84bf" }],
-		["meta", { prefix: "og: http://ogp.me/ns#", property: "og:image", content: "https://tachiyomi.org/icons/logo.png" }],
+		["meta", { prefix: "og: http://ogp.me/ns#", property: "og:image", content: "https://aniyomi.org/icons/logo.png" }],
 		['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
 		// Custom headers
 		["link", { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin:""}],
