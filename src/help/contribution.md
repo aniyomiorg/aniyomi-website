@@ -43,8 +43,9 @@ Visit our translation project [here](https://hosted.weblate.org/projects/aniyomi
 </a>
 
 ## Donation
-If you can't contribute code or translations but you still wish to help, then you can choose to contribute directly to this projects maintainer, [Jmir](https://github.com/jmir1/) by using the button below, or going [directly to Ko-Fi](https://ko-fi.com/jmir1).
+If you can't contribute code or translations but you still wish to help, then you can choose to contribute directly to this projects maintainer, [jmir](https://github.com/jmir1/) by using one of the buttons below, or by going directly to [GitHub Sponsors](https://github.com/sponsors/jmir1) or [Ko-Fi](https://ko-fi.com/jmir1).
 ***
+<iframe src="https://github.com/sponsors/jmir1/button" title="Sponsor jmir1" height="35" width="116" style="border: 0;"></iframe>
 <a href="https://ko-fi.com/jmir1" target="_blank" rel="noopener">
 	<img height="36" style="border:0px;height:36px;" src="https://cdn.ko-fi.com/cdn/kofi1.png?v=2" border="0" alt="Buy Me a Coffee at ko-fi.com" />
 </a>
