@@ -23,11 +23,11 @@ The repository that hosts this very website you're reading on now.
 - [jmir1/aniyomi-website](https://github.com/jmir1/aniyomi-website) ![GitHub issues](https://img.shields.io/github/issues/jmir1/aniyomi-website?style=social)
 
 ## Translation
-<a href="https://hosted.weblate.org/engage/tachiyomi/?utm_source=widget"><img src="https://hosted.weblate.org/widgets/tachiyomi/-/svg-badge.svg" alt="Translation status"/></a>
+<a href="https://hosted.weblate.org/engage/aniyomi/?utm_source=widget"><img src="https://hosted.weblate.org/widgets/aniyomi/-/svg-badge.svg" alt="Translation status"/></a>
 
 Want to help translate the app to your language? You can easily help by utilizing a service we use called **Weblate**.
 
-Visit our translation project [here](https://hosted.weblate.org/projects/tachiyomi/strings/).
+Visit our translation project [here](https://hosted.weblate.org/projects/aniyomi/strings/).
 
 #### Helpful links
 ***
@@ -38,8 +38,8 @@ Visit our translation project [here](https://hosted.weblate.org/projects/tachiyo
 
 #### Project status
 ***
-<a href="https://hosted.weblate.org/engage/tachiyomi/?utm_source=widget">
-	<img src="https://hosted.weblate.org/widgets/tachiyomi/-/horizontal-auto.svg" alt="Translation status" />
+<a href="https://hosted.weblate.org/engage/aniyomi/?utm_source=widget">
+	<img src="https://hosted.weblate.org/widgets/aniyomi/-/horizontal-auto.svg" alt="Translation status" />
 </a>
 
 ## Donation
