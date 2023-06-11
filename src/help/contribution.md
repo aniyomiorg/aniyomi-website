@@ -27,7 +27,7 @@ The repository that hosts this very website you're reading on now.
 
 Want to help translate the app to your language? You can easily help by utilizing a service we use called **Weblate**.
 
-Visit our translation project [here](https://hosted.weblate.org/projects/aniyomi/strings/).
+Visit our translation project [here](https://hosted.weblate.org/projects/aniyomi/).
 
 #### Helpful links
 ***
