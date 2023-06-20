@@ -18,18 +18,12 @@ module.exports = [
 	[
 		"vuepress-plugin-robots",
 		{
-			host: "https://aniyomi.jmir1.xyz",
+			host: "https://aniyomi.org",
 			allowAll: true,
 			sitemap: "/sitemap.xml",
 		},
 	],
 	["@vuepress/back-to-top"],
-	[
-		"@vuepress/google-analytics",
-		{
-			ga: "UA-148212082-1",
-		},
-	],
 	["vuepress-plugin-dehydrate"],
 	[
 		"@vuepress/active-header-links",
