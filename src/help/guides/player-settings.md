@@ -49,7 +49,7 @@ Double tapping on left or right portion of the player will skip video forward or
 ## Show content in display cutout <Badge text="True" type="default-indicator" vertical="middle" />
 This option toggles the margin to the left side of player so that phones with notches won't obstruct the player UI.
 
-<Carousel name="carousel-crop-borders">
+<CarouselWrapper name="carousel-crop-borders">
 <CarouselItem>
 <figure class="centered">
 	<h4>Show content in display cutout turned on</h4>

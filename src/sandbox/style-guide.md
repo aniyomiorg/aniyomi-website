@@ -187,7 +187,7 @@ Many of the stuff previously mentioned generally applies when making guides too,
 >:::
 
 - **DO** use carousels for multiple images:
-> <Carousel name="carousel-background-color">
+> <CarouselWrapper name="carousel-background-color">
 > <CarouselItem>
 > <figure class="centered">
 > 	<img height="400" intrinsicsize="208x500" width="260" :src="$withBase('/assets/guides_reader-background-black.png')">
