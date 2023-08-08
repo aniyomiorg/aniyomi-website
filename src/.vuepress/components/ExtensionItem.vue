@@ -13,10 +13,10 @@ export default {
 		},
 		iconUrl: function () {
 			const pkgName = this.item.apk.substring(0, this.item.apk.lastIndexOf("."));
-			return `https://raw.githubusercontent.com/jmir1/aniyomi-extensions/repo/icon/${pkgName}.png`;
+			return `https://raw.githubusercontent.com/aniyomiorg/aniyomi-extensions/repo/icon/${pkgName}.png`;
 		},
 		apkUrl: function () {
-			return `https://raw.githubusercontent.com/jmir1/aniyomi-extensions/repo/apk/${this.item.apk}`;
+			return `https://raw.githubusercontent.com/aniyomiorg/aniyomi-extensions/repo/apk/${this.item.apk}`;
 		},
 	},
 };

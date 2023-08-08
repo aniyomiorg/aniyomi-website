@@ -46,7 +46,7 @@ body:
       label: Actual behavior
       description: Explain what actually happens.
       placeholder: |
-        Example: 
+        Example:
           "This happened instead..."
     validations:
       required: true

@@ -34,7 +34,7 @@ export default {
 					Reddit
 					<OutboundLink />
 				</a>
-				<a target="_blank" rel="noopener noreferrer" href="https://github.com/jmir1/aniyomi">
+				<a target="_blank" rel="noopener noreferrer" href="https://github.com/aniyomiorg/aniyomi">
 					<GithubIcon />
 					GitHub
 					<OutboundLink />

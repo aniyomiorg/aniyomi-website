@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/jmir1/aniyomi-website.git"
+		"url": "git+https://github.com/aniyomiorg/aniyomi-website.git"
 	},
 	"keywords": [
 		"vuepress"
@@ -17,9 +17,9 @@
 	"license": "MPL-2.0",
 	"private": true,
 	"bugs": {
-		"url": "https://github.com/jmir1/aniyomi-website/issues"
+		"url": "https://github.com/aniyomiorg/aniyomi-website/issues"
 	},
-	"homepage": "https://github.com/jmir1/aniyomi-website#readme",
+	"homepage": "https://github.com/aniyomiorg/aniyomi-website#readme",
 	"devDependencies": {
 		"babel-eslint": "10.1.0",
 		"eslint": "7.32.0",

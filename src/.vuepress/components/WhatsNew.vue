@@ -33,7 +33,7 @@ export default {
 		<div class="note">
 			<p>
 				View the full release
-				<a href="https://github.com/jmir1/aniyomi/releases/latest" target="_blank" rel="noopener">here</a>
+				<a href="https://github.com/aniyomiorg/aniyomi/releases/latest" target="_blank" rel="noopener">here</a>
 			</p>
 		</div>
 	</div>

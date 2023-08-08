@@ -24,8 +24,8 @@ module.exports = {
 
 	themeConfig: {
 		logo: "/icons/logo.svg",
-		repo: "jmir1/aniyomi",
-		docsRepo: "jmir1/aniyomi-website",
+		repo: "aniyomiorg/aniyomi",
+		docsRepo: "aniyomiorg/aniyomi-website",
 		docsDir: "src",
 		smoothScroll: true,
 		algolia: {

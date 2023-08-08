@@ -255,7 +255,7 @@ Learn more about scanlation in this **Wikipedia** [**article**](https://en.wikip
 
 
 #### How do I request a new extension?
-Open an issue on [GitHub](https://github.com/jmir1/aniyomi-extensions/issues) if one does not already exist.
+Open an issue on [GitHub](https://github.com/aniyomiorg/aniyomi-extensions/issues) if one does not already exist.
 
 ::: note
 You can find the list of extensions to download [here](/extensions/)
@@ -304,7 +304,7 @@ If it still doesn't work or the list of extensions doesn't load at all, manually
 ### Removed Extensions
 
 #### Why am I unable to download an extension that used to exist?
-Extensions tend to be removed for a variety of reasons: 
+Extensions tend to be removed for a variety of reasons:
 
 - They become too much of a cat and mouse game to maintain due to the website owners changing the site frequently to deter scrapers.
 - The site scrambles images in more than one way, making it impossible to make every image unscrambleable.
@@ -313,7 +313,7 @@ Extensions tend to be removed for a variety of reasons:
 - Require reverse engineering another app.
 - The site has been shut down.
 
-#### Do I need to migrate? 
+#### Do I need to migrate?
 No, unless expressly stated, the internal ID of sources has not changed, so migration is unnecessary.
 
 

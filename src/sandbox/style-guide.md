@@ -54,7 +54,7 @@ Some **DO**s and **DO NOT**s for [FAQ](../help/faq/README.md).
 - **DO** bold important words in your text:
 > ...checking the **Download badges** option...
 
-- **DO** use **[Navigation](https://github.com/jmir1/aniyomi-website/blob/master/src/.vuepress/components/Navigation.vue#L35-L82)** items when applicable:
+- **DO** use **[Navigation](https://github.com/aniyomiorg/aniyomi-website/blob/master/src/.vuepress/components/Navigation.vue#L35-L82)** items when applicable:
 > <NavigationText item="anime_library"/>/<NavigationText item="manga_library"/>
 
 - **DO** use unordered lists when writing a list of stuff that's not an instruction:

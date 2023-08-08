@@ -24,7 +24,7 @@ Possible reasons for **HTTP error 403**:
 **HTTP error 404** probably means that the source is down or removed the manga. Open <NavigationText item="webview"/> to check if this is the case. [Migrate](/source-migration/#migrating-on-stable-preview) to a different source for this manga if you'd like.
 :::
 ::: el-collapse-item title="HTTP error 429 (Too Many Requests)"
-**HTTP error 429** or **Too Many Requests** means that the source banned your IP address (in most cases, it's temporary) because you could be downloading or reading too fast. We suggest [reporting](https://github.com/jmir1/aniyomi-extensions/issues/new/choose) the issue so that a rate limit can be added to prevent IP bans in the future.
+**HTTP error 429** or **Too Many Requests** means that the source banned your IP address (in most cases, it's temporary) because you could be downloading or reading too fast. We suggest [reporting](https://github.com/aniyomiorg/aniyomi-extensions/issues/new/choose) the issue so that a rate limit can be added to prevent IP bans in the future.
 :::
 ::: el-collapse-item title="HTTP error 5xx"
 **HTTP error 5xx** like **500, 502** and others are server-side errors, and the source you are trying to access has problems on their side. Open the source in <NavigationText item="webview"/> and check if the site is down.
@@ -131,8 +131,8 @@ The above are imprecise and fuzzy rules because each site has its non-public lim
 
 ### Everyone is having this problem
 If the site is reachable and fully functional, there may be an issue with the extension or app.
-1. Have a look at open issues [for the app](https://github.com/jmir1/aniyomi/issues) and/or [Aniyomi extensions](https://github.com/jmir1/aniyomi-extensions/issues) for anime exetnsion and check [Tachiyomi extensions](https://github.com/tachiyomiorg/tachiyomi-extensions/issues)for manga extension.
-1. It may have been fixed already but not released yet, so look at closed issues ([app](https://github.com/jmir1/aniyomi/issues?q=is%3Aissue+is%3Aclosed) / [Aniyomi extensions](https://github.com/jmir1/aniyomi-extensions/issues?q=is%3Aissue+is%3Aclosed) / [Tachiyomi extensions](https://github.com/tachiyomiorg/tachiyomi-extensions/issues?q=is%3Aissue+is%3Aclosed)) issues as well.
+1. Have a look at open issues [for the app](https://github.com/aniyomiorg/aniyomi/issues) and/or [Aniyomi extensions](https://github.com/aniyomiorg/aniyomi-extensions/issues) for anime exetnsion and check [Tachiyomi extensions](https://github.com/tachiyomiorg/tachiyomi-extensions/issues)for manga extension.
+1. It may have been fixed already but not released yet, so look at closed issues ([app](https://github.com/aniyomiorg/aniyomi/issues?q=is%3Aissue+is%3Aclosed) / [Aniyomi extensions](https://github.com/aniyomiorg/aniyomi-extensions/issues?q=is%3Aissue+is%3Aclosed) / [Tachiyomi extensions](https://github.com/tachiyomiorg/tachiyomi-extensions/issues?q=is%3Aissue+is%3Aclosed)) issues as well.
 1. If you can't find the issue there, open a new one.
 
 If the site is not reachable or has issues, all you can do is wait for the site to become functional again.
