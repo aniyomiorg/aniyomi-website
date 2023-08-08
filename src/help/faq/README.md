@@ -24,7 +24,7 @@ Aniyomi on F-Droid is not officially supported, so updates are not guaranteed. I
 
 1. Create a [backup](/help/guides/backups/).
 2. Uninstall the F-Droid version (do not keep any app data if it allows you to).
-3. [Download](/download/) and install Tachiyomi.
+3. [Download](/download/) and install Aniyomi.
 4. [Restore](/help/guides/backups/#how-do-i-restore-a-backup) your backup.
 
 We have no intention to host our own F-Droid repo since Aniyomi already manages updates by itself, making the usage of F-Droid redundant. For more detailed info, see [this GitHub comment](https://github.com/tachiyomiorg/tachiyomi/issues/6736#issuecomment-1059608058).

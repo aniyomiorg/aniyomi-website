@@ -12,7 +12,7 @@ This page is for when you encounter a problem with a source or the app.
 
 :::: el-collapse
 ::: el-collapse-item title="Failed to bypass Cloudflare"
-**Failed to bypass Cloudflare** means that the source you selected has [Cloudflare](#solving-cloudflare-issues) protection on, refer to the [Cloudflare](#solving-cloudflare-issues) guide to fix it. If the solutions provided do not fix the issue, the source has likely raised the Cloudflare protection level high enough that Tachiyomi is not able to access the site.
+**Failed to bypass Cloudflare** means that the source you selected has [Cloudflare](#solving-cloudflare-issues) protection on, refer to the [Cloudflare](#solving-cloudflare-issues) guide to fix it. If the solutions provided do not fix the issue, the source has likely raised the Cloudflare protection level high enough that Aniyomi is not able to access the site.
 :::
 ::: el-collapse-item title="HTTP error 403"
 Possible reasons for **HTTP error 403**:
@@ -72,13 +72,13 @@ The **Attempt to invoke virtual method' com.hippo.unifile...** error can be caus
 ::: el-collapse-item title="Cannot Access SD Card"
 The **Cannot Access SD Card** error can sometimes be fixed by changing the location of your downloads to somewhere else and back to the SD card, then restarting the app.
 
-Having a file or folder name that is too long can also cause this issue. Android's file manager does not support filenames longer than 255 characters. If you know the file or folder name that is the culprit, you can connect your SD card to your computer and shorten it. Otherwise, delete the Tachiyomi downloads folder off of the SD card.
+Having a file or folder name that is too long can also cause this issue. Android's file manager does not support filenames longer than 255 characters. If you know the file or folder name that is the culprit, you can connect your SD card to your computer and shorten it. Otherwise, delete the Aniyomi downloads folder off of the SD card.
 :::
 ::: el-collapse-item title="Storage issues with Android 11+"
-See [this](/help/faq/#android-11) section of the FAQ to learn how Scoped Storage affects Tachiyomi in Android 11+ and how to fix it.
+See [this](/help/faq/#android-11) section of the FAQ to learn how Scoped Storage affects Aniyomi in Android 11+ and how to fix it.
 :::
 ::: el-collapse-item title="Slow loading"
-<ElAlert type="info" title="Disclaimer" description="Tachiyomi is not hosting any content, we are not affiliated with or responsible for any source that is; slow, down, missing chapters, or has subpar image quality." show-icon :closable="false"></ElAlert>
+<ElAlert type="info" title="Disclaimer" description="Aniyomi is not hosting any content, we are not affiliated with or responsible for any source that is; slow, down, missing chapters, or has subpar image quality." show-icon :closable="false"></ElAlert>
 If any sources are slow, it is likely due to the site being slow, your internet being slow, or a ratelimit applied to the source to reduce load or IP bans.
 :::
 ::: el-collapse-item title="Reading is laggy"
@@ -131,7 +131,7 @@ The above are imprecise and fuzzy rules because each site has its non-public lim
 
 ### Everyone is having this problem
 If the site is reachable and fully functional, there may be an issue with the extension or app.
-1. Have a look at open issues [for the app](https://github.com/aniyomiorg/aniyomi/issues) and/or [Aniyomi extensions](https://github.com/aniyomiorg/aniyomi-extensions/issues) for anime exetnsion and check [Tachiyomi extensions](https://github.com/tachiyomiorg/tachiyomi-extensions/issues)for manga extension.
+1. Have a look at open issues [for the app](https://github.com/aniyomiorg/aniyomi/issues) and/or [Aniyomi extensions](https://github.com/aniyomiorg/aniyomi-extensions/issues) for anime extensions and check [Tachiyomi extensions](https://github.com/tachiyomiorg/tachiyomi-extensions/issues)for manga extension.
 1. It may have been fixed already but not released yet, so look at closed issues ([app](https://github.com/aniyomiorg/aniyomi/issues?q=is%3Aissue+is%3Aclosed) / [Aniyomi extensions](https://github.com/aniyomiorg/aniyomi-extensions/issues?q=is%3Aissue+is%3Aclosed) / [Tachiyomi extensions](https://github.com/tachiyomiorg/tachiyomi-extensions/issues?q=is%3Aissue+is%3Aclosed)) issues as well.
 1. If you can't find the issue there, open a new one.
 
@@ -139,7 +139,7 @@ If the site is not reachable or has issues, all you can do is wait for the site 
 
 ## Solving Cloudflare issues
 
-Cloudflare is an anti-bot mechanism. Some sources intentionally have a higher Cloudflare protection level to block apps like Tachiyomi. You can try the following suggestions to help resolve Cloudflare challenges. **If none of these help, wait until they lower their protection or migrate to other sources.**
+Cloudflare is an anti-bot mechanism. Some sources intentionally have a higher Cloudflare protection level to block apps like Aniyomi. You can try the following suggestions to help resolve Cloudflare challenges. **If none of these help, wait until they lower their protection or migrate to other sources.**
 
 ### Loading the website in WebView
 
