@@ -32,7 +32,7 @@ Some **DO**s and **DO NOT**s for [FAQ](../help/faq/README.md).
 
 - **DO** use guide containers for quickly showing how to achieve something:
 > ::: guide Instructions
-> Enable it by going to <Navigation item="anime_library"/>/<Navigation item="manga_library"/> → <Navigation item="filter"/> → **Display** section and then checking the **Download badges** option at the bottom.
+> Enable it by going to <NavigationText item="anime_library"/>/<NavigationText item="manga_library"/> → <NavigationText item="filter"/> → **Display** section and then checking the **Download badges** option at the bottom.
 > :::
 
 - **DO** include video guides as a text under the header:
@@ -55,7 +55,7 @@ Some **DO**s and **DO NOT**s for [FAQ](../help/faq/README.md).
 > ...checking the **Download badges** option...
 
 - **DO** use **[Navigation](https://github.com/jmir1/aniyomi-website/blob/master/src/.vuepress/components/Navigation.vue#L35-L82)** items when applicable:
-> <Navigation item="anime_library"/>/<Navigation item="manga_library"/>
+> <NavigationText item="anime_library"/>/<NavigationText item="manga_library"/>
 
 - **DO** use unordered lists when writing a list of stuff that's not an instruction:
 > - This thing.
@@ -131,7 +131,7 @@ Many of the stuff previously mentioned generally applies when making guides too,
 
 - **DO** use guide containers when writing instructions:
 > ::: guide
-> 1. Go to <Navigation item="more"/> and tap <Navigation item="source_migration"/>.
+> 1. Go to <NavigationText item="more"/> and tap <NavigationText item="source_migration"/>.
 > 1. Select the **Source** you're migrating from.
 > 1. Find and select the title that you want to migrate.
 > 	> **Aniyomi** will do a global search of all the sources you have installed and enabled. If you don't find the manga you want, try searching for other titles it might go under.

@@ -26,7 +26,7 @@ Migrations with downloaded episode(s)/chapter(s) may leave the download behind. 
 :::
 
 1. Tap into a **Anime/Manga** you would like to migrate.
-1. Go to <Navigation item="overflow"/> and tap <Navigation item="migrate" />.
+1. Go to <NavigationText item="overflow"/> and tap <NavigationText item="migrate" />.
 	> **Aniyomi** will do a global search of all the sources you have installed and enabled.
 1. Select the **Source** that you'd like to migrate *to* by tapping the **Anime/Manga** thumbnail.
 1. Choose which data you want to transfer over, and you're done.
@@ -37,8 +37,8 @@ Migrations with downloaded episode(s)/chapter(s) may leave the download behind. 
 [<MaterialIcon icon="videocam"/> Click for video guide](/assets/guides_migrate-preview-source.webm)
 :::
 
-1. Tap into <Navigation item="browse"/> on the bottom navbar.
-1. Press the <Navigation item="migrate_anime" />/<Navigation item="migrate_manga" /> tab at the top right side of <Navigation item="manga_extensions" /> tab.
+1. Tap into <NavigationText item="browse"/> on the bottom navbar.
+1. Press the <NavigationText item="migrate_anime" />/<NavigationText item="migrate_manga" /> tab at the top right side of <NavigationText item="manga_extensions" /> tab.
 1. Select the **Source** that you'd like to migrate *from*.
 1. Tap the **Anime/Manga** you'd like to migrate *from* the **Source**.
 	> **Aniyomi** will do a global search of all the sources you have installed and enabled.
@@ -47,7 +47,7 @@ Migrations with downloaded episode(s)/chapter(s) may leave the download behind. 
 ::::
 
 ::: c-tip Searching only pinned sources
-You can restrict global searching to pinned sources if you wish to declutter your search.</br>To do this, go to <Navigation item="more"/> → <Navigation item="settings"/> →  <Navigation item="browse"/> then toggle the **Only include pinned sources** setting.
+You can restrict global searching to pinned sources if you wish to declutter your search.</br>To do this, go to <NavigationText item="more"/> → <NavigationText item="settings"/> →  <NavigationText item="browse"/> then toggle the **Only include pinned sources** setting.
 
-Pin sources in <Navigation item="browse"/> using the <MaterialIcon icon="push_pin" /> pin icon next to the source name.
+Pin sources in <NavigationText item="browse"/> using the <MaterialIcon icon="push_pin" /> pin icon next to the source name.
 :::

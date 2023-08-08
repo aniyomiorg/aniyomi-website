@@ -1,6 +1,6 @@
 <script>
 /**
- * Code example: <Navigation item="library"/>
+ * Code example: <NavigationText item="library"/>
  */
 export default {
 	props: {
@@ -47,7 +47,7 @@ export default {
 				settings_library: { text: "Library", icon: "collections_bookmark" },
 				settings_reader: { text: "Reader", icon: "chrome_reader_mode" },
 				settings_downloads: { text: "Downloads", icon: "get_app" },
-				settings_tracking: { text: "Tracking", icon: "sync" },
+				settings_tracking: { text: "Tracking", icon: "autorenew" },
 				settings_browse: { text: "Browse", icon: "explore" },
 				settings_backup: { text: "Backup and Restore", icon: "settings_backup_restore" },
 				settings_security: { text: "Security", icon: "security" },
@@ -72,9 +72,9 @@ export default {
 				migrate_anime: { text: "Migrate Anime"},
 				migrate_manga: { text: "Migrate Manga"},
 				/* Misc */
-				install: { text: "INSTALL", class:"ext-installation" },
-				reorder: { text: "Reorder", icon:"drag_handle" },
-				overflow: { text: "Overflow", icon:"more_vert" },
+				install: { text: "INSTALL", class: "ext-installation" },
+				reorder: { text: "Reorder", icon: "drag_handle" },
+				overflow: { text: "Overflow", icon: "more_vert" },
 			}[this.item];
 		},
 	},
