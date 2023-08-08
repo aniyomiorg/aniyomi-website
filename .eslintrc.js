@@ -31,6 +31,7 @@ module.exports = {
 			},
 		],
 		curly: ["error", "all"],
+		"vue/multi-word-component-names": "off",
 	},
 
 	plugins: ["vue", "prettier", "markdown"],
