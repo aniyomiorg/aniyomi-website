@@ -16,10 +16,10 @@ sidebar: false
 
 # <img class="headerLogo" :src="$withBase('/assets/forks_logo-kuukiyomi.png')"> Kuukiyomi
 
-<ForkButtons forkName="Kuukiyomi" downloadForkLink="https://api.github.com/repos/LuftVerBot/Kuukiyomi/releases/latest" downloadForkStyle="background-color:#EE7E1F;color:#FFFFFF;" githubForkLink="https://github.com/LuftVerBot/Kuukiyomi" androidVersion="6.0"/>
+<ForkButtons forkName="Kuukiyomi" downloadForkLink="https://api.github.com/repos/LuftVerbot/Kuukiyomi/releases/latest" downloadForkStyle="background-color:#EE7E1F;color:#FFFFFF;" githubForkLink="https://github.com/LuftVerbot/Kuukiyomi" androidVersion="6.0"/>
 
 ## Introduction
-**Kuukiyomi** is maintained by **[LuftVerBot](https://github.com/LuftVerBot)**.
+**Kuukiyomi** is maintained by **[LuftVerbot](https://github.com/LuftVerbot)**.
 
 This fork of Aniyomi aims to implement as many features of other forks as possible. This Includes TachiyomiSY and TachiyomiJ2K.
 
