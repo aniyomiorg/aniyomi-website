@@ -108,6 +108,6 @@ $ npm run lint
 
 Thank you to all the people who have already contributed!
 
-<a href="https://github.com/jmir1/aniyomi-website/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jmir1/aniyomi-website" />
+<a href="https://github.com/aniyomiorg/aniyomi-website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=aniyomiorg/aniyomi-website" />
 </a>

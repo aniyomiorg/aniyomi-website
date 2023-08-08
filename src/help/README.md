@@ -1,5 +1,5 @@
 ---
-layout: Help
+layout: HelpPage
 title: Help Center
 description: From common questions to guides, find help for everything Aniyomi.
 lang: en-US
@@ -18,22 +18,14 @@ help:
     link: /help/guides/getting-started/
     guides: true
     extensions: true
+  - title: Forks
+    description: Alternative versions
+    link: /forks/
+    forks: true
   - title: Contribution
     description: Help contribute to the app
     link: /help/contribution/
     contribution: true
-  - title: Discord
-    description: Primary communication platform
-    linkExt: https://discord.gg/F32UjdJZrR
-    discord: true
-  - title: Reddit
-    description: Community forums
-    linkExt: https://www.reddit.com/r/Aniyomi
-    reddit: true
-  - title: GitHub
-    description: Repository for the app
-    linkExt: https://github.com/jmir1/aniyomi
-    github: true
 ---
 
 # Help Center

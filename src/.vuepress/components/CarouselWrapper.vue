@@ -1,18 +1,6 @@
-<template>
-	<Agile :id="name" :options="config">
-		<slot />
-		<template #prevButton>
-			<MaterialIcon icon="navigate_next" />
-		</template>
-		<template #nextButton>
-			<MaterialIcon icon="navigate_next" />
-		</template>
-	</Agile>
-</template>
-
 <script>
 export default {
-	name: "Carousel",
+	name: "CarouselWrapper",
 	props: {
 		name: {
 			type: String,
@@ -30,6 +18,18 @@ export default {
 	},
 };
 </script>
+
+<template>
+	<VueAgile :id="name" :options="config">
+		<slot />
+		<template #prevButton>
+			<MaterialIcon icon="navigate_next" />
+		</template>
+		<template #nextButton>
+			<MaterialIcon icon="navigate_next" />
+		</template>
+	</VueAgile>
+</template>
 
 <style>
 .agile {

@@ -1,3 +1,26 @@
+<script>
+export default {
+	props: ["item"],
+	computed: {
+		pkgId: function () {
+			return this.item.pkg.replace("eu.kanade.tachiyomi.animeextension.", "");
+		},
+		pkgName: function () {
+			return this.item.name.split(": ")[1];
+		},
+		pkgVersion: function () {
+			return "v" + this.item.version;
+		},
+		iconUrl: function () {
+			const pkgName = this.item.apk.substring(0, this.item.apk.lastIndexOf("."));
+			return `https://raw.githubusercontent.com/aniyomiorg/aniyomi-extensions/repo/icon/${pkgName}.png`;
+		},
+		apkUrl: function () {
+			return `https://raw.githubusercontent.com/aniyomiorg/aniyomi-extensions/repo/apk/${this.item.apk}`;
+		},
+	},
+};
+</script>
 <template>
 	<div v-if="item" class="extension">
 		<a :href="`#${pkgId}`" class="header-anchor" aria-hidden="true" @click.stop>#</a>
@@ -17,29 +40,6 @@
 		</a>
 	</div>
 </template>
-<script>
-export default {
-	props: ["item"],
-	computed: {
-		pkgId: function () {
-			return this.item.pkg.replace("eu.kanade.tachiyomi.animeextension.", "");
-		},
-		pkgName: function () {
-			return this.item.name.split(": ")[1];
-		},
-		pkgVersion: function () {
-			return "v" + this.item.version;
-		},
-		iconUrl: function () {
-			const pkgName = this.item.apk.substring(0, this.item.apk.lastIndexOf("."));
-			return `https://raw.githubusercontent.com/jmir1/aniyomi-extensions/repo/icon/${pkgName}.png`;
-		},
-		apkUrl: function () {
-			return `https://raw.githubusercontent.com/jmir1/aniyomi-extensions/repo/apk/${this.item.apk}`;
-		},
-	},
-};
-</script>
 <style lang="stylus">
 .extension
 		align-items center

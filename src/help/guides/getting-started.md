@@ -17,9 +17,9 @@ When you've completed the download, open the <VersionTag fileName/> file and pro
 [<MaterialIcon icon="videocam"/> Click for video guide](/assets/guides_extension-install.webm)
 :::
 
-Now that **Aniyomi** is installed, open the app and navigate to <Navigation item="browse"/> and then switch to the **Anime Extensions** or **Manga Extensions** tab.
+Now that **Aniyomi** is installed, open the app and navigate to <NavigationText item="browse"/> and then switch to the **Anime Extensions** or **Manga Extensions** tab.
 
-Find the extension that you'd like to use then press the <Navigation item="install"/> button next to your desired extension and then accept the installation prompt.
+Find the extension that you'd like to use then press the <NavigationText item="install"/> button next to your desired extension and then accept the installation prompt.
 
 ::: c-warning
 You *might* need to give **Aniyomi** the permission to *install unknown apps*, you can read how to do so [here](/help/faq/#how-do-i-allow-third-party-installations).
@@ -35,10 +35,10 @@ Now that you've installed the desired extension, it will show in the **Anime Sou
 
 To find and add anime/manga to your library, tap **Latest** for a source's most recently updated anime/manga, or tap on the source itself to browse and search their catalog.
 
-Now that you've presumably found anime/manga that you want to add, click on it and then press the <Navigation item="bookmark"/> button, it should now appear in your <Navigation item="anime_library"/> if it's an anime or in <Navigation item="manga_library"/> if it's a manga ready to be watched or read!
+Now that you've presumably found anime/manga that you want to add, click on it and then press the <NavigationText item="bookmark"/> button, it should now appear in your <NavigationText item="anime_library"/> if it's an anime or in <NavigationText item="manga_library"/> if it's a manga ready to be watched or read!
 
 ::: guide Other ways to search for anime/manga
-You can also search for anime/manga globally across all your sources by using <Navigation item="search"/> located in the top-right of <Navigation item="browse"/> → **Anime Sources**/**Manga Sources**.
+You can also search for anime/manga globally across all your sources by using <NavigationText item="search"/> located in the top-right of <NavigationText item="browse"/> → **Anime Sources**/**Manga Sources**.
 :::
 :::: guide Trouble finding a specific anime/manga
 Check your spelling and try again, there's also the chance that your used source may not host the anime/manga you're looking for.

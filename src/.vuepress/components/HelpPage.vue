@@ -1,6 +1,44 @@
+<script>
+import AlgoliaSearchBox from "@theme/components/AlgoliaSearchBox.vue";
+import NavBar from "@theme/components/NavBar.vue";
+import PageFooter from "@theme/components/PageFooter.vue";
+import ClipboardListIcon from "vue-material-design-icons/ClipboardList.vue";
+import ClipboardSearchIcon from "vue-material-design-icons/ClipboardSearch.vue";
+import FaqIcon from "vue-material-design-icons/FrequentlyAskedQuestions.vue";
+import LifebuoyIcon from "vue-material-design-icons/Lifebuoy.vue";
+import SourceForkIcon from "vue-material-design-icons/SourceFork.vue";
+
+export default {
+	components: {
+		NavBar,
+		PageFooter,
+		AlgoliaSearchBox,
+		ClipboardListIcon,
+		SourceForkIcon,
+		LifebuoyIcon,
+		ClipboardSearchIcon,
+		FaqIcon,
+	},
+
+	computed: {
+		data() {
+			return this.$page.frontmatter;
+		},
+
+		algolia() {
+			return this.$themeLocaleConfig.algolia || this.$site.themeConfig.algolia || {};
+		},
+
+		isAlgoliaSearch() {
+			return this.algolia && this.algolia.apiKey && this.algolia.indexName;
+		},
+	},
+};
+</script>
+
 <template>
 	<div class="theme-container help-page">
-		<Navbar />
+		<NavBar />
 		<main class="page">
 			<div class="theme-custom-content content__default">
 				<slot name="top" />
@@ -27,6 +65,10 @@
 									<ClipboardListIcon />
 									<h3>{{ helpItem.title }}</h3>
 								</header>
+								<header v-else-if="helpItem.forks">
+									<SourceForkIcon />
+									<h3>{{ helpItem.title }}</h3>
+								</header>
 								<header v-else-if="helpItem.contribution">
 									<LifebuoyIcon />
 									<h3>{{ helpItem.title }}</h3>
@@ -38,91 +80,14 @@
 								<p>{{ helpItem.description }}</p>
 							</div>
 						</a>
-						<a
-							v-else-if="helpItem.linkExt"
-							:href="helpItem.linkExt"
-							target="_blank"
-							rel="noreferrer"
-							tabindex="1"
-						>
-							<div class="card" :class="'card__' + helpItem.title">
-								<header v-if="helpItem.discord">
-									<DiscordIcon />
-									<span>
-										<h3>{{ helpItem.title }}</h3>
-										<OutboundLink />
-									</span>
-								</header>
-								<header v-else-if="helpItem.reddit">
-									<RedditIcon />
-									<span>
-										<h3>{{ helpItem.title }}</h3>
-										<OutboundLink />
-									</span>
-								</header>
-								<header v-else-if="helpItem.github">
-									<GithubIcon />
-									<span>
-										<h3>{{ helpItem.title }}</h3>
-										<OutboundLink />
-									</span>
-								</header>
-								<header v-else-if="helpItem.icon">
-									<MaterialIcon :icon="helpItem.icon" icon-only />
-									<h3>{{ helpItem.title }}</h3>
-								</header>
-								<p>{{ helpItem.description }}</p>
-							</div>
-						</a>
 					</div>
 				</div>
-
 				<slot name="bottom" />
 			</div>
 		</main>
+		<PageFooter />
 	</div>
 </template>
-
-<script>
-import Navbar from "@theme/components/Navbar.vue";
-import AlgoliaSearchBox from "@theme/components/AlgoliaSearchBox.vue";
-
-import ClipboardListIcon from "vue-material-design-icons/ClipboardList.vue";
-import DiscordIcon from "vue-material-design-icons/Discord.vue";
-import RedditIcon from "vue-material-design-icons/Reddit.vue";
-import GithubIcon from "vue-material-design-icons/Github.vue";
-import LifebuoyIcon from "vue-material-design-icons/Lifebuoy.vue";
-import ClipboardSearchIcon from "vue-material-design-icons/ClipboardSearch.vue";
-import FaqIcon from "vue-material-design-icons/FrequentlyAskedQuestions.vue";
-
-export default {
-	components: {
-		Navbar,
-		AlgoliaSearchBox,
-		ClipboardListIcon,
-		DiscordIcon,
-		RedditIcon,
-		GithubIcon,
-		LifebuoyIcon,
-		ClipboardSearchIcon,
-		FaqIcon,
-	},
-
-	computed: {
-		data() {
-			return this.$page.frontmatter;
-		},
-
-		algolia() {
-			return this.$themeLocaleConfig.algolia || this.$site.themeConfig.algolia || {};
-		},
-
-		isAlgoliaSearch() {
-			return this.algolia && this.algolia.apiKey && this.algolia.indexName;
-		},
-	},
-};
-</script>
 
 <style lang="stylus">
 .help-page
@@ -185,11 +150,6 @@ export default {
 					> span
 						display block
 					span
-						.icon.outbound
-							display inline-block
-							visibility hidden
-							vertical-align baseline
-							right 10px
 						h3
 							display inline-block
 							margin-left 1.8rem
@@ -207,26 +167,6 @@ export default {
 					position relative
 					.material-design-icon
 						color $accentColor
-						&.discord-icon
-							color $discordAccentColor
-						&.reddit-icon
-							color $redditAccentColor
-						&.github-icon
-							color $githubAccentColor
-					.icon.outbound
-						visibility visible
-				&__Discord:hover
-					border-bottom 2px solid $discordAccentColor
-					h3
-						color $discordAccentColor
-				&__Reddit:hover
-					border-bottom 2px solid $redditAccentColor
-					h3
-						color $redditAccentColor
-				&__GitHub:hover
-					border-bottom 2px solid $githubAccentColor
-					h3
-						color $githubAccentColor
 			.column
 				border 1px solid #cfd4db
 				border-radius 6px
@@ -240,7 +180,7 @@ export default {
 						outline none
 			.row
 				display grid
-				grid-template-columns repeat(4, 1fr)
+				grid-template-columns repeat(5, 1fr)
 				grid-auto-rows 1fr
 				grid-gap 1rem
 				&:after
@@ -278,18 +218,8 @@ export default {
 						.material-icons,
 						.material-design-icon
 							font-size 1.6em
-							&.discord-icon
-								color $discordAccentColor
-							&.reddit-icon
-								color $redditAccentColor
-							&.github-icon
-								color $githubAccentColor
 						span
 							display inline-block
-							.icon.outbound
-								visibility visible
-								right 0
-								top -4px
 							h3
 								margin-left 0
 								margin-bottom 0
@@ -307,15 +237,6 @@ export default {
 						top unset
 						.material-design-icon
 							color $accentColorSecondary
-					&__Discord
-						h3
-							color $discordAccentColor
-					&__Reddit
-						h3
-							color $redditAccentColor
-					&__GitHub
-						h3
-							color $githubAccentColor
 				.row
 					grid-template-columns repeat(1, 1fr)
 		.navbar

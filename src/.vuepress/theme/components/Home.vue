@@ -1,3 +1,39 @@
+<script>
+import PageFooter from "@theme/components/PageFooter.vue";
+import BookOpenVariantIcon from "vue-material-design-icons/BookOpenVariant.vue";
+import CloudDownloadIcon from "vue-material-design-icons/CloudDownload.vue";
+
+export default {
+	name: "Home",
+
+	components: {
+		CloudDownloadIcon,
+		BookOpenVariantIcon,
+		PageFooter,
+	},
+
+	computed: {
+		data() {
+			return this.$page.frontmatter;
+		},
+
+		buttonDownload() {
+			return {
+				link: this.data.buttonDownloadLink,
+				text: this.data.buttonDownload,
+			};
+		},
+
+		buttonGuidesLink() {
+			return {
+				link: this.data.buttonGuidesLink,
+				text: this.data.buttonGuides,
+			};
+		},
+	},
+};
+</script>
+
 <template>
 	<main class="home" aria-labelledby="main-title">
 		<header class="hero">
@@ -58,55 +94,9 @@
 
 		<Content class="theme-default-content custom" />
 
-		<footer>
-			<div class="footer">
-				<div class="copyright">
-					<a href="https://www.apache.org/licenses/LICENSE-2.0">Open-source Apache Licensed</a>
-					| Copyright &copy; 2015{{ " - " + new Date().getFullYear() }} Javier Tomás |
-					<a href="/privacy">Privacy policy</a>
-				</div>
-				<div class="netlify">
-					<a target="_blank" href="https://www.netlify.com/">This site is powered by Netlify</a>
-					<img src="../../public/assets/netlify.svg" />
-				</div>
-			</div>
-		</footer>
+		<PageFooter />
 	</main>
 </template>
-
-<script>
-import CloudDownloadIcon from "vue-material-design-icons/CloudDownload.vue";
-import BookOpenVariantIcon from "vue-material-design-icons/BookOpenVariant.vue";
-
-export default {
-	name: "Home",
-
-	components: {
-		CloudDownloadIcon,
-		BookOpenVariantIcon,
-	},
-
-	computed: {
-		data() {
-			return this.$page.frontmatter;
-		},
-
-		buttonDownload() {
-			return {
-				link: this.data.buttonDownloadLink,
-				text: this.data.buttonDownload,
-			};
-		},
-
-		buttonGuidesLink() {
-			return {
-				link: this.data.buttonGuidesLink,
-				text: this.data.buttonGuides,
-			};
-		},
-	},
-};
-</script>
 
 <style lang="stylus">
 .home
@@ -205,33 +195,6 @@ export default {
 			&--dark
 				position absolute
 				box-shadow 0 10px 50px 0px #ddd
-	footer
-		position relative
-		.footer
-			padding 2.5rem
-			border-top 1px solid $borderColor
-			text-align center
-			.copyright
-				font-size 0.9rem
-				a
-					color $textColor
-					font-weight normal
-					&:hover
-						text-decoration underline
-			.netlify
-				margin-top 1rem
-				font-size 0.8rem
-				a
-					color $accentColorSecondary
-					&:hover
-						color #24827a
-				img
-					-ms-transform rotate(360deg)
-					-webkit-transform rotate(360deg)
-					transform rotate(360deg)
-					margin-bottom -2px
-					width 1em
-					height 1em
 
 @keyframes fade
 	0%

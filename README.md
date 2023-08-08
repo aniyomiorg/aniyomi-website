@@ -24,11 +24,11 @@ If you got any questions, [join our Discord server](https://discord.gg/F32UjdJZr
 
 <div>
 	<p align="center">
-		<a href="https://github.com/jmir1/aniyomi/">
-			<img src="https://github-readme-stats.vercel.app/api/pin/?username=jmir1&repo=aniyomi&bg_color=0000&text_color=777&hide_border=true" alt="Android App">
+		<a href="https://github.com/aniyomiorg/aniyomi/">
+			<img src="https://github-readme-stats.vercel.app/api/pin/?username=aniyomiorg&repo=aniyomi&bg_color=0000&text_color=777&hide_border=true" alt="Android App">
 		</a>
-		<a href="https://github.com/jmir1/aniyomi-extensions/">
-			<img src="https://github-readme-stats.vercel.app/api/pin/?username=jmir1&repo=aniyomi-extensions&bg_color=0000&text_color=777&hide_border=true" alt="App Extensions">
+		<a href="https://github.com/aniyomiorg/aniyomi-extensions/">
+			<img src="https://github-readme-stats.vercel.app/api/pin/?username=aniyomiorg&repo=aniyomi-extensions&bg_color=0000&text_color=777&hide_border=true" alt="App Extensions">
 		</a>
 	</p>
 </div>
@@ -45,6 +45,6 @@ If you got any questions, [join our Discord server](https://discord.gg/F32UjdJZr
 
 Thank you to all the people who have already contributed!
 
-<a href="https://github.com/jmir1/aniyomi-website/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jmir1/aniyomi-website" />
+<a href="https://github.com/aniyomiorg/aniyomi-website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=aniyomiorg/aniyomi-website" />
 </a>

@@ -1,5 +1,5 @@
-const pluginsConfig = require("./config/plugins");
 const navBarConfig = require("./config/navBar");
+const pluginsConfig = require("./config/plugins");
 const sideBarConfig = require("./config/sideBar");
 
 module.exports = {
@@ -24,8 +24,8 @@ module.exports = {
 
 	themeConfig: {
 		logo: "/icons/logo.svg",
-		repo: "jmir1/aniyomi",
-		docsRepo: "jmir1/aniyomi-website",
+		repo: "aniyomiorg/aniyomi",
+		docsRepo: "aniyomiorg/aniyomi-website",
 		docsDir: "src",
 		smoothScroll: true,
 		algolia: {
@@ -42,6 +42,7 @@ module.exports = {
 			"/help/faq/": sideBarConfig.default,
 			"/help/contribution": sideBarConfig.default,
 			"/extensions": sideBarConfig.default,
+			"/forks": sideBarConfig.default,
 			"/sandbox": sideBarConfig.sandbox,
 		},
 	},

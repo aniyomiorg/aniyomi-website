@@ -12,15 +12,15 @@ Skilled at code? Know how to improve something or you generally want to support 
 
 ### Application
 The main application.
-- Current: [jmir1/aniyomi](https://github.com/jmir1/aniyomi) ![GitHub issues](https://img.shields.io/github/issues/jmir1/aniyomi?style=social)
+- Current: [aniyomiorg/aniyomi](https://github.com/aniyomiorg/aniyomi) ![GitHub issues](https://img.shields.io/github/issues/aniyomiorg/aniyomi?style=social)
 ***
 ### Extensions
 Used to read from different manga services.
-- Current: [jmir1/aniyomi-extensions](https://github.com/jmir1/aniyomi-extensions) ![GitHub issues](https://img.shields.io/github/issues/jmir1/aniyomi-extensions?style=social)
+- Current: [aniyomiorg/aniyomi-extensions](https://github.com/aniyomiorg/aniyomi-extensions) ![GitHub issues](https://img.shields.io/github/issues/aniyomiorg/aniyomi-extensions?style=social)
 ***
 ### Website
 The repository that hosts this very website you're reading on now.
-- [jmir1/aniyomi-website](https://github.com/jmir1/aniyomi-website) ![GitHub issues](https://img.shields.io/github/issues/jmir1/aniyomi-website?style=social)
+- [aniyomiorg/aniyomi-website](https://github.com/aniyomiorg/aniyomi-website) ![GitHub issues](https://img.shields.io/github/issues/aniyomiorg/aniyomi-website?style=social)
 
 ## Translation
 <a href="https://hosted.weblate.org/engage/aniyomi/?utm_source=widget"><img src="https://hosted.weblate.org/widgets/aniyomi/-/svg-badge.svg" alt="Translation status"/></a>

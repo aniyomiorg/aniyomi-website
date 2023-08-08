@@ -1,27 +1,5 @@
-<template>
-	<div class="extension-group">
-		<h3>
-			{{ groupName }}
-
-			<span class="extensions-total">
-				Total:
-				<span class="extensions-total-sum">
-					{{ totalCount }}
-				</span>
-			</span>
-		</h3>
-		<div
-			v-for="extension in list"
-			:id="extension.pkg.replace('eu.kanade.tachiyomi.extension.', '')"
-			:key="extension.apk"
-			class="anchor"
-		>
-			<ExtensionItem :item="extension" />
-		</div>
-	</div>
-</template>
 <script>
-import { simpleLangName, langName } from "../scripts/languages";
+import { langName, simpleLangName } from "../scripts/languages";
 import ExtensionItem from "./ExtensionItem.vue";
 
 export default {
@@ -39,6 +17,28 @@ export default {
 	},
 };
 </script>
+<template>
+	<div class="extension-group">
+		<h3>
+			{{ groupName }}
+
+			<span class="extensions-total">
+				Total:
+				<span class="extensions-total-sum">
+					{{ totalCount }}
+				</span>
+			</span>
+		</h3>
+		<div
+			v-for="extension in list"
+			:id="extension.pkg.replace('eu.kanade.tachiyomi.animeextension.', '')"
+			:key="extension.apk"
+			class="anchor"
+		>
+			<ExtensionItem :item="extension" />
+		</div>
+	</div>
+</template>
 <style lang="stylus">
 .extensions-total
 	float right

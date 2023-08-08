@@ -17,7 +17,7 @@ Follow the steps below to create local anime.
 	<ul>
   		<li>Optional: If you're adding anime in folders, add a file named `.nomedia` to the local folder so images do not show up in the gallery</li>
 	</ul>
-1. You can then access the anime in <Navigation item="browse"/> → **Local anime source**.
+1. You can then access the anime in <NavigationText item="browse"/> → **Local anime source**.
 
 If you add more episodes then you'll have to manually refresh the episode list (by pulling down the list).
 

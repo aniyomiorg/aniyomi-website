@@ -25,7 +25,7 @@ module.exports = {
 			title: "Aniyomi",
 			collapsable: false,
 			sidebarDepth: 2,
-			children: ["/help/contribution", "/download/", "/extensions/"],
+			children: ["/help/contribution", "/download/", "/extensions/", "/forks/"],
 		},
 	],
 	sandbox: [

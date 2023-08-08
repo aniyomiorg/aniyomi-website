@@ -1,21 +1,6 @@
-<template>
-	<span v-if="nav.link" id="NavigationVue" class="app-navigation" :class="nav.class" title="App navigation">
-		<a class="app-link" :href="nav.link + entry">
-			<MaterialIcon v-if="nav.icon" class="app-icon" :icon="nav.icon" />
-			<span class="app-label" :class="nav.internalClass">{{ nav.text }}</span>
-			<slot />
-		</a>
-	</span>
-	<span v-else id="NavigationVue" class="app-navigation" :class="nav.class" title="App navigation">
-		<MaterialIcon v-if="nav.icon" class="app-icon" :icon="nav.icon" />
-		<span class="app-label" :class="nav.internalClass">{{ nav.text }}</span>
-		<slot />
-	</span>
-</template>
-
 <script>
 /**
- * Code example: <Navigation item="library"/>
+ * Code example: <NavigationText item="library"/>
  */
 export default {
 	props: {
@@ -62,7 +47,7 @@ export default {
 				settings_library: { text: "Library", icon: "collections_bookmark" },
 				settings_reader: { text: "Reader", icon: "chrome_reader_mode" },
 				settings_downloads: { text: "Downloads", icon: "get_app" },
-				settings_tracking: { text: "Tracking", icon: "sync" },
+				settings_tracking: { text: "Tracking", icon: "autorenew" },
 				settings_browse: { text: "Browse", icon: "explore" },
 				settings_backup: { text: "Backup and Restore", icon: "settings_backup_restore" },
 				settings_security: { text: "Security", icon: "security" },
@@ -87,14 +72,32 @@ export default {
 				migrate_anime: { text: "Migrate Anime"},
 				migrate_manga: { text: "Migrate Manga"},
 				/* Misc */
-				install: { text: "INSTALL", class:"ext-installation" },
-				reorder: { text: "Reorder", icon:"drag_handle" },
-				overflow: { text: "Overflow", icon:"more_vert" },
+				install: { text: "INSTALL", class: "ext-installation" },
+				reorder: { text: "Reorder", icon: "drag_handle" },
+				overflow: { text: "Overflow", icon: "more_vert" },
+				/* Forks */
+				animiru: { text: "Animiru", link: "/forks/animiru" },
+				kuukiyomi: { text: "kuukiyomi", link: "/forks/kuukiyomi" },
 			}[this.item];
 		},
 	},
 };
 </script>
+
+<template>
+	<span v-if="nav.link" id="NavigationVue" class="app-navigation" :class="nav.class" title="App navigation">
+		<a class="app-link" :href="nav.link + entry">
+			<MaterialIcon v-if="nav.icon" class="app-icon" :icon="nav.icon" />
+			<span class="app-label" :class="nav.internalClass">{{ nav.text }}</span>
+			<slot />
+		</a>
+	</span>
+	<span v-else id="NavigationVue" class="app-navigation" :class="nav.class" title="App navigation">
+		<MaterialIcon v-if="nav.icon" class="app-icon" :icon="nav.icon" />
+		<span class="app-label" :class="nav.internalClass">{{ nav.text }}</span>
+		<slot />
+	</span>
+</template>
 
 <style lang="stylus">
 #NavigationVue

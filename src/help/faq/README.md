@@ -15,36 +15,71 @@ sidebarDepth: 2
 No. There is no iOS version, and there are no plans for one. Since iOS and Android apps do not share code, it is hard to port.
 
 #### Will Aniyomi ever be on the Google Play Store?
-Google Play's content policy does not allow the APK based extension system to work. The content on some websites will lead to Google taking it down at some point.
+Google Play's content policy does not allow the APK based extension system to work. The content on some websites will lead to Google taking it down at some point, and Inorichi does not want to have to deal with it as they have stated [before](https://github.com/tachiyomiorg/tachiyomi/issues/1745#issuecomment-441208074).
+
+To report Aniyomi copycats on the Google Play Store, you can fill out [this form](https://support.google.com/googleplay/android-developer/contact/takedown) following [these steps](https://pastebin.com/08eeuJxH).
+
+#### How do I migrate from the F-Droid version?
+Aniyomi on F-Droid is not officially supported, so updates are not guaranteed. If you want to migrate to the official builds:
+
+1. Create a [backup](/help/guides/backups/).
+2. Uninstall the F-Droid version (do not keep any app data if it allows you to).
+3. [Download](/download/) and install Aniyomi.
+4. [Restore](/help/guides/backups/#how-do-i-restore-a-backup) your backup.
+
+We have no intention to host our own F-Droid repo since Aniyomi already manages updates by itself, making the usage of F-Droid redundant. For more detailed info, see [this GitHub comment](https://github.com/tachiyomiorg/tachiyomi/issues/6736#issuecomment-1059608058).
 
 
 #### Can Aniyomi read Light Novels?
 No. Aniyomi is an image parser, not a text parser.
 
 #### Can Aniyomi sync between devices?
-No.
-
-
-#### How can I report Aniyomi copycats on the Google Play Store?
-If you are on desktop, fill out [this](https://support.google.com/googleplay/android-developer/contact/takedown) form following [these](https://pastebin.com/08eeuJxH) steps.
+No, but you can use the backup and restore feature to save and load data between devices.
 
 ### Library
 
 #### How can I see how many episodes/chapters I have downloaded or unseen/unread?
-Enable badges by going to <Navigation item="anime_library"/>/<Navigation item="manga_library"/> → <Navigation item="filter"/> → **Display** tab and then checking **Download badges** or **Unseen/Unread badges** at the bottom.
+Enable badges by going to <NavigationText item="anime_library"/>/<NavigationText item="manga_library"/> → <NavigationText item="filter"/> → **Display** tab and then checking **Download badges** or **Unseen/Unread badges** at the bottom.
+
+#### Why does global update skip some entries?
+By default, the app does not check for updates if an entry:
+
+* Has unseen/unread episodes/chapters
+* Hasn't been started
+* Has "Completed" status
+
+This avoids unnecessary heavy traffic to sources. If you have entries that get infrequent or no updates, you should consider using categories and excluding them from updates.
+
+We recommend to **keep the defaults as they are** to help ensure that sources continue to work. To get updates:
+
+* Mark unsee/unread episodes/chapters as read
+* Ensure that at least 1 episode/chapter is marked seen/read
+* If an manga entry is incorrectly marked as "Completed", report it [on GitHub](https://github.com/tachiyomiorg/tachiyomi-extensions/issues), if an anime entry is incorrectly marked as "Completed", report it [on Github](https://github.com/jmir1/tachiyomi-extensions/issues) so that the sources can be fixed.
+
+If you don't want to see the skipped items notification, you can disable it at <NavigationText item="more"/> → <NavigationText item="settings"/> → <NavigationText item="settings_general"/> → **Manage notifications** (Android 8+).
+
+#### Why does the app warn about large bulk updates and downloads?
+Excessive server queries and unnecessary site interaction may cause sources to employ anti-Aniyomi tactics. Also refer to the above question. Long running update checks and downloading may also negatively impact your battery life.
+
+::: guide Tips to reduce server load
+As mentioned above, it is **recommended to keep the defaults as they are**, but if you are still seeing this warning message, try the following suggestions:
+* Use categories (Reading, Plan to read and Completed, or anything else that segments your library).
+* Update only the Reading category by going to <NavigationText item="more"/> → <NavigationText item="settings"/> → <NavigationText item="settings_library"/> → **Global update** then tap **Categories**.
+* If the warning message still occurs, split your reading category down further by seperating entries in your library that are infrequently updated (such as monthly series or series that are on haitus) into a new category, then set global update to only update your more frequently updated reading category
+:::
 
 #### How do I ignore duplicate episodes/chapters?
 Sometimes, you find a anime/manga that is translated by more than one group. Because of this, you get multiple releases for each episode/chapter in the anime/manga. There are several ways to skip the duplicate episodes/chapters:
 
-* On the anime/manga page, tap on <Navigation item="filter"/> → **Sort** and choose **By chapter number**. Doing this will cause the player/reader to skip duplicates as you watch/read.
-* Bookmark or mark as read the unwanted chapters, then tap on <Navigation item="filter"/> → **Filter** and double-tap **Bookmarked** or single-tap **Unread**, respectively. This will hide any bookmarked or read chapters and skip them as you read along, as long as you have **Skip filtered chapters** enabled under <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_reader"/> → **Reading**.
+* On the anime/manga page, tap on <NavigationText item="filter"/> → **Sort** and choose **By chapter number**. Doing this will cause the player/reader to skip duplicates as you watch/read.
+* Bookmark or mark as read the unwanted chapters, then tap on <NavigationText item="filter"/> → **Filter** and double-tap **Bookmarked** or single-tap **Unread**, respectively. This will hide any bookmarked or read chapters and skip them as you read along, as long as you have **Skip filtered chapters** enabled under <NavigationText item="more"/> → <NavigationText item="settings"/> → <NavigationText item="settings_reader"/> → **Reading**.
 * Migrate to another source that does not have duplicates. For more information on how to migrate a anime/manga, see the [migration guide](/help/guides/source-migration/).
 
 #### Why are some cover thumbnails corrupted, white, showing a broken page, or wrong?
 The thumbnail download likely did not complete correctly. To fix this, refresh covers in settings.
 
 ::: guide
-Refresh your covers by going to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_advanced"/> then pressing **Refresh library covers**.
+Refresh your covers by going to <NavigationText item="more"/> → <NavigationText item="settings"/> → <NavigationText item="settings_advanced"/> then pressing **Refresh library covers**.
 :::
 
 #### Why have some anime episodes/manga chapters been marked as unseen/unread when I have not touched them?
@@ -55,10 +90,10 @@ The URLs of the anime episodes/manga chapters have changed, so Aniyomi detects t
 #### Why can I not see sources that I have installed?
 
 ##### If it is an extension that is not the same language as your phone's primary language
-Enable the language of the source by going to <Navigation item="browse"/> → Sources tab → <Navigation item="language"/> → Turn on the language of the source you would like to use.
+Enable the language of the source by going to <NavigationText item="browse"/> → Sources tab → <NavigationText item="language"/> → Turn on the language of the source you would like to use.
 
 ##### If it is an NSFW extension
-<Navigation item="settings"/> → <Navigation item="browse"/> → Check Show in sources and extensions list.
+<NavigationText item="settings"/> → <NavigationText item="browse"/> → Check Show in sources and extensions list.
 
 #### How do I find an/a anime/manga I am looking for?
 Sometimes you can struggle to find a source that has the anime/manga you are looking to watch/read. Here are some tips to help you find it:
@@ -66,6 +101,25 @@ Sometimes you can struggle to find a source that has the anime/manga you are loo
 1. Look up the anime/manga on [Google](https://google.com/) or a anime/manga database such as [AniDB](https://anidb.net/) or [MangaUpdates](https://www.mangaupdates.com/).
 1. See if the anime/manga has any alternate spellings or other title variations. Try searching again in your sources with the alternate titles you found.
 1. If you still cannot find the anime/manga in any of your sources, then try to search for an extension for the website you found in step 1 in the [extensions](/extensions/) list.
+
+#### If you find the manga on a specific scanlator or aggregator and they do have an extension
+Download the corresponding extension, tap on it under <NavigationText item="browse"/> → **Sources**, and then search for the manga there.
+#### If you find the manga on a specific scanlator or aggregator and they do not have an extension
+Check if adding the site as an extension has [already been requested](https://github.com/tachiyomiorg/tachiyomi-extensions/issues) and that it is not on the list of extensions that will not be added back [here](https://github.com/tachiyomiorg/tachiyomi-extensions/issues/3475). If it has not been requested and it is not on the list, you can [request it here](https://github.com/tachiyomiorg/tachiyomi-extensions/issues/new/choose).
+
+If the scanlator or aggregator does not have an online manga reader, you can download the manga from their website and set up the series as a [local manga](/help/guides/local-manga/).
+:::
+
+### Reader
+
+#### Why are some images not displayed?
+Aside from network issues, sometimes Aniyomi does not register the image as existing, exit and re-enter the reader to fix this.
+
+#### Will there ever be a dual-page reader option?
+The logic required to make a dual-page reader automatically work along with scanlator page inconsistencies and other issues means it is unlikely to be added at this time.
+
+#### How can I make Aniyomi turn pages with the volume rocker? Can I reverse the tapping direction? Can I change the tapping zones?
+Refer to the guides section of the site [here](/help/guides/reader-settings/#navigation-layout). Refer to [here](/help/guides/reader-settings/#volume-keys) if you want to use your volume rocker to navigate pages.
 
 ### Player
 
@@ -82,8 +136,14 @@ However, if you download several anime/manga from different sources, the app wil
 #### Why do my downloads sometimes stop midway through?
 It is likely an issue to do with your connection to your network or the source. Aniyomi will notify you of what error it has encountered trying to download.
 
+#### Why aren't my downloads being detected?
+This can happen for a variety of reasons:
+- The download location may be inaccessible. If you are using a SD card, make sure it's detected.
+- The source name may have changed. Change the name of the source's folder to the new name.
+- The source you downloaded the manga from may have changed the title. Change the title of the folder to the new title.
+
 #### How do I cancel or change the download queue?
-Go to <Navigation item="more"/> → Download Queue and cancel items in the queue or cancel all items by tapping on the <Navigation item="overflow"/> next to a anime/manga episode/chapter or on the top right. If you would like the change the order of the queue, tap and hold the = on the side of a item in the queue.
+Go to <NavigationText item="more"/> → Download Queue and cancel items in the queue or cancel all items by tapping on the <NavigationText item="overflow"/> next to a anime/manga episode/chapter or on the top right. If you would like the change the order of the queue, tap and hold the = on the side of a item in the queue.
 
 #### Can you make it possible to store anime/manga on both internal storage and external SD-card?
 At the moment, no. You could try using symlinks, but that requires having your device rooted.
@@ -108,8 +168,8 @@ Sometimes some covers for local anime/manga are not displayed. Follow these step
 ::: guide
 1. Make sure you have created the right folder structure. To check that you have, open the anime/manga with the missing cover and check if you can watch/read episodes/chapters in the app. If not, follow this guide for [local anime](/help/guides/local-anime) or [local manga](/help/guides/local-manga) first.
 1. Take a screenshot of which episodes/chapters you have seen/read, and then remove anime/manga from the library.
-1. Go to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_advanced"/> and tap **Clear database**. This will only affect anime/manga that are not in your library.
-1. Go back to the <Navigation item="browse"/> → **Local source** and find the anime/manga. The cover should be fixed now. Add the anime/manga back to your library, mark your seen/read episodes/chapters, and re-add tracking if needed.
+1. Go to <NavigationText item="more"/> → <NavigationText item="settings"/> → <NavigationText item="settings_advanced"/> and tap **Clear database**. This will only affect anime/manga that are not in your library.
+1. Go back to the <NavigationText item="browse"/> → **Local source** and find the anime/manga. The cover should be fixed now. Add the anime/manga back to your library, mark your seen/read episodes/chapters, and re-add tracking if needed.
 :::
 
 ::: note
@@ -121,16 +181,26 @@ Related GitHub issue: [#932](https://github.com/tachiyomiorg/tachiyomi/issues/93
 #### How do I enable automatic updates?
 From version **0.9.0** and onwards, Aniyomi has had automatic updates for the app enabled by default. The **Preview** version also has automatic updates enabled by default.
 
-However, if you think you are on an outdated version, go to <Navigation item="more"/> → <Navigation item="about"/> and tap on **Check for updates**.
+However, if you think you are on an outdated version, go to <NavigationText item="more"/> → <NavigationText item="about"/> and tap on **Check for updates**.
 
 #### Why are automatic updates not working?
 
-Certain Android skins like MIUI have very aggressive battery saving, which can kill the app in the background. To whitelist Aniyomi from your battery saver, go to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_advanced"/> and tap on **Disable battery optimization**. If that does not work, you can also visit [DontKillMyApp](https://dontkillmyapp.com/) to see what battery saving options your device has and how to disable or circumvent them.
+Certain Android skins like MIUI have very aggressive battery saving, which can kill the app in the background. To whitelist Aniyomi from your battery saver, go to <NavigationText item="more"/> → <NavigationText item="settings"/> → <NavigationText item="settings_advanced"/> and tap on **Disable battery optimization**. If that does not work, you can also visit [DontKillMyApp](https://dontkillmyapp.com/) to see what battery saving options your device has and how to disable or circumvent them.
+
+#### Why is the app laggy after updating?
+The UI toolkit used in Aniyomi requires the app the be automatically optimized by the Android system over time. You should see improvements after a few days of usage.
+
+If you know how to use ADB, you can also run the following command to trigger the optimization manually.
+If you are using Aniyomi Preview or a fork, replace `eu.kanade.tachiyomi.mi` with the corresponding package name.
+
+```
+adb shell cmd package compile -f -m speed-profile eu.kanade.tachiyomi.mi
+```
 
 ### User Interface
 
 #### Can I change the app language?
-Yes. Go to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_general"/> and change the app language there. You can also improve the quality of the translations in your language [here](https://hosted.weblate.org/projects/aniyomi/).
+Yes. Go to <NavigationText item="more"/> → <NavigationText item="settings"/> → <NavigationText item="settings_general"/> and change the app language there. You can also improve the quality of the translations in your language [here](https://hosted.weblate.org/projects/aniyomi/).
 
 
 ### Miscellaneous
@@ -142,32 +212,29 @@ If you are willing to use Aniyomi Preview, be sure to [turn on auto-backup](/hel
 
 #### What is a fork?
 
-Forks are alternative versions of Aniyomi with different features.
+Forks are alternative versions of Aniyomi with different features. Read more about them here [here](/forks/)
 
 #### Why am I unable to uninstall Aniyomi?
 
 On **Android 10**, a bug was introduced that prevented users from uninstalling the app if the device had a MicroSD card. To fix the issue, please remove the MicroSD card from the device first, then uninstall Aniyomi.
 
-#### Can I revert from the Material Design 2 update of Aniyomi? 
-It won't be reverted.
-
 #### How do I pause history or go incognito?
 
-Enable Incognito Mode by going to <Navigation item="more"/> → Incognito Mode.
+Enable Incognito Mode by going to <NavigationText item="more"/> → Incognito Mode.
 
 #### Can I make Aniyomi only watch/read my downloaded episodes/chapters? Why am I not able to disable downloaded only?
 
-Enable Download only by going to <Navigation item="more"/> → Download only.
+Enable Download only by going to <NavigationText item="more"/> → Download only.
 
 #### What is DNS over HTTPS?
 
 DNS over HTTPS is an experimental way of providing, as the name implies, DNS resolution via HTTPS.
 It provides the advantage of not being vulnerable to Man-in-the-middle attacks (due to TLS encryption in HTTPS), preventing DNS spoofing. If you would like to learn more, go [here](https://www.cloudflare.com/learning/dns/dns-over-tls/). It allows some blocks to be circumvented without using a VPN.
 
-You can enable this feature by going to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_advanced"/>.
+You can enable this feature by going to <NavigationText item="more"/> → <NavigationText item="settings"/> → <NavigationText item="settings_advanced"/>.
 
 #### What should I do if I cannot screenshot within Aniyomi?
-You have Secure Screen set on **Always**, disable it if you want to screenshot by going to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_security"/> → Secure Screen.
+You have Secure Screen set on **Always**, disable it if you want to screenshot by going to <NavigationText item="more"/> → <NavigationText item="settings"/> → <NavigationText item="settings_security"/> → Secure Screen.
 
 #### How do I backup my library automatically? How do I move data from one phone to another?
 Learn how to use the backup and restore feature [here](/help/guides/backups/), and learn how to enable automatic backups [here](/help/guides/backups/#turning-on-auto-backups/)
@@ -181,8 +248,14 @@ Aniyomi does not endorse or recommend any anime/manga source, and there is no be
 
 <ElAlert type="info" title="Disclaimer" description="Aniyomi is not hosting any content, we are not affiliated with or responsible for any source that is; slow, down, missing chapters, or has subpar image quality." show-icon :closable="false"></ElAlert>
 
+#### What are scanlator sources?
+Manga that are not officially licensed are translated by scanlators, who either publish on their websites or **MangaDex**. This practice contrasts with official sources like **MANGA Plus By SHUEISHA** or **VIZ Shonen Jump**, which host officially licensed and translated manga.
+
+Learn more about scanlation in this **Wikipedia** [**article**](https://en.wikipedia.org/wiki/Scanlation).
+
+
 #### How do I request a new extension?
-Open an issue on [GitHub](https://github.com/jmir1/aniyomi-extensions/issues) if one does not already exist.
+Open an issue on [GitHub](https://github.com/aniyomiorg/aniyomi-extensions/issues) if one does not already exist.
 
 ::: note
 You can find the list of extensions to download [here](/extensions/)
@@ -217,13 +290,21 @@ If you need more help regarding this, read [this](https://www.theandroidsoul.com
 Extensions for **Aniyomi** are technically installed the same as standard apps. Either you uninstall them through the app section on your device's settings or do it in **Aniyomi**.
 
 ::: guide
-To uninstall an extension from within **Aniyomi**, go to <Navigation item="browse"/> → **Extensions** then tap **Uninstall** on the extension you want to remove.
+To uninstall an extension from within **Aniyomi**, go to <NavigationText item="browse"/> → **Extensions** then tap **Uninstall** on the extension you want to remove.
 :::
+
+#### Why can't I install or update extensions from the app properly?
+MIUI users (i.e. Xiaomi devices or related brands like POCO) often have issues with this. You can try:
+
+- Set your installer mode (in the app's Advanced settings) to "Legacy" if it isn't already.
+- Switch **MIUI Optimizations** under **Developer Settings** to **OFF** when installing or updating extensions.
+
+If it still doesn't work or the list of extensions doesn't load at all, manually download extensions from [here](/extensions/). If that doesn't load either, try using a VPN as that likely means your network is blocking it.
 
 ### Removed Extensions
 
 #### Why am I unable to download an extension that used to exist?
-Extensions tend to be removed for a variety of reasons: 
+Extensions tend to be removed for a variety of reasons:
 
 - They become too much of a cat and mouse game to maintain due to the website owners changing the site frequently to deter scrapers.
 - The site scrambles images in more than one way, making it impossible to make every image unscrambleable.
@@ -232,11 +313,11 @@ Extensions tend to be removed for a variety of reasons:
 - Require reverse engineering another app.
 - The site has been shut down.
 
-#### Do I need to migrate? 
+#### Do I need to migrate?
 No, unless expressly stated, the internal ID of sources has not changed, so migration is unnecessary.
 
 
-## Android 11
+## Android 11+
 
 ### What changed in Android 11?
 In Android 11, Google began forcing users to use [Scoped Storage](https://developer.android.com/about/versions/11/privacy/storage), which was introduced in Android 5.0 Lollipop, but Google only began forcing developers to use it on Android 11. Some OEMs seem to better implement Scoped Storage than others, with some users not running into any issues while users using other phone brands have multitudes of problems.
@@ -246,11 +327,12 @@ The introduction of Scoped Storage means that many storage-related functions tha
 
 ### Is there any way to improve performance?
 
-You can try the command below if you know how to use ADB, a guide on installing it is also outlined on the site [here](/help/guides/troubleshooting/#what-are-some-common-errors).
+### Is there any way to improve performance?
+If you know how to use ADB, you can try the following command to enable the old general storage interface for the app. If you are using Aniyomi Preview or a fork, replace `eu.kanade.tachiyomi.mi` with the corresponding package name.
+
 ```
-adb shell cmd appops set eu.kanade.tachiyomi android:legacy_storage allow
+adb shell cmd appops set eu.kanade.tachiyomi.mi android:legacy_storage allow
 ```
-This command enables general storage access for the app, allowing Aniyomi to use the old general storage access interface. 
 
 ## Shizuku
 
