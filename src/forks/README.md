@@ -19,7 +19,7 @@ Some features include:
 
 ## <img class="headerLogo" :src="$withBase('/assets/forks_logo-kuukiyomi.png')"> [Kuukiyomi](/forks/Kuukiyomi)
 ::: videolink
-Maintained by [LuftVerBot](https://github.com/LuftVerBot)
+Maintained by [LuftVerbot](https://github.com/LuftVerbot)
 <br>Requires Android 6.0+
 :::
 to implement as many features of other forks as possible. This Includes TachiyomiSY and TachiyomiJ2K.
