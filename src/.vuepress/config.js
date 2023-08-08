@@ -42,6 +42,7 @@ module.exports = {
 			"/help/faq/": sideBarConfig.default,
 			"/help/contribution": sideBarConfig.default,
 			"/extensions": sideBarConfig.default,
+			"/forks": sideBarConfig.default,
 			"/sandbox": sideBarConfig.sandbox,
 		},
 	},

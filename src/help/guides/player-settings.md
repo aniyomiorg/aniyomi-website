@@ -62,7 +62,7 @@ This option toggles the margin to the left side of player so that phones with no
 	<img height="auto" width= auto :src="$withBase('/assets/guides_player-display-cutout-off.png')">
 </figure>
 </CarouselItem>
-</Carousel>
+</CarouselWrapper>
 
 ## Always use external player <Badge text="False" type="default-indicator" vertical="middle" />
 For those people who want to use external players like MX Player or MPV as a default player can toggle this option on.

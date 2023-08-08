@@ -79,13 +79,13 @@ This allows you to control what color the background should be in reader. Backgr
 	<p>Surrounds page with white. Makes pages seemless with the screen.</p>
 </figure>
 </CarouselItem>
-</Carousel>
+</CarouselWrapper>
 
 ## Fullscreen <Badge text="On" type="default-indicator" vertical="middle" />
 This setting specifies if the notification and navigation bar are to be hidden while in the reader.
 
 ## Show content in cutout area <Badge text="On" type="default-indicator" vertical="middle" />
-Lets reader use all screen space even that around punch hole camera and camera notch 
+Lets reader use all screen space even that around punch hole camera and camera notch
 
 ## Keep screen on <Badge text="On" type="default-indicator" vertical="middle" />
 This setting determines if the device should be allowed to go to sleep while reading a manga.
@@ -133,7 +133,7 @@ This changes how tapping behaves
 	<h4>Edge</h4>
 </figure>
 </CarouselItem>
-</Carousel>
+</CarouselWrapper>
 
 ## Invert Tapping <Badge text="None" type="default-indicator" vertical="middle" />
 
@@ -203,7 +203,7 @@ All examples are illustrations and may not reflect what actually happens.
 	<img height="400" intrinsicsize="208x500" width="260" :src="$withBase('/assets/guides_reader-smart-fit.png')">
 </figure>
 </CarouselItem>
-</Carousel>
+</CarouselWrapper>
 
 ::: c-tip
 You can change scale type when reading a chapter. Tap the middle of the screen, press the gear icon at the top, select a different scale type under **Scale type**. This will change Scale type for all series.
@@ -239,7 +239,7 @@ All examples are illustrations
 	<img height="400" intrinsicsize="208x500" width="260" :src="$withBase('/assets/guides_reader-zoomstartpos-center.png')">
 </figure>
 </CarouselItem>
-</Carousel>
+</CarouselWrapper>
 
 ## Crop borders <Badge text="Off" type="default-indicator" vertical="middle" />
 Tries to remove excess white borders
@@ -257,7 +257,7 @@ Tries to remove excess white borders
 	<img height="400" intrinsicsize="208x500" width="260" :src="$withBase('/assets/guides_reader-crop-border-off.png')">
 </figure>
 </CarouselItem>
-</Carousel>
+</CarouselWrapper>
 
 ## Side padding <Badge text="Webtoon" type="tip" vertical="middle" /> <Badge text="None" type="default-indicator" vertical="middle" />
 Adds a percentage side padding to the sides of the page
