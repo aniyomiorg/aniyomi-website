@@ -54,4 +54,8 @@ It is highly recommended you turn on auto backups, this will ensure you can reco
 You can do this by going to <NavigationText item="more"/> → <NavigationText item="settings_backup"/> and then setting a **backup frequency**. In the case of a catastrophic failure, at least you will be able to recover.
 :::
 
-<!-- TODO fill forks informations -->
+## Forks information
+
+### <img class="forkIconBefore" src="/assets/forks_logo-animiru.png" width="24" height="24" /> [Animiru](/forks/Animiru)
+
+This fork can only backup/restore Anime entries in a backup as it is stripped of any Manga functionality.

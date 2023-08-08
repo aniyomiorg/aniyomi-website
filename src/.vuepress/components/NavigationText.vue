@@ -75,6 +75,9 @@ export default {
 				install: { text: "INSTALL", class: "ext-installation" },
 				reorder: { text: "Reorder", icon: "drag_handle" },
 				overflow: { text: "Overflow", icon: "more_vert" },
+				/* Forks */
+				animiru: { text: "Animiru", link: "/forks/animiru" },
+				kuukiyomi: { text: "kuukiyomi", link: "/forks/kuukiyomi" },
 			}[this.item];
 		},
 	},
