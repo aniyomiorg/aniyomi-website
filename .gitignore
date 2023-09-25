@@ -1,23 +1,24 @@
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Node
-node_modules/
-npm-debug.log
-
-# Compiled site
-/public/
-
-# Ignore Visual Studio Code files
+!.env.example
 *.code-workspace
-.vscode/launch.json
-
-# Ignore theme_eject folder
-theme_eject/
+*.log
+*.tgz
+.cache
+.DS_Store
+.env
+.env.*
+.idea
+.temp
+.vite_opt_cache
+.vscode
+/coverage
+website/src/client/shared.ts
+website/src/node/shared.ts
+cache
+dist
+examples-temp
+node_modules
+pnpm-global
+website/src/.temp
+website/src/assets/style/sandbox.styl
+temp
+TODOs.md
