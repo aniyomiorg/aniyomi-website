@@ -8,8 +8,8 @@ hero:
   tagline: Discover and watch anime, cartoons, series, and more – easier than ever on your Android device.
   image:
     alt: Aniyomi Library Tab Dark
-    light: /home/phone.light.webp
-    dark: /home/phone.dark.webp
+    light: /home/phone.webp
+    dark: /home/phone.webp
   actions:
     - theme: brand
       text: Get started

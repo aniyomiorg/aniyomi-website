@@ -11,7 +11,7 @@
 
 <p align="center">
 	<a title="Discord server" href="https://discord.gg/F32UjdJZrR">
-		<img src="https://img.shields.io/discord/349436576037732353.svg?label=&labelColor=6A7EC2&color=7389D8&logo=discord&logoColor=FFFFFF">
+		<img src="https://img.shields.io/discord/841701076242530374.svg?label=&labelColor=6A7EC2&color=7389D8&logo=discord&logoColor=FFFFFF">
 	</a>
 	<a title="GitHub downloads" href="https://github.com/aniyomiorg/aniyomi/releases">
 		<img src="https://img.shields.io/github/downloads/aniyomiorg/aniyomi/total?label=downloads&labelColor=27303D&color=0D1117&logo=github&logoColor=FFFFFF&style=flat">
