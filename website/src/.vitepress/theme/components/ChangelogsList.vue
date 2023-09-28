@@ -46,11 +46,13 @@ const dateFormatter = new Intl.DateTimeFormat("en", {
 			{{ dateFormatter.format(new Date(release.published_at!)) }}
 		</time>
 		<div v-html="renderMarkdown(release.body)" />
+		<!--
 		<Contributors
 			:body="release.body!"
 			:author="release.author.login"
 			:tag="release.tag_name"
 		/>
+		-->
 	</div>
 </template>
 
