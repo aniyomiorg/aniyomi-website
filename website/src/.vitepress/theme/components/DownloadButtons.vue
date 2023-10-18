@@ -60,16 +60,6 @@ function handleAnalytics(type: "preview" | "stable") {
 		</div>
 		<div class="download-buttons">
 			<a
-				class="download-button primary"
-				:download="downloadInformation.stable.asset?.name"
-				:href="downloadInformation.stable.asset?.browser_download_url"
-				@click="handleAnalytics('stable')"
-			>
-				<IconDownload />
-				<span class="text">Stable</span>
-				<span class="version">{{ downloadInformation.stable.tagName }}</span>
-			</a>
-			<a
 				class="download-button secondary"
 				:download="downloadInformation.preview.asset?.name"
 				:href="downloadInformation.preview.asset?.browser_download_url"
