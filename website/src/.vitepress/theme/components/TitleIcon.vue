@@ -147,6 +147,6 @@ const paths = {
     // Align
     vertical-align: middle
     position: relative
-	bottom: 2px
+    bottom: 2px
 }
 </style>

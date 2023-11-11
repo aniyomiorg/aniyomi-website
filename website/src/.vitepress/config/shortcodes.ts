@@ -29,16 +29,16 @@ interface Navigation {
 
 const navigationMappings: Record<string, Navigation> = {
   // Main menus
-  "main_library": { name: "Library", icon: iconMappings.bookmarkBoxOutline },
-  "main_updates": { name: "Updates", icon: iconMappings.alertDecagramOutline },
-  "main_history": { name: "History", icon: iconMappings.history },
-  "main_browse": { name: "Browse", icon: iconMappings.compassOutline },
-  "main_more": { name: "More", icon: iconMappings.dotsHorizontal },
+  'main_library': { name: 'Library', icon: iconMappings.bookmarkBoxOutline },
+  'main_updates': { name: 'Updates', icon: iconMappings.alertDecagramOutline },
+  'main_history': { name: 'History', icon: iconMappings.history },
+  'main_browse': { name: 'Browse', icon: iconMappings.compassOutline },
+  'main_more': { name: 'More', icon: iconMappings.dotsHorizontal },
 
   // Browse menu
-  "sources": { name: "Sources", dependsOn: "main_browse" },
-  "extensions": { name: "Extensions", dependsOn: "main_browse" },
-  "migrate": { name: "Migrate", dependsOn: "main_browse" },
+  'sources': { name: 'Sources', dependsOn: 'main_browse' },
+  'extensions': { name: 'Extensions', dependsOn: 'main_browse' },
+  'migrate': { name: 'Migrate', dependsOn: 'main_browse' },
 
   // More menu
   'downloaded-only': { name: 'Downloaded only', icon: iconMappings.cloudOffOutline, dependsOn: 'main_more' },
@@ -52,28 +52,28 @@ const navigationMappings: Record<string, Navigation> = {
   'help': { name: 'Help', icon: iconMappings.helpCircleOutline, dependsOn: 'main_more' },
 
   // Settings submenu
-  "appearance": { name: "Appearance", icon: iconMappings.paletteOutline, dependsOn: "settings" },
-  "library": { name: "Library", icon: iconMappings.bookmarkBoxOutline, dependsOn: "settings" },
-  "downloads": { name: "Downloads", icon: iconMappings.downloadOutline, dependsOn: "settings" },
-  "tracking": { name: "Tracking", icon: iconMappings.sync, dependsOn: "settings" },
-  "browse": { name: "Browse", icon: iconMappings.compassOutline, dependsOn: "settings" },
-  "security-and-privacy": { name: "Security and privacy", icon: iconMappings.security, dependsOn: "settings" },
-  "reader": { name: "Reader", icon: iconMappings.bookOpenOutline, dependsOn: "settings" },
-  "player": { name: "Player", icon: iconMappings.player, dependsOn: "settings" },
-  "advanced": { name: "Advanced", icon: iconMappings.codeTags, dependsOn: "settings" },
+  'appearance': { name: 'Appearance', icon: iconMappings.paletteOutline, dependsOn: 'settings' },
+  'library': { name: 'Library', icon: iconMappings.bookmarkBoxOutline, dependsOn: 'settings' },
+  'downloads': { name: 'Downloads', icon: iconMappings.downloadOutline, dependsOn: 'settings' },
+  'tracking': { name: 'Tracking', icon: iconMappings.sync, dependsOn: 'settings' },
+  'browse': { name: 'Browse', icon: iconMappings.compassOutline, dependsOn: 'settings' },
+  'security-and-privacy': { name: 'Security and privacy', icon: iconMappings.security, dependsOn: 'settings' },
+  'reader': { name: 'Reader', icon: iconMappings.bookOpenOutline, dependsOn: 'settings' },
+  'player': { name: 'Player', icon: iconMappings.player, dependsOn: 'settings' },
+  'advanced': { name: 'Advanced', icon: iconMappings.codeTags, dependsOn: 'settings' },
 }
 
 function generateNavigationHtml(navKey: string) {
   const navData = navigationMappings[navKey]
 
   if (!navData) {
-    return "<strong style='color:var(--vp-c-danger-1)'>Unsupported Navigation!</strong>"
+    return '<strong style='color:var(--vp-c-danger-1)'>Unsupported Navigation!</strong>'
   }
 
   const { name, icon, dependsOn } = navData
 
-  const iconHtml = icon ?? ""
-  let html = `<span class='shortcode navigation ${navKey}'>${iconHtml}<span class="name">${name}</span></span>`
+  const iconHtml = icon ?? ''
+  let html = `<span class='shortcode navigation ${navKey}'>${iconHtml}<span class='name'>${name}</span></span>`
 
   if (dependsOn) {
     html = `${generateNavigationHtml(dependsOn)} -> ${html}`
