@@ -35,11 +35,11 @@ You can copy the following example and edit the details as needed:
 If you don't want to manually create the `details.json` file, you can alternatively use [this tool.](https://tachi-local.netlify.app/?utm\_source=tachi-website\&utm\_medium=referral\&utm\_campaign=tachi-website)
 :::
 
-## Editing chapters details
+## Editing chapter details
 
-Similarly, chapter details can be customized with a JSON file.
+Similarly, the details of each chapter can be customized with a JSON file.
 
-To customize the chapter details, create a JSON file with the name `chapters.json`.
+To customize the details, create a JSON file with the name `chapters.json`.
 It must be placed within the **Series** folder.
 The structure of this JSON file will be a list of JSON objects.
 Each JSON object must contain a `chapter_number` key and optionally a `name`, `date_upload`, or `scanlator` key.

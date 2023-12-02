@@ -35,11 +35,11 @@ You can copy the following example and edit the details as needed:
 If you don't want to manually create the `details.json` file, you can alternatively use [this tool.](https://aniyomi-local.netlify.app)
 :::
 
-## Editing episodes details
+## Editing episode details
 
-Similarly, episode details can be customized with a JSON file.
+Similarly, the details of each episode can be customized with a JSON file.
 
-To customize the episode details, create a JSON file with the name `episodes.json`.
+To customize the details, create a JSON file with the name `episodes.json`.
 It must be placed within the **Anime** folder.
 The structure of this JSON file will be a list of JSON objects.
 Each JSON object must contain a `episode_number` key and optionally a `name`, `date_upload`, or `scanlator` key.
