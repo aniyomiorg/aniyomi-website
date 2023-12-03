@@ -134,3 +134,14 @@ Shows you a list of players currently installed on your phone which are supporte
 ::: tip
 Below 'None' are all of the external players available on your phone that will be displayed and selecting one of them will make it the default for Aniyomi.
 :::
+
+::: details Current supported external players
+* [Just Player](https://play.google.com/store/apps/details?id=com.brouken.player)
+* [mpv-android](https://play.google.com/store/apps/details?id=is.xyz.mpv)
+* [MPV-Remote](https://github.com/husudosu/mpv-remote-app)
+* [MX Player](https://play.google.com/store/apps/details/MX_Player_Videos_OTT_Games?id=com.mxtech.videoplayer.ad) / [MX Player Pro](https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.pro)
+* [Next Player](https://play.google.com/store/apps/details?id=dev.anilbeesetti.nextplayer)
+* [VLC](https://play.google.com/store/apps/details?id=org.videolan.vlc)
+* [Web Video Cast](https://play.google.com/store/apps/details?id=com.instantbits.cast.webvideo)
+* [XPlayer](https://play.google.com/store/apps/details?id=video.player.videoplayer)
+:::
