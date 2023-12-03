@@ -61,7 +61,7 @@ An example is as follows:
 ]
 ```
 ::: warning For your information
-As Aniyomi will use the `episode_number` key to match the episodes, the order of the JSON objects in the list doesn't matter.
+As Aniyomi will use the `episode_number` key to match the episodes, the order of the JSON objects in the list does not matter.
 :::
 
 
