@@ -50,7 +50,7 @@ Depending on the Phone model, mpv can sometimes not be able to play videos with 
 - **Disabled** - No debanding, Video will be played as it is.
 - **CPU** - Uses the CPU to deband. also has the side effect of converting video to 8bit color. This is the slowest option but works on most devices.
 - **GPU** - Uses hardware acceleration for debanding. Faster option but may not be compatible with all devices.
-- **YUV420P** - Transforms the video into the YUV420P format, providing optimal speed and compatibility.Also has the side effect of turning the video into 8bit color.
+- **YUV420P** - Transforms the video into the YUV420P format, providing optimal speed and compatibility. Also has the side effect of turning the video into 8bit color.
 
 ## Volume and brightness
 
