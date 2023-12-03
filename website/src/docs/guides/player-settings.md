@@ -33,9 +33,24 @@ This option toggles the margin to the left side of player so that phones with no
 ### Show player controls when opening the player <Badge text="On" type="info" />
 This option toggles the visibility of player controls while the player is opening.
 
-### Edit MPV configuration file <Badge text="None" type="info" />
+### Advanced player settings
+
+Allows for more advanced configuration regarding MPV
+
+#### Edit MPV configuration file <Badge text="None" type="info" />
 Aniyomi employs the [mpv-android](https://github.com/mpv-android/mpv-android) player, offering the ability to extensively configure its settings via a dedicated configuration file. With this feature, you can conveniently edit the configuration file directly within the app.
 For further details about the configuration file, refer to [mpv's documentation](https://mpv.io/manual/stable/#configuration-files).
+
+#### Edit MPV input file <Badge text="None" type="info" />
+Aniyomi can also use some of mpv's keybinds, which can be configured here.
+For further details about the input file, refer to [mpv's documentation](https://mpv.io/manual/stable/#command-interface).
+
+#### Debanding <Badge text="Disabled" type="info" />
+TBA
+- **Disabled** - TBA
+- **CPU** - TBA
+- **GPU** - TBA
+- **YUV420P** - TBA
 
 ## Volume and brightness
 
