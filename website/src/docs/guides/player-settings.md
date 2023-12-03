@@ -95,6 +95,9 @@ Double tapping on left or right portion of the player will skip video forward or
 ### Enable precise seeking <Badge text="Off" type="info" />
 When enabled, seeking will not focus on keyframes leading to slower but more precise seeking. this may have a negative impact on performance.
 
+### Seek chapters with media controls <Badge text="Off" type="info" />
+When enabled, using next/previous on your media device will go the next/previous chapter, respectively. If the video does not have any chapters, using next will invoke the skip intro button and using previous will do nothing.
+
 ### Enable AniSkip <Badge text="Off" type="info" />
 Aniskip is a functionality designed to automatically skip the intros and endings segments of an episode. To use this feature, the anime entry must be tracked through AniList or MyAnimeList.
 
