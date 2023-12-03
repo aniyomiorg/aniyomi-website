@@ -12,9 +12,8 @@ Advanced local anime metadata editing for enhanced library organization.
 It is possible to add details to local anime.
 Like anime from other sources, you add information about the series such as the `author`, `artist`, `description`, and `genre` tags.
 
-To import details along with your local anime, you have to create a JSON file.
-It can be named anything but it must be placed within the **Anime** folder.
-A standard file name is `details.json`.
+To import details along with your local anime, you have to create a JSON file with the name `details.json`.
+It must be placed within the **Anime** folder.
 This file will contain the extended details about the series in the `JSON` format.
 You can see the example below on how to build the file.
 Once the file is there, the app should load the data when you first open the anime or you can pull down to refresh the details.
@@ -35,6 +34,36 @@ You can copy the following example and edit the details as needed:
 ::: tip
 If you don't want to manually create the `details.json` file, you can alternatively use [this tool.](https://aniyomi-local.netlify.app)
 :::
+
+## Editing episode details
+
+Similarly, the details of each episode can be customized with a JSON file.
+
+To customize the details, create a JSON file with the name `episodes.json`.
+It must be placed within the **Anime** folder.
+The structure of this JSON file will be a list of JSON objects.
+Each JSON object must contain a `episode_number` key and optionally a `name`, `date_upload`, or `scanlator` key.
+
+An example is as follows:
+
+```json
+[
+	{
+		"episode_number": 1,
+		"name": "Ep 1 - Good vs. Evil",
+		"date_upload": "2023-01-26T00:00:00"
+	},
+	{
+		"episode_number": 1.5,
+		"name": "Ep 1.5 - Inori",
+		"scanlator": "Ending"
+	}
+]
+```
+::: warning For your information
+As Aniyomi will use the `episode_number` key to match the episodes, the order of the JSON objects in the list does not matter.
+:::
+
 
 ## Using a custom cover image
 
