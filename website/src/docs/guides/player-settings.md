@@ -102,13 +102,13 @@ When enabled, using next/previous on your media device will go the next/previous
 Aniskip is a functionality designed to automatically skip the intros and endings segments of an episode. To use this feature, the anime entry must be tracked through AniList or MyAnimeList.
 
 ### Enable auto skip <Badge text="Off" type="info" />
-TBA
+When enabled, any intros and endigs will be automatically skipped.
 
 ### Enable Netflix style <Badge text="Off" type="info" />
-TBA
+When enabled and an intro or ending is reached, a toast will display showing the time left before it's skipped during which time the user can choose not to skip.
 
 ### Button timeout <Badge text="5s" type="info" />
-TBA
+The time taken before an intro or ending is skipped when **Netflix style** is enabled.
 
 ## Picture-In-Picture (PiP)
 ### Enable Picture-In-Picture <Badge text="On" type="info" />
