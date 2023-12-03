@@ -33,9 +33,24 @@ This option toggles the margin to the left side of player so that phones with no
 ### Show player controls when opening the player <Badge text="On" type="info" />
 This option toggles the visibility of player controls while the player is opening.
 
-### Edit MPV configuration file <Badge text="None" type="info" />
+### Advanced player settings
+
+Allows for more advanced configuration regarding MPV
+
+#### Edit MPV configuration file <Badge text="None" type="info" />
 Aniyomi employs the [mpv-android](https://github.com/mpv-android/mpv-android) player, offering the ability to extensively configure its settings via a dedicated configuration file. With this feature, you can conveniently edit the configuration file directly within the app.
 For further details about the configuration file, refer to [mpv's documentation](https://mpv.io/manual/stable/#configuration-files).
+
+#### Edit MPV input file <Badge text="None" type="info" />
+Aniyomi can also use some of mpv's keybinds, which can be configured here.
+For further details about the input file, refer to [mpv's documentation](https://mpv.io/manual/stable/#command-interface).
+
+#### Debanding <Badge text="Disabled" type="info" />
+TBA
+- **Disabled** - TBA
+- **CPU** - TBA
+- **GPU** - TBA
+- **YUV420P** - TBA
 
 ## Volume and brightness
 
@@ -95,17 +110,20 @@ Double tapping on left or right portion of the player will skip video forward or
 ### Enable precise seeking <Badge text="Off" type="info" />
 When enabled, seeking will not focus on keyframes leading to slower but more precise seeking. this may have a negative impact on performance.
 
+### Seek chapters with media controls <Badge text="Off" type="info" />
+When enabled, using next/previous on your media device will go the next/previous chapter, respectively. If the video does not have any chapters, using next will invoke the skip intro button and using previous will do nothing.
+
 ### Enable AniSkip <Badge text="Off" type="info" />
 Aniskip is a functionality designed to automatically skip the intros and endings segments of an episode. To use this feature, the anime entry must be tracked through AniList or MyAnimeList.
 
 ### Enable auto skip <Badge text="Off" type="info" />
-TBA
+When enabled, any intros and endigs will be automatically skipped.
 
 ### Enable Netflix style <Badge text="Off" type="info" />
-TBA
+When enabled and an intro or ending is reached, a toast will display showing the time left before it's skipped during which time the user can choose not to skip.
 
 ### Button timeout <Badge text="5s" type="info" />
-TBA
+The time taken before an intro or ending is skipped when **Netflix style** is enabled.
 
 ## Picture-In-Picture (PiP)
 ### Enable Picture-In-Picture <Badge text="On" type="info" />
@@ -130,4 +148,15 @@ Shows you a list of players currently installed on your phone which are supporte
 
 ::: tip
 Below 'None' are all of the external players available on your phone that will be displayed and selecting one of them will make it the default for Aniyomi.
+:::
+
+::: details Current supported external players
+* [Just Player](https://play.google.com/store/apps/details?id=com.brouken.player)
+* [mpv-android](https://play.google.com/store/apps/details?id=is.xyz.mpv)
+* [MPV-Remote](https://github.com/husudosu/mpv-remote-app)
+* [MX Player](https://play.google.com/store/apps/details/MX_Player_Videos_OTT_Games?id=com.mxtech.videoplayer.ad) / [MX Player Pro](https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.pro)
+* [Next Player](https://play.google.com/store/apps/details?id=dev.anilbeesetti.nextplayer)
+* [VLC](https://play.google.com/store/apps/details?id=org.videolan.vlc)
+* [Web Video Cast](https://play.google.com/store/apps/details?id=com.instantbits.cast.webvideo)
+* [XPlayer](https://play.google.com/store/apps/details?id=video.player.videoplayer)
 :::
