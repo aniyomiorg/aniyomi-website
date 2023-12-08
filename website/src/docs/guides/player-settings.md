@@ -46,7 +46,7 @@ Aniyomi can also use some of mpv's keybinds, which can be configured here.
 For further details about the input file, refer to [mpv's documentation](https://mpv.io/manual/stable/#command-interface).
 
 #### Debanding <Badge text="Disabled" type="info" />
-Depending on the Phone model, mpv can sometimes not be able to play videos with certain codecs(mostly h.264 10bit) and will show black screen instead. Use one of these options if you've faced this issue.
+Depending on the Phone model, mpv can sometimes be unable to play videos with certain codecs (mostly h.264 10bit) and will show black screen instead. Use one of these options if you've faced this issue.
 - **Disabled** - No debanding, Video will be played as it is.
 - **CPU** - Uses the CPU to deband. also has the side effect of converting video to 8bit color. This is the slowest option but works on most devices.
 - **GPU** - Uses hardware acceleration for debanding. Faster option but may not be compatible with all devices.
@@ -154,7 +154,7 @@ Below 'None' are all of the external players available on your phone that will b
 * [Just Player](https://play.google.com/store/apps/details?id=com.brouken.player)
 * [mpv-android](https://play.google.com/store/apps/details?id=is.xyz.mpv)
 * [MPV-Remote](https://github.com/husudosu/mpv-remote-app)
-* [MX Player](https://play.google.com/store/apps/details/MX_Player_Videos_OTT_Games?id=com.mxtech.videoplayer.ad) / [MX Player Pro](https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.pro)
+* [MX Player](https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad) / [MX Player Pro](https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.pro)
 * [Next Player](https://play.google.com/store/apps/details?id=dev.anilbeesetti.nextplayer)
 * [VLC](https://play.google.com/store/apps/details?id=org.videolan.vlc)
 * [Web Video Cast](https://play.google.com/store/apps/details?id=com.instantbits.cast.webvideo)

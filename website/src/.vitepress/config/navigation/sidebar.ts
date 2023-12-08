@@ -137,7 +137,17 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
 					text: "Player settings",
 					link: "/docs/guides/player-settings",
 				},
-
+				{
+					text: "Video player",
+					link: "/docs/guides/video-player/",
+					collapsed: true,
+					items: [
+						{
+							text: "Audio and subtitle settings",
+							link: "/docs/guides/video-player/audio-and-subtitle-settings",
+						}
+					]
+				},
 				{
 					text: "Shizuku",
 					link: "/docs/guides/shizuku",
