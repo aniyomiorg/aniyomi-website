@@ -154,7 +154,7 @@ Below 'None' are all of the external players available on your phone that will b
 * [Just Player](https://play.google.com/store/apps/details?id=com.brouken.player)
 * [mpv-android](https://play.google.com/store/apps/details?id=is.xyz.mpv)
 * [MPV-Remote](https://github.com/husudosu/mpv-remote-app)
-* [MX Player](https://play.google.com/store/apps/details/MX_Player_Videos_OTT_Games?id=com.mxtech.videoplayer.ad) / [MX Player Pro](https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.pro)
+* [MX Player](https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad) / [MX Player Pro](https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.pro)
 * [Next Player](https://play.google.com/store/apps/details?id=dev.anilbeesetti.nextplayer)
 * [VLC](https://play.google.com/store/apps/details?id=org.videolan.vlc)
 * [Web Video Cast](https://play.google.com/store/apps/details?id=com.instantbits.cast.webvideo)
