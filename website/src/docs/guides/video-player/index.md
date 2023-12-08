@@ -123,6 +123,10 @@ Press to enable picture-in-picture mode.
 This button will only appear if `Enable the use of PiP mode` is turned on in <nav to="player">
 :::
 
+### Seekbar
+
+Seekbar for the player. Left text show the current time and the right text shows the total time. Either can be pressed to show time remaining.
+
 ## Other
 
 ### Long press
