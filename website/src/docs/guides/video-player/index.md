@@ -43,7 +43,7 @@ The icon will only appear if the video contains chapters.
 
 ### <TitleIcon name="video_settings"/> Video settings
 
-Will open a dialog to select `Video quality`, `Subtitle`, or `Audio`. The gear icon <TitleIcon name="settings"/>will open up a new dialog for styling subtitles, which is explained more in [Subtitle styling](/docs/guides/video-player/subtitle-styling).
+Will open a dialog to select `Video quality`, `Subtitle`, or `Audio`. The gear icon <TitleIcon name="settings"/>will open up a new dialog for additional audio and subtitle settings, which is explained more in [Audio and subtitle settings](/docs/guides/video-player/audio-and-subtitle-settings).
 
 ### <TitleIcon name="overflow"/> More player settings
 

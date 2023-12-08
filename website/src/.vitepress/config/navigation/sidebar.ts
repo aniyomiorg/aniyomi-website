@@ -143,8 +143,8 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
 					collapsed: true,
 					items: [
 						{
-							text: "Subtitle styling",
-							link: "/docs/guides/video-player/subtitle-styling",
+							text: "Audio and subtitle settings",
+							link: "/docs/guides/video-player/audio-and-subtitle-settings",
 						}
 					]
 				},
