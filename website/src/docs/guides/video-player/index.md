@@ -23,7 +23,7 @@ Exit the player.
 
 ### Title and episode text
 
-Top text is the name of the Anime and the bottom text is the name of the episode.
+Top text is the name of the Anime and the bottom text is the name of the episode. Long press to open up the episode list as a pop-up in the player.
 
 ### <TitleIcon name="episode_list"/> Episode list
 
@@ -122,3 +122,33 @@ Press to enable picture-in-picture mode.
 ::: warning For your information
 This button will only appear if `Enable the use of PiP mode` is turned on in <nav to="player">
 :::
+
+## Other
+
+### Long press
+
+Long press the player (anywhere but on a button) to bring up an additional menu.
+
+#### Set as cover
+
+Set the current frame as the cover image of the anime.
+
+#### Share
+
+Share a screenshot of the current anime along with the anime, episode, and timestamp of the video.
+
+#### Save
+
+Take a screenshot of the current frame and save it.
+
+#### Include subtitles <Badge text="Off" type="info" />
+
+When enabled, subtitles will be included in the screenshot when saving.
+
+### Horizontal swiping
+
+If `Enable Horizontal Seek Gesture` is enabled in <nav to="player">, swiping left/right will seek through the video.
+
+### Vertical swiping
+
+If `Enable Volume and Brightness Gestures` is enabled in <nav to="player">, swiping up/down on the right part of the player will adjust the volume and swiping up/down on the left part will adjust the brightness.
