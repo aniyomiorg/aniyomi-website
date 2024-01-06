@@ -13,6 +13,7 @@ The app's default behavior is to skip updates for entries that meet the followin
 * Have unwatched episodes/unread chapters
 * Haven't been initiated
 * Carry a "**Completed**" status
+* Isn't expected to have new chapters yet
 
 This strategy prevents unnecessary load which may lead to sources implementing measures against **Aniyomi**.
 To manage entries with infrequent or no updates, consider using categories and excluding them from updates.

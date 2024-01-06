@@ -9,7 +9,7 @@ description: Backups helps you prevent losing your library if something happens.
 Backups in **Aniyomi** are compatible between different versions of the app.
 
 ::: tip How to create a backup
-1. Go to <nav to="backup-and-restore">.
+1. Go to <nav to="data-and-storage">.
 1. Select **Create backup** and choose a location to save it.
 
 ![Backup and Restore](/docs/guides/backups/backup.light.webp#light =414x215)
@@ -28,14 +28,15 @@ Backups in **Aniyomi** are compatible between different versions of the app.
 - **Series information**
   - Author, Artist, Date Added to Library, Selected Viewer, Read Duration, etc.
 - **Extensions** used
+- **Settings** including app settings and source-specific settings
 
 ### What's NOT included in a backup?
 - **Watching/Reading history** of titles NOT in library
-- **Settings** including app settings and extension-specific settings
 - **Downloaded** episodes/chapters including [local source](/docs/faq/browse/local-source.md) episodes/chapters
+- **Custom covers**
 
 ## Restoring a backup
-Restoring a backup can be done through the Backup and Restore settings.
+Restoring a backup can be done through the "Data and storage" settings.
 
 To ensure a smooth restoration process, remember to:
 
@@ -54,7 +55,7 @@ by correctly specifying the Download Location.
 It is highly recommended to enable automatic backups to ensure you can recover in case of any issues.
 
 ::: tip How to enable automatic backups
-1. Go to <nav to="backup-and-restore">.
+1. Go to <nav to="data-and-storage">.
 1. Set a **backup frequency** to schedule automatic backups.
 This way, you can recover from catastrophic failures.
 
@@ -81,4 +82,13 @@ or [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.
 This section explores some extra details regarding [forks](/forks/).
 :::
 
-All [endorsed Aniyomi forks](/forks/) support the `.proto.gz` format to backup/restore your library.
+All [endorsed Aniyomi forks](/forks/) support the `.tachibk`/`.proto.gz` format to backup/restore your library. <!-- lie -->
+
+In addition, some forks have specific limitations regarding backup restoration:
+
+- All forks have fork-specific settings and changes that might be saved in Backups.
+  Such settings are not restored in original Aniyomi and will get lost when creating a new backup.
+
+  These will **NOT** be restored to original Tachiyomi or its forks.
+
+Be aware of these limitations when dealing with backups in different **Tachiyomi** forks.
