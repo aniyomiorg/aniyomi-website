@@ -16,8 +16,7 @@ const pkgIsNsfw = computed(() => item.value.nsfw === 1)
 
 const iconUrl = computed(() => {
   const pkgName = item.value.apk.substring(0, item.value.apk.lastIndexOf("."))
-  // return `https://raw.githubusercontent.com/aniyomiorg/aniyomi-extensions/repo/icon/${item.value.pkg}.png`
-  return `https://raw.githubusercontent.com/aniyomiorg/aniyomi-extensions/repo/icon/${pkgName}.png`
+  return `https://raw.githubusercontent.com/aniyomiorg/aniyomi-extensions/repo/icon/${item.value.pkg}.png`
 })
 
 const apkUrl = computed(() => {
