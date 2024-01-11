@@ -18,13 +18,17 @@
 		}
 	}
 
-	span {
-		&.folder {
-			&.root,
-			&.main {
-				color: var(--vp-c-brand-darker)
-			}
-		}
+  span {
+    &.folder {
+      &.root,
+      &.main {
+        color: var(--vp-c-brand-darker)
+      }
+
+      &.dynamic {
+        color: var(--vp-c-brand-darker)
+      }
+    }
 
 		&.file.zip {
 			color: var(--vp-c-brand-darker) !important
@@ -88,12 +92,16 @@
 }
 
 .dark {
-	.tree {
-		span {
-			&.folder,
-			&.file.zip {
-				color: var(--vp-c-brand-lighter) !important
-			}
-		}
-	}
+  .tree {
+    span {
+      &.folder,
+      &.file.zip {
+        color: var(--vp-c-brand-lighter) !important
+      }
+
+      &.dynamic {
+        color: var(--vp-c-brand-lightest) !important
+      }
+    }
+  }
 }
