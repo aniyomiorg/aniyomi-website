@@ -110,7 +110,7 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
           items: [
             {
               text: 'Advanced editing',
-              link: '/docs/guides/local-source/advanced',
+              link: '/docs/guides/local-manga-source/advanced',
             },
           ],
         },
