@@ -39,6 +39,24 @@ The following illustrates the folder structure:
             <ul>
               <li>
                 <img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
+                <span class="folder dynamic">Anime title</span>
+                <ul>
+                  <li>
+                    <img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
+                    <span class="file mp4">Episode_1</span>
+                    <ul>
+                      <li>
+                        <img src="/img/video.svg" alt="Video" class="tree-icon icon-video">
+                        <span class="file mp4">Episode_1<span class="file-extension">.mp4</span></span>
+                      </li>
+                      <li>
+                        <img src="/img/video.svg" alt="Video" class="tree-icon icon-cbz">
+                        <span class="file mp4">...</span>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
                 <span class="folder dynamic">Series title</span>
                 <ul>
                   <li>
@@ -51,17 +69,37 @@ The following illustrates the folder structure:
                   </li>
                 </ul>
               </li>
-              <li>
-                <img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
-                <span class="folder dynamic">Other series title</span>
-                <ul>
-                  <li>
-                    <img src="/img/zip.svg" alt="Compressed File" class="tree-icon icon-cbz">
-                    <span class="file cbz">Chapter01<span class="file-extension">.cbz</span></span>
-                  </li>
-                </ul>
-              </li>
             </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
+      <span class="folder main">localanime</span>
+      <ul>
+        <li>
+          <img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
+          <span class="folder dynamic">Anime title</span>
+          <ul>
+            <li>
+              <img src="/img/video.svg" alt="Video" class="tree-icon icon-video">
+              <span class="file mp4">Episode_1<span class="file-extension">.mp4</span></span>
+            </li>
+            <li>
+              <img src="/img/video.svg" alt="Video" class="tree-icon icon-mp4">
+              <span class="file mp4">...</span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
+          <span class="folder dynamic">Other series title</span>
+          <ul>
+            <li>
+              <img src="/img/zip.svg" alt="Compressed File" class="tree-icon icon-cbz">
+              <span class="file cbz">Chapter01<span class="file-extension">.cbz</span></span>
+            </li>
+          </ul>
         </li>
       </ul>
     </li>
@@ -92,6 +130,19 @@ The following illustrates the folder structure:
               <span class="file cbz">Chapter01<span class="file-extension">.cbz</span></span>
             </li>
           </ul>
+        </li>
+      </ul>
+    </li><li>
+      <img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
+      <span class="folder main">fonts</span>
+      <ul>
+        <li>
+          <img src="/img/zip.svg" alt="Font File" class="tree-icon icon-ttf">
+          <span class="file ttf">Font<span class="file-extension">.ttf</span></span>
+        </li>
+        <li>
+          <img src="/img/zip.svg" alt="Font File" class="tree-icon icon-ttf">
+          <span class="file ttf">...</span>
         </li>
       </ul>
     </li>
