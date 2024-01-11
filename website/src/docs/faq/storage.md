@@ -93,11 +93,11 @@ The following illustrates the folder structure:
         </li>
         <li>
           <img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
-          <span class="folder dynamic">Other series title</span>
+          <span class="folder dynamic">Other anime title</span>
           <ul>
             <li>
-              <img src="/img/zip.svg" alt="Compressed File" class="tree-icon icon-cbz">
-              <span class="file cbz">Chapter01<span class="file-extension">.cbz</span></span>
+              <img src="/img/video.svg" alt="Video" class="tree-icon icon-video">
+              <span class="file mp4">Episode_1<span class="file-extension">.mp4</span></span>
             </li>
           </ul>
         </li>
