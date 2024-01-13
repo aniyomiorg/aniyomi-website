@@ -17,7 +17,7 @@ Essential information to help you get set up with Aniyomi.
 ### 1. Downloading Aniyomi
 
 1. Visit our [download](/download/) page to get the latest version of **Aniyomi**.
-1. After the download is complete, open the `aniyomi-{{ release.preview.tag_name }}.apk` file.
+1. After the download is complete, open the `aniyomi-{{ release.stable.tag_name }}.apk` file.
 1. Proceed with the installation process.
 
 ### 2. Adding sources
