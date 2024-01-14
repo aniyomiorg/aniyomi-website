@@ -11,9 +11,9 @@ const downloadInformation = computed(() => ({
 			.find((a) => /^aniyomi-r\d{4,}.apk/.test(a.name)),
 	},
 	stable: {
-		tagName: release.stable.tag_name ?? "v0.00.0",
+		tagName: release.stable.tag_name ?? "v0.00.0.0",
 		asset: (release.stable.assets ?? [])
-			.find((a) => /^aniyomi-v\d+\.\d+\.\d+.apk/.test(a.name)),
+			.find((a) => /^aniyomi-v\d+\.\d+\.\d+.\d+.apk/.test(a.name)),
 	},
 }))
 
