@@ -53,7 +53,7 @@ const members = [
     ]
   },
   {
-    avatar: "https://github.com/Diegopyl1209",
+    avatar: "https://github.com/Diegopyl1209.png",
     name: "Diegopyl1209",
     title: "Torrent Support",
     links: [
