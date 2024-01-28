@@ -25,9 +25,12 @@ features:
   - title: Discord rich presence (from Animiru)
     details: Let people know that you're a cultured one!
     icon: <img src="/img/logo-discord.svg" alt="Discord Logo" height="32" width="32">
-  - title: Data saving (from TachiyomiSY)
-    details: Are you having problems with mobile data limits? This fork is for you!
-    icon: 🌐
+  - title: Torrent Streaming
+    details: Introduces Torrent Streaming. (Right Extensions are needed).
+    icon: <img src="/img/logo-torrent.svg" alt="Torrent Logo" height="32" width="32">
+  - title: Double-page for Tablets (from TachiyomiSY)
+    details: Combine 2 pages while reading into a single one for a better tablet experience.
+    icon: 📖
 
 theme: "#EE7E1F"
 image: /forks/logo-kuukiyomi.webp
@@ -47,6 +50,14 @@ const members = [
     title: "Creator",
     links: [
       { icon: "github", link: "https://github.com/LuftVerbot" }
+    ]
+  },
+  {
+    avatar: "https://github.com/Diegopyl1209",
+    name: "Diegopyl1209",
+    title: "Torrent Support",
+    links: [
+      { icon: "github", link: "https://github.com/Diegopyl1209" }
     ]
   },
   {
