@@ -4,7 +4,7 @@
   "description": "(Stolen) Official website for the Aniyomi app.",
   "license": "MPL-2.0",
   "private": true,
-  "packageManager": "pnpm@9.1.2",
+  "packageManager": "pnpm@9.1.4",
   "type": "module",
   "engines": {
     "node": ">=20",
