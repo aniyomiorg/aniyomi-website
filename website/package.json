@@ -1,21 +1,21 @@
 {
   "name": "aniyomi-website",
+  "type": "module",
   "version": "3.0.0",
-  "description": "(Stolen) Official website for the Aniyomi app.",
-  "license": "MPL-2.0",
   "private": true,
   "packageManager": "pnpm@9.2.0",
-  "type": "module",
-  "engines": {
-    "node": ">=20",
-    "pnpm": ">=8"
-  },
+  "description": "(Stolen) Official website for the Aniyomi app.",
+  "license": "MPL-2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aniyomiorg/aniyomi-website.git"
   },
   "bugs": {
     "url": "https://github.com/aniyomiorg/aniyomi-website/issues"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=8"
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
