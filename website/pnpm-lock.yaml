@@ -124,11 +124,11 @@ importers:
         specifier: 1.8.1
         version: 1.8.1(eslint@8.51.0)(vite@5.0.11(@types/node@20.8.6)(stylus@0.60.0))
       vitepress:
-        specifier: 1.0.0-rc.21
-        version: 1.0.0-rc.21(@algolia/client-search@4.20.0)(@types/node@20.8.6)(async-validator@4.2.5)(axios@1.5.1)(postcss@8.4.33)(search-insights@2.8.2)(stylus@0.60.0)
+        specifier: 1.0.0-rc.22
+        version: 1.0.0-rc.22(@algolia/client-search@4.20.0)(@types/node@20.8.6)(async-validator@4.2.5)(axios@1.5.1)(postcss@8.4.33)(search-insights@2.8.2)(stylus@0.60.0)
       vitepress-plugin-tabs:
         specifier: 0.4.1
-        version: 0.4.1(vitepress@1.0.0-rc.21(@algolia/client-search@4.20.0)(@types/node@20.8.6)(async-validator@4.2.5)(axios@1.5.1)(postcss@8.4.33)(search-insights@2.8.2)(stylus@0.60.0))(vue@3.3.4)
+        version: 0.4.1(vitepress@1.0.0-rc.22(@algolia/client-search@4.20.0)(@types/node@20.8.6)(async-validator@4.2.5)(axios@1.5.1)(postcss@8.4.33)(search-insights@2.8.2)(stylus@0.60.0))(vue@3.3.4)
       vue:
         specifier: 3.3.4
         version: 3.3.4
@@ -3380,8 +3380,8 @@ packages:
       vitepress: ^1.0.0-rc.14
       vue: ^3.3.4
 
-  vitepress@1.0.0-rc.21:
-    resolution: {integrity: sha512-eHX057NgAqmrj6FIqh7Sqsbk/kftrFMBUpCKjuQIZ+c+bYTbmzXsXrHSbT5b4WWy4vLx1993a+H3wIRy2dHi8g==}
+  vitepress@1.0.0-rc.22:
+    resolution: {integrity: sha512-n7le5iikCFgWMuX7sKfzDGJGlrsYQ5trG3S97BghNz2alOTr4Xp+GrB6ShwogUTX9gNgeNmrACjokhW55LNeBA==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4.3.2
@@ -7015,12 +7015,12 @@ snapshots:
       fsevents: 2.3.3
       stylus: 0.60.0
 
-  vitepress-plugin-tabs@0.4.1(vitepress@1.0.0-rc.21(@algolia/client-search@4.20.0)(@types/node@20.8.6)(async-validator@4.2.5)(axios@1.5.1)(postcss@8.4.33)(search-insights@2.8.2)(stylus@0.60.0))(vue@3.3.4):
+  vitepress-plugin-tabs@0.4.1(vitepress@1.0.0-rc.22(@algolia/client-search@4.20.0)(@types/node@20.8.6)(async-validator@4.2.5)(axios@1.5.1)(postcss@8.4.33)(search-insights@2.8.2)(stylus@0.60.0))(vue@3.3.4):
     dependencies:
-      vitepress: 1.0.0-rc.21(@algolia/client-search@4.20.0)(@types/node@20.8.6)(async-validator@4.2.5)(axios@1.5.1)(postcss@8.4.33)(search-insights@2.8.2)(stylus@0.60.0)
+      vitepress: 1.0.0-rc.22(@algolia/client-search@4.20.0)(@types/node@20.8.6)(async-validator@4.2.5)(axios@1.5.1)(postcss@8.4.33)(search-insights@2.8.2)(stylus@0.60.0)
       vue: 3.3.4
 
-  vitepress@1.0.0-rc.21(@algolia/client-search@4.20.0)(@types/node@20.8.6)(async-validator@4.2.5)(axios@1.5.1)(postcss@8.4.33)(search-insights@2.8.2)(stylus@0.60.0):
+  vitepress@1.0.0-rc.22(@algolia/client-search@4.20.0)(@types/node@20.8.6)(async-validator@4.2.5)(axios@1.5.1)(postcss@8.4.33)(search-insights@2.8.2)(stylus@0.60.0):
     dependencies:
       '@docsearch/css': 3.5.2
       '@docsearch/js': 3.5.2(@algolia/client-search@4.20.0)(search-insights@2.8.2)
