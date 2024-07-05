@@ -31,7 +31,7 @@ If you got any questions, [join our Discord server](https://discord.gg/F32UjdJZr
 Thank you to all the people who have contributed!
 
 <a href="https://github.com/aniyomiorg/aniyomi-website/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=aniyomiorg/aniyomi-website" alt="Aniyomi website contributors" title="Aniyomi website contributors" width="800"/>
+    <img src="https://contrib.rocks/image?repo=aniyomiorg/aniyomi-website" alt="Aniyomi website contributors" title="Aniyomi website contributors" width="600"/>
 </a>
 
 ### License
