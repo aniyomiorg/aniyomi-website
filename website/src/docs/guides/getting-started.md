@@ -14,44 +14,57 @@ Essential information to help you get set up with Aniyomi.
 
 ## Installation guide
 
-### 1. Downloading Aniyomi
+### Downloading Aniyomi
 
 1. Visit our [download](/download/) page to get the latest version of **Aniyomi**.
-1. After the download is complete, open the `aniyomi-{{ release.stable.tag_name }}.apk` file.
-1. Proceed with the installation process.
+2. After the download is complete, open the `.apk` file.
+3. Proceed with the installation process.
 
-### 2. Adding sources
+### Adding sources
 
-Once **Aniyomi** is installed on your device, you can install extensions to access a wide range of sources.
+Once **Aniyomi** is installed on your device, you can bring your own content to read from various sources:
 
-1. Open the **Aniyomi** app.
-1. Navigate to the "**Browse**" section.
-1. Tap on the "**Extensions**" tab.
-1. Look for the extension you want to use and press the "**INSTALL**" button next to it.
-1. Proceed with the installation process.
+:::: tabs
+== Local source
+Read or watch content stored locally on your device.
 
-![Installing extensions](/docs/guides/getting-started/installing-extensions.light.webp#light =414x245)
+See the local source guides for instructions:
+- [Manga](/docs/guides/local-manga-source/)
+- [Anime](/docs/guides/local-anime-source/)
 
-![Installing extensions](/docs/guides/getting-started/installing-extensions.dark.webp#dark =414x245)
+== External repositories
+External repositories add additional sources to **Aniyomi**. You can add external repositories by going to <nav to="browse"> and tapping **Anime/Manga extension repos**.
 
-::: tip INSTALL PERMISSION
-Depending on your device settings, you might need to grant **Aniyomi** permission to install unknown apps.
+Once there, you can add repositories by inputting URLs ending with `index.min.json`.
 
-![Security warning](/docs/guides/getting-started/security-warning.webp =546x165)
-
-> Relevant guide: [Enabling Third-Party Installations](/docs/faq/browse/extensions#enabling-third-party-installations)
+::: danger Caution
+Aniyomi will not provide resources for any unofficial repositories. Beware that any third-party repositories or extensions will have full access to the app and may contain malware.
 :::
 
-### 3. Adding series to your library
+Once you've added a repository, go to <nav to="extensions"> and refresh the extensions list.
+
+You can now tap the download button next to extensions to install them.
+
+> You may need to [enable third-party installations](/docs/faq/browse/extensions#enabling-third-party-installations).
+
+== Manual extensions
+Extensions can be manually installed through `.apk` files.
+
+::: danger Caution
+Aniyomi will not provide resources for any unofficial extensions. Beware that any third-party repositories or extensions will have full access to the app and may contain malware.
+:::
+::::
+
+### Adding series to your library
 
 After installing the desired extension, you'll find it in the **Manga/Anime Sources** tab.
 
 Here's how you can add series to your library:
 
 1. Select the source you'd like to browse.
-1. You can use the **Popular**/**Latest** listings to browse, or you can search for the series name.
-1. Once you've found the series that you want to add, tap on it for more details.
-1. Press the "**Add to library**" button, and the series will be added to your Library, ready to be read/watched!
+2. You can use the **Popular**/**Latest** listings to browse, or you can search for the series name.
+3. Once you've found the series that you want to add, tap on it for more details.
+4. Press the "**Add to library**" button, and the series will be added to your Library, ready to be read/watched!
 
 ## Additional setup
 
@@ -62,8 +75,8 @@ If you want to search for series across all your sources, you can use the Global
 Follow these steps:
 
 1. Go to the "**Browse**" section.
-1. Ensure you're on the "**Sources**" tab located at the top-right corner.
-1. Use the Search icon in the toolbar to find series from all available sources.
+2. Ensure you're on the "**Sources**" tab located at the top-right corner.
+3. Use the Search icon in the toolbar to find series from all available sources.
 
 ### Trouble finding a specific series?
 

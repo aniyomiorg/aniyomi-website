@@ -9,7 +9,8 @@ next: false
 
 # Extensions
 
-Extensions can also be installed directly from the app.
+By default, **Aniyomi** comes without any extensions.
+You can choose to read local content, manually add extensions, or include an external repository.
 
 <ExtensionsWrapper/>
 
