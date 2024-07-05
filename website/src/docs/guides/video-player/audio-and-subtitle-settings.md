@@ -30,7 +30,7 @@ Delay for audio, in milliseconds.
 
 If enabled, audio delay will be saved. Otherwise it will reset upon exiting the player.
 
-### subtitle delay <Badge text="0 ms" type="info" />
+### Subtitle delay <Badge text="0 ms" type="info" />
 
 Delay for subtitle, in milliseconds.
 
@@ -45,7 +45,7 @@ Tab to customize some aspects of the subtitles, along with a preview window.
 ### <TitleIcon name="font_family"/> Font family <Badge text="Sans serif" type="info" />
 
 <!-- TODO: add link to `data and storage` when/if it get its own page for `Storage location` -->
-Tap to get a dropdown of available fonts placed in the `fonts` subdirectory for `Storage location`.
+Tap to get a dropdown of available fonts placed in the `mpv-config/fonts` subdirectory for `Storage location`.
 
 ### Font size <Badge text="55" type="info" />
 

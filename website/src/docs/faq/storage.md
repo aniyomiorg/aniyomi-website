@@ -132,17 +132,44 @@ The following illustrates the folder structure:
           </ul>
         </li>
       </ul>
-    </li><li>
+    </li>
+    <li>
       <img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
-      <span class="folder main">fonts</span>
+      <span class="folder main">mpv-config</span>
       <ul>
         <li>
-          <img src="/img/zip.svg" alt="Font File" class="tree-icon icon-ttf">
-          <span class="file ttf">Font<span class="file-extension">.ttf</span></span>
+          <img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
+          <span class="folder main">fonts</span>
+          <ul>
+            <li>
+              <img src="/img/zip.svg" alt="Font File" class="tree-icon icon-ttf">
+              <span class="file ttf">Font<span class="file-extension">.ttf</span></span>
+            </li>
+            <li>
+              <img src="/img/zip.svg" alt="Font File" class="tree-icon icon-ttf">
+              <span class="file ttf">...</span>
+            </li>
+          </ul>
         </li>
         <li>
-          <img src="/img/zip.svg" alt="Font File" class="tree-icon icon-ttf">
-          <span class="file ttf">...</span>
+          <img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
+          <span class="folder main">scripts</span>
+          <ul>
+            <li>
+              <img src="/img/file.svg" alt="Script File" class="tree-icon icon-script">
+              <span class="file lua">script<span class="file-extension">.lua</span></span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
+          <span class="folder main">script-opts</span>
+          <ul>
+            <li>
+              <img src="/img/file.svg" alt="Script Config File" class="tree-icon icon-conf">
+              <span class="file conf">opts<span class="file-extension">.conf</span></span>
+            </li>
+          </ul>
         </li>
       </ul>
     </li>

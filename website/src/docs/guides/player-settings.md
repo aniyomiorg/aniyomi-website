@@ -30,8 +30,17 @@ This option toggles the margin to the left side of player so that phones with no
 ![Display cutout turned off](/docs/guides/player-settings/display-cutout-off.webp =512x788)
 :::
 
-### Show player controls when opening the player <Badge text="On" type="info" />
+### Hide player controls when opening the player <Badge text="Off" type="info" />
 This option toggles the visibility of player controls while the player is opening.
+
+### Audio channels <Badge text="Auto-safe" type="info" />
+
+Control which audio channels are output. There are the following possibilities:
+- **Auto-safe** - Use the system's preferred channel layout. If there is none, force stereo.
+- **Auto** - Send the audio device whatever it accepts, preferring the audio's original channel layout.
+- **Mono** - Force the player to output the audio on a single channel.
+- **Stereo** - Force the player to output to dual channel.
+- **Reverse stereo** - Stereo but the channels are reversed.
 
 ### Advanced player settings
 
@@ -45,12 +54,18 @@ For further details about the configuration file, refer to [mpv's documentation]
 Aniyomi can also use some of mpv's keybinds, which can be configured here.
 For further details about the input file, refer to [mpv's documentation](https://mpv.io/manual/stable/#command-interface).
 
+#### Enable gpu-next <Badge text="Off" type="info" />
+Use experimental video renderer. Should generally be faster and higher quality, but may cause issues on older phones. Disable if issues occur.
+
 #### Debanding <Badge text="Disabled" type="info" />
 Depending on the Phone model, mpv can sometimes be unable to play videos with certain codecs (mostly h.264 10bit) and will show black screen instead. Use one of these options if you've faced this issue.
 - **Disabled** - No debanding, Video will be played as it is.
 - **CPU** - Uses the CPU to deband. also has the side effect of converting video to 8bit color. This is the slowest option but works on most devices.
 - **GPU** - Uses hardware acceleration for debanding. Faster option but may not be compatible with all devices.
 - **YUV420P** - Transforms the video into the YUV420P format, providing optimal speed and compatibility. Also has the side effect of turning the video into 8bit color.
+
+#### Enable MPV scripts <Badge text="Off" type="info" />
+Enable the use of lua scripts, placed in the `mpv-config/scripts` subdirectory under your storage location. Refer to [mpv's documentation](https://mpv.io/manual/master/#lua-scripting) for more details.
 
 ## Volume and brightness
 
@@ -131,8 +146,11 @@ This option toggles the Picture-In-Picture mode, allowing you to watch the video
 ### Show episode toasts when switching episodes in PiP <Badge text="On" type="info" />
 This option toggles the episode toasts that appear whenever a new episode starts playing while in PiP.
 
-### Automatically enter PiP when exiting the player <Badge text="Off" type="info" />
+### Automatically switch to PiP mode on exiting the player <Badge text="Off" type="info" />
 This option toggles the automatic entry into PiP mode when exiting the player.
+
+### Replaces the "Skip 10 seconds option" with "Previous episode" <Badge text="Off" type="info" />
+Self-explanatory.
 
 ## External player
 

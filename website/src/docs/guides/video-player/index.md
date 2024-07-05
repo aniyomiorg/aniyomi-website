@@ -64,6 +64,10 @@ Specify the hardware video decoding API that should be used if possible. See [mp
 - **HW** - Uses hardware to decode video, providing better performance and battery effiency.
 - **SW** - Uses software to decode video, has less performance than `HW` but comes with better compatibility for older phones.
 
+#### Audio channels
+
+See [Player settings](/docs/guides/player-settings#audio-channels)
+
 #### Toggle statistics page
 
 Show some statistics about mpv, for more information refer to [mpv's documentation](https://mpv.io/manual/master/#stats). The different pages shows:
@@ -111,9 +115,9 @@ Changing the skip length will only affect the current anime.
 ### <TitleIcon name="fullscreen"/> Cycle view modes <Badge text="Fit to screen" type="info" />
 
 Cycle between different view modes. Possible values include:
-- **Fit to screen** - Will attempt to best display the video, preserving both aspect ration and every part of the video. May result in black bars around the video.
+- **Fit to screen** - Will attempt to best display the video, preserving both aspect ratio and every part of the video. May result in black bars around the video.
 - **Cropped to screen** - Will crop the video so the video takes up all of the screen. Will remove any black bars and preserve aspect ratio, but may result in some parts of the video being cut out.
-- **Stretched to screen** - Will strect the video so the video takes up all of the screen. Will remove any black bars and preserve every part of the video, but may result in a different aspect ratio.
+- **Stretched to screen** - Will stretch the video so the video takes up all of the screen. Will remove any black bars and preserve every part of the video, but may result in a different aspect ratio.
 
 ### <TitleIcon name="pip"/> Picture-in-Picture
 
