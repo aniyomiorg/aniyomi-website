@@ -17,17 +17,6 @@ What works well for somebody else might not work well for you.
 **Aniyomi** isn't responsible for slow, down, missing chapters/episodes, or subpar image/video quality of sources as it doesn't host content.
 :::
 
-## What is a fansub source?
-Non-officially licensed series are translated by scanlators, often found on their websites or [MangaDex](https://mangadex.org/).
-Compare with official sources like [MANGA Plus By SHUEISHA](https://mangaplus.shueisha.co.jp) or [VIZ Shonen Jump](https://www.viz.com/shonenjump).
-Learn more in this [Wikipedia article](https://en.wikipedia.org/wiki/Scanlation).
-
-## How do I request new extensions?
-[Open an issue](https://github.com/aniyomiorg/aniyomi-extensions/issues) on **GitHub** if not already there.
-Check the removed [extensions list](https://github.com/aniyomiorg/aniyomi-extensions/blob/master/REMOVED_SOURCES.md) first.
-
-You can find the list of extensions to download [here](/extensions/)
-
 ## Enabling third-party installations
 ::::tabs
 == Android 8.0 and higher
@@ -58,14 +47,3 @@ Uninstall extensions like regular apps: through device settings or in **Aniyomi*
 ::: tip Uninstalling an extension
 In **Aniyomi**, uninstall an extension via <nav to="extensions">, then tap **Uninstall** on the chosen extension.
 :::
-
-## Why was an extension removed?
-Extensions can be removed due to several reasons:
-
-* Frequent website changes.
-* Fansub removal request.
-* Paywall implementation.
-* Reverse engineering needs.
-* Site shutdown.
-
-Find the list of removed extensions [here](https://github.com/aniyomiorg/aniyomi-extensions/blob/master/REMOVED_SOURCES.md), excluding offline sites.
