@@ -44,9 +44,6 @@
 		<a href="https://github.com/aniyomiorg/aniyomi/">
 			<img src="https://github-readme-stats.vercel.app/api/pin/?username=aniyomiorg&repo=aniyomi&bg_color=161B22&text_color=c9d1d9&title_color=818CF8&icon_color=818CF8&border_radius=8&hide_border=true" alt="Android App">
 		</a>
-		<a href="https://github.com/aniyomiorg/aniyomi-extensions/">
-			<img src="https://github-readme-stats.vercel.app/api/pin/?username=aniyomiorg&repo=aniyomi-extensions&bg_color=161B22&text_color=c9d1d9&title_color=818CF8&icon_color=818CF8&border_radius=8&hide_border=true" alt="App Extensions">
-		</a>
 	</p>
 </div>
 

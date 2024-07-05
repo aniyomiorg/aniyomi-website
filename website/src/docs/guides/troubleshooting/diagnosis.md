@@ -56,9 +56,9 @@ These are general guidelines as each site has its specific undisclosed limits an
 ## Widespread issue
 When everyone experiences a problem, it could be with the extension or app:
 
-1. Check open issues [for the app](https://github.com/aniyomiorg/aniyomi/issues) and/or [**extensions**](https://github.com/aniyomiorg/aniyomi-extensions/issues).
-1. Check closed issues ([app](https://github.com/aniyomiorg/aniyomi/issues?q=is%3Aissue+is%3Aclosed)/[extensions](https://github.com/aniyomiorg/aniyomi-extensions/issues?q=is%3Aissue+is%3Aclosed)) in case it's resolved but not yet released.
-1. If not found, create a new issue.
+1. Check [open issues](https://github.com/aniyomiorg/aniyomi/issues)
+2. Check [closed issues](https://github.com/aniyomiorg/aniyomi/issues?q=is%3Aissue+is%3Aclosed) in case it's resolved but not yet released.
+3. If not found, create a new issue.
 
 ::: warning
 If the site itself is problematic, patience is the only solution until it becomes functional again.

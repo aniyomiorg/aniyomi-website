@@ -8,10 +8,7 @@ description: Frequently Asked Questions about Extensions.
 Frequently Asked Questions about Extensions.
 
 ## What are some recommended extensions and sources?
-**Aniyomi** does not endorse or recommend any source, and there is no best extension.
-
-Instead, we encourage users to spend some time trying out a few sources themselves and discover what sources work best for them.
-What works well for somebody else might not work well for you.
+Aniyomi is bring-your-own-content and does not offer anything.
 
 ::: info Disclaimer
 **Aniyomi** isn't responsible for slow, down, missing chapters/episodes, or subpar image/video quality of sources as it doesn't host content.

@@ -30,7 +30,7 @@ const themeConfig: DefaultTheme.Config = {
 
   footer: {
     message: '<a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Open-source Apache Licensed</a> <span class="divider">|</span> <a href="/privacy/">Privacy policy</a> <span class="divider">|</span> Powered by <a target="_blank" href="https://www.netlify.com/">Netlify <img src="/img/logo-netlify.svg" alt="Netlify Logo" height="12px" width="12px" style="display: inline-block"></a>',
-    copyright: `Copyright © 2015 - ${new Date().getFullYear()} Javier Tomás`,
+    copyright: `Copyright © ${new Date().getFullYear()} Aniyomi App`,
   },
 
   editLink: {
@@ -48,12 +48,7 @@ const themeConfig: DefaultTheme.Config = {
   },
 
   search: {
-    provider: 'algolia',
-    options: {
-      // appId: '2C8EHFTRW7',
-      apiKey: 'fc1c45b5a3835e1882cbbf0751dfe705',
-      indexName: 'aniyomi',
-    },
+    provider: 'local',
   },
 }
 

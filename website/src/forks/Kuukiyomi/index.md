@@ -1,7 +1,7 @@
 ---
 title: Kuukiyomi
 titleTemplate: false
-description: Implements features from various Tachiyomi forks, such as TachiyomiSY and others.
+description: Implements features from various Mihon forks, such as TachiyomiSY and others.
 
 layout: home
 pageClass: page-kuukiyomi
@@ -9,7 +9,7 @@ pageClass: page-kuukiyomi
 hero:
   name: Kuukiyomi
   text: All in one
-  tagline: Implements features from various Tachiyomi forks, such as TachiyomiSY and others.
+  tagline: Implements features from various Mihon forks, such as TachiyomiSY and others.
   image: /forks/logo-kuukiyomi.webp
   actions:
     - theme: brand

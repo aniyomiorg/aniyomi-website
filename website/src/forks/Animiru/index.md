@@ -1,7 +1,7 @@
 ---
 title: Animiru
 titleTemplate: false
-description: Aniyomi without the manga features from Tachiyomi - Focused in anime.
+description: Aniyomi without the manga features from Mihon - Focused in anime.
 
 layout: home
 pageClass: page-animiru
@@ -9,7 +9,7 @@ pageClass: page-animiru
 hero:
   name: Animiru
   text: Anime-only
-  tagline: Aniyomi without the manga features from Tachiyomi - Focused in anime.
+  tagline: Aniyomi without the manga features from Mihon - Focused in anime.
   image: /forks/logo-animiru.webp
   actions:
     - theme: brand

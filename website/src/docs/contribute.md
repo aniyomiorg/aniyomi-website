@@ -1,17 +1,15 @@
 ---
 title: Contribute
-description: Find out how to help translate or build the app and extensions.
+description: Find out how to help translate or build the app.
 ---
 
 # Contribute
-Find out how to help translate or build the app and extensions.
+Find out how to help translate or build the app.
 
 ## Code
 Know how to code and want to improve something or you generally want to support the creation of the app?
 
 [![aniyomiorg/aniyomi - GitHub](https://gh-card.dev/repos/aniyomiorg/aniyomi.svg)](https://github.com/aniyomiorg/aniyomi)
-
-[![aniyomiorg/aniyomi-extensions - GitHub](https://gh-card.dev/repos/aniyomiorg/aniyomi-extensions.svg)](https://github.com/aniyomiorg/aniyomi-extensions)
 
 [![aniyomiorg/aniyomi-website - GitHub](https://gh-card.dev/repos/aniyomiorg/aniyomi-website.svg)](https://github.com/aniyomiorg/aniyomi-website)
 

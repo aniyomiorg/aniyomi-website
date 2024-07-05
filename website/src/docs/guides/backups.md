@@ -82,13 +82,11 @@ or [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.
 This section explores some extra details regarding [forks](/forks/).
 :::
 
-All [endorsed Aniyomi forks](/forks/) support the `.tachibk`/`.proto.gz` format to backup/restore your library. <!-- lie -->
+All **Aniyomi** (and **Mihon**) [forks](/forks/) support the `.tachibk`/`.proto.gz` format to backup/restore your library.
 
 In addition, some forks have specific limitations regarding backup restoration:
 
 - All forks have fork-specific settings and changes that might be saved in Backups.
-  Such settings are not restored in original Aniyomi and will get lost when creating a new backup.
+  Such settings are not restored in **Aniyomi** and will get lost when creating a new backup.
 
-  These will **NOT** be restored to original Tachiyomi or its forks.
-
-Be aware of these limitations when dealing with backups in different **Tachiyomi** forks.
+Be aware of these limitations when dealing with backups in different **Aniyomi** and **Mihon** forks.
