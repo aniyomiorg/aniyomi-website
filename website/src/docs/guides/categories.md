@@ -14,7 +14,6 @@ To manage your categories, navigate to <nav to="categories">.
 - Add series to multiple categories and control update options through Library settings, even auto-download chapters/episodes from chosen categories.
   > If you've enabled **Download new chapters/episodes** in the Downloads settings.
 
-
 ## Content
 
 Categories would be useless without any content in them.

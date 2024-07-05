@@ -64,14 +64,12 @@ An example is as follows:
 As Aniyomi will use the `episode_number` key to match the episodes, the order of the JSON objects in the list does not matter.
 :::
 
-
 ## Using a custom cover image
 
 It is also possible to use a custom image as a cover for each local series.
 
 To do this, you only need to place the image file, that needs to be named `cover.jpg`, in the root of the anime folder.
 The app will then use your custom image in the local anime source listing.
-
 
 <style scoped>
   @import "../../../.vitepress/theme/styles/tree.styl"

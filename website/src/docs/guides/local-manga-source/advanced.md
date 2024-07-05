@@ -48,16 +48,16 @@ An example is as follows:
 
 ```json
 [
-	{
-		"chapter_number": 1,
-		"name": "Ch 1 - His Name Is...",
-		"date_upload": "2022-03-22T00:00:00"
-	},
-	{
-		"chapter_number": 1.5,
-		"name": "Ch 1.5 - Genius",
-		"scanlator": "TranslatingTeam"
-	}
+  {
+    "chapter_number": 1,
+    "name": "Ch 1 - His Name Is...",
+    "date_upload": "2022-03-22T00:00:00"
+  },
+  {
+    "chapter_number": 1.5,
+    "name": "Ch 1.5 - Genius",
+    "scanlator": "TranslatingTeam"
+  }
 ]
 ```
 ::: warning For your information
@@ -71,7 +71,6 @@ It is also possible to use a custom image as a cover for each local series.
 To do this, you only need to place the image file, that needs to be named `cover.jpg`, in the root of the series folder.
 The app will then use your custom image in the local source listing.
 
-
 <style scoped>
-	@import "../../../.vitepress/theme/styles/tree.styl"
+  @import "../../../.vitepress/theme/styles/tree.styl"
 </style>

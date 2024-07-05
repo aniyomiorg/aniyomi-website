@@ -35,32 +35,32 @@ You can refer to the following example:
 
 :::info Example
 <div class="tree">
-	<ul>
-		<img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
-		<span class="folder root">[your storage location]/localanime</span>
-		<li>
-			<img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
-			<span class="folder main">[the anime title]</span>
-			<ul>
-				<li>
-					<img src="/img/jpeg.svg" alt="File" class="tree-icon icon-jpeg">
-					<span class="file jpg">cover<span class="file-extension">.jpg</span></span>
-				</li>
-				<li>
-					<img src="/img/video.svg" alt="Video" class="tree-icon icon-video">
-					<span class="file jpg">ep01<span class="file-extension">.mp4</span></span>
-				</li>
-				<li>
-					<img src="/img/video.svg" alt="Video" class="tree-icon icon-video">
-					<span class="file jpg">ep02<span class="file-extension">.mkv</span></span>
-				</li>
-			</ul>
-		</li>
-		<li>...</li>
-	</ul>
+  <ul>
+    <img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
+    <span class="folder root">[your storage location]/localanime</span>
+    <li>
+      <img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
+      <span class="folder main">[the anime title]</span>
+      <ul>
+        <li>
+          <img src="/img/jpeg.svg" alt="File" class="tree-icon icon-jpeg">
+          <span class="file jpg">cover<span class="file-extension">.jpg</span></span>
+        </li>
+        <li>
+          <img src="/img/video.svg" alt="Video" class="tree-icon icon-video">
+          <span class="file jpg">ep01<span class="file-extension">.mp4</span></span>
+        </li>
+        <li>
+          <img src="/img/video.svg" alt="Video" class="tree-icon icon-video">
+          <span class="file jpg">ep02<span class="file-extension">.mkv</span></span>
+        </li>
+      </ul>
+    </li>
+    <li>...</li>
+  </ul>
 </div>
 :::
 
 <style scoped>
-	@import "../../../.vitepress/theme/styles/tree.styl"
+  @import "../../../.vitepress/theme/styles/tree.styl"
 </style>
