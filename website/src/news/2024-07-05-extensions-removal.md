@@ -2,7 +2,7 @@
 type: article
 title: Extensions list removed
 description: Due to extenuating circumstances.
-date: "2024-07-05"
+date: 2024-07-05
 ---
 
 # Extensions list removed
