@@ -9,16 +9,25 @@ Find out how to help translate or build the app.
 ## Code
 Know how to code and want to improve something or you generally want to support the creation of the app?
 
-[![aniyomiorg/aniyomi - GitHub](https://gh-card.dev/repos/aniyomiorg/aniyomi.svg)](https://github.com/aniyomiorg/aniyomi)
+[![aniyomiorg/aniyomi - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=aniyomiorg&repo=aniyomi&bg_color=f6f6f7&title_color=818cf8&icon_color=818cf8&border_radius=8&hide_border=false#light "aniyomiorg/aniyomi - GitHub" =400x120)](https://github.com/aniyomiorg/aniyomi)
 
-[![aniyomiorg/aniyomi-website - GitHub](https://gh-card.dev/repos/aniyomiorg/aniyomi-website.svg)](https://github.com/aniyomiorg/aniyomi-website)
+[![aniyomiorg/aniyomi-website - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=aniyomiorg&repo=aniyomi-website&bg_color=f6f6f7&title_color=818cf8&icon_color=818cf8&border_radius=8&hide_border=false#light "aniyomiorg/aniyomi-website - GitHub" =400x120)](https://github.com/aniyomiorg/aniyomi-website)
+
+[![aniyomiorg/aniyomi - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=aniyomiorg&repo=aniyomi&bg_color=1a1a41&text_color=c9d1d9&title_color=818cf8&icon_color=818cf8&border_radius=8&hide_border=true#dark "aniyomiorg/aniyomi - GitHub" =400x120)](https://github.com/aniyomiorg/aniyomi)
+
+[![aniyomiorg/aniyomi-website - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=aniyomiorg&repo=aniyomi-website&bg_color=1a1a41&text_color=c9d1d9&title_color=818cf8&icon_color=818cf8&border_radius=8&hide_border=true#dark "aniyomiorg/aniyomi-website - GitHub" =400x120)](https://github.com/aniyomiorg/aniyomi-website)
 
 ## Translation
-![Help translate here!](https://hosted.weblate.org/widget/aniyomi/aniyomi-strings/open-graph.png)
+Find out how to help translate the app.
 
-![Translation status](https://hosted.weblate.org/widget/aniyomi/aniyomi-strings/horizontal-auto.svg)
+[![Translation stats](https://hosted.weblate.org/widget/aniyomi/287x66-grey.png "Translation stats - Weblate" =287x66)](https://hosted.weblate.org/engage/aniyomi/)
 
-Want to help translate the app to your language? You can easily help by utilizing a service we use called **Weblate**.
+[![Translation progress](https://hosted.weblate.org/widget/aniyomi/horizontal-auto.svg "Translation progress - Weblate" =760x200)](https://hosted.weblate.org/engage/aniyomi/)
+
+Want to help translate the app to your language?
+You can easily help by utilizing a service we use called **Weblate**.
+
+> View translation project [here](https://hosted.weblate.org/engage/aniyomi/)
 
 ### Helpful links
 * [Translators guide](https://docs.weblate.org/en/latest/user/translating.html)
