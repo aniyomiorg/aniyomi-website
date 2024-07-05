@@ -1,7 +1,6 @@
 ---
 title: Privacy policy
 description: Privacy Policy that explains how Aniyomi collects, uses, and protects users' personal information.
-lastUpdated: false
 editLink: false
 ---
 
