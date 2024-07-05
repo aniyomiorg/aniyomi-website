@@ -48,16 +48,16 @@ An example is as follows:
 
 ```json
 [
-	{
-		"episode_number": 1,
-		"name": "Ep 1 - Good vs. Evil",
-		"date_upload": "2023-01-26T00:00:00"
-	},
-	{
-		"episode_number": 1.5,
-		"name": "Ep 1.5 - Inori",
-		"scanlator": "Ending"
-	}
+  {
+    "episode_number": 1,
+    "name": "Ep 1 - Good vs. Evil",
+    "date_upload": "2023-01-26T00:00:00"
+  },
+  {
+    "episode_number": 1.5,
+    "name": "Ep 1.5 - Inori",
+    "scanlator": "Ending"
+  }
 ]
 ```
 ::: warning For your information
@@ -74,5 +74,5 @@ The app will then use your custom image in the local anime source listing.
 
 
 <style scoped>
-	@import "../../../.vitepress/theme/styles/tree.styl"
+  @import "../../../.vitepress/theme/styles/tree.styl"
 </style>
