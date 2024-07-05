@@ -37,7 +37,7 @@ export default defineConfig({
   head: headConfig,
   markdown: markdownConfig,
   themeConfig,
-  transformHead: async (context) => generateMeta(context, hostname),
+  transformHead: async context => generateMeta(context, hostname),
   buildEnd: async (context) => {
     generateFeed(context, hostname)
     generateOgImages(context)

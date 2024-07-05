@@ -41,5 +41,5 @@ If you can't contribute code or translations but you still wish to help, then yo
 <iframe src="https://github.com/sponsors/jmir1/card" title="Sponsor jmir1" height="75" width="100%" style="border: 0;"></iframe>
 <br>
 <a href="https://ko-fi.com/jmir1" target="_blank" rel="noopener">
-	<img height="20" style="border:0px;height:100%;" src="https://storage.ko-fi.com/cdn/brandasset/kofi_button_red.png" alt="Buy Me a Coffee at ko-fi.com" />
+  <img height="20" style="border:0px;height:100%;" src="https://storage.ko-fi.com/cdn/brandasset/kofi_button_red.png" alt="Buy Me a Coffee at ko-fi.com" />
 </a>

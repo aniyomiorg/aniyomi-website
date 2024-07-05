@@ -21,8 +21,10 @@ export default defineLoader({
       const aDate = new Date(a.published_at!)
       const bDate = new Date(b.published_at!)
 
-      if (aDate > bDate) return -1
-      if (aDate < bDate) return 1
+      if (aDate > bDate)
+        return -1
+      if (aDate < bDate)
+        return 1
       return 0
     })
   },

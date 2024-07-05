@@ -19,7 +19,7 @@ const markdownConfig: MarkdownOptions = {
       .use(imgMark)
       .use(imgSize)
       .use(include, {
-        currentPath: (env) => env.filePath,
+        currentPath: env => env.filePath,
       })
       .use(tabsMarkdownPlugin)
       .use(shortcode_plugin, shortcodes)

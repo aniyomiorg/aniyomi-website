@@ -41,7 +41,8 @@ function generateMeta(context: TransformContext, hostname: string) {
   if (pageData.frontmatter.customMetaTitle) {
     addPropertyTag('og:title', pageData.frontmatter.customMetaTitle)
     addPropertyTag('og:site_name', '')
-  } else {
+  }
+  else {
     addPropertyTag('og:title', pageData.frontmatter.title)
   }
 
@@ -51,7 +52,8 @@ function generateMeta(context: TransformContext, hostname: string) {
 
   if (pageData.frontmatter.image) {
     addPropertyTag('og:image', `${hostname}/${pageData.frontmatter.image.replace(/^\//, '')}`)
-  } else {
+  }
+  else {
     const url = pageData.filePath.replace('index.md', '').replace('.md', '')
     const imageUrl = `${url}/__og_image__/og.png`.replace(/\/\//g, '/').replace(/^\//, '')
 

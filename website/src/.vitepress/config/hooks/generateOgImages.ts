@@ -40,7 +40,7 @@ async function generateOgImages(config: SiteConfig) {
     },
   ]
 
-  const filteredPages = pages.filter((p) => p.frontmatter.image === undefined)
+  const filteredPages = pages.filter(p => p.frontmatter.image === undefined)
 
   for (const page of filteredPages) {
     await generateImage({
@@ -64,9 +64,11 @@ interface GenerateImagesOptions {
 function getDir(url: string) {
   if (url.startsWith('/docs/faq/')) {
     return 'FAQ'
-  } else if (url.startsWith('/docs/guides/')) {
+  }
+  else if (url.startsWith('/docs/guides/')) {
     return 'Guide'
-  } else if (url.startsWith('/news/') && url !== '/news/') {
+  }
+  else if (url.startsWith('/news/') && url !== '/news/') {
     return 'News'
   }
 

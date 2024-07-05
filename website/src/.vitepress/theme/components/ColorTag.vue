@@ -1,13 +1,13 @@
 <script setup lang="ts">
-defineProps<{ title: string; color: string }>()
+defineProps<{ title: string, color: string }>()
 </script>
 
 <template>
-    <span class='color-tag'>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" :fill="color"><rect width="24" height="24" rx="6"/>
-        </svg>
-        <span class="name">{{ title }}</span>
-    </span>
+  <span class="color-tag">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" :fill="color"><rect width="24" height="24" rx="6" />
+    </svg>
+    <span class="name">{{ title }}</span>
+  </span>
 </template>
 
 <style lang="stylus" scoped>

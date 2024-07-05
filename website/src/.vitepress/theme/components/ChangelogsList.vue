@@ -9,10 +9,10 @@ function renderMarkdown(string: string | null | undefined) {
   const body = string ?? 'No changelog provided.'
   const flavoredString = body
     .split(/---\r\n\r\n### Checksums|---\r\n\r\nMD5/)[0]
-    .replace(/(?<=\(|(, ))@(.*?)(?=\)|(, ))/g, "[@$2](https://github.com/$2)")
-    .replace(/#(\d+)/g, "[#$1](https://github.com/aniyomiorg/aniyomi/issues/$1)")
-    .replace(/^Check out the .*past release notes.* if you're.*$/m, "")
-    .replace(/https:\/\/github.com\/aniyomiorg\/aniyomi\/releases\/tag\/(.*?)/g, "#$1")
+    .replace(/(?<=\(|(, ))@(.*?)(?=\)|(, ))/g, '[@$2](https://github.com/$2)')
+    .replace(/#(\d+)/g, '[#$1](https://github.com/aniyomiorg/aniyomi/issues/$1)')
+    .replace(/^Check out the .*past release notes.* if you're.*$/m, '')
+    .replace(/https:\/\/github.com\/aniyomiorg\/aniyomi\/releases\/tag\/(.*)/g, '#$1')
     .trim()
 
   return md.render(flavoredString)

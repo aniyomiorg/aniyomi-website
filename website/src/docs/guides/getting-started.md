@@ -82,6 +82,7 @@ Follow these steps:
 
 If you encounter difficulties while searching for a specific series, consider the following points:
 
+<!-- markdownlint-disable MD004 -->
 * Double-check your spelling and try again, as some sources might use **Japanese romanized** titles instead of **English** ones.
   > Example: **Boku no Hero Academia** instead of **My Hero Academia**.
 
@@ -89,3 +90,4 @@ If you encounter difficulties while searching for a specific series, consider th
   > Example: **Bungo Stray Dogs** instead of **Bungou Stray Dogs**
 
   > Example: **3-gatsu no Lion** instead of **Sangatsu no Lion**.
+<!-- markdownlint-enable MD004 -->

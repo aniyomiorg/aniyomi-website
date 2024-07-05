@@ -25,8 +25,8 @@
     "preview": "vitepress preview src",
     "lint": "pnpm lint:es && pnpm lint:mdl && pnpm lint:style",
     "lint:fix": "pnpm lint:es:fix && pnpm lint:style:fix",
-    "lint:es": "eslint . --ext .vue,.js,.ts,.cjs,.mjs,.jsx,.tsx",
-    "lint:es:fix": "eslint . --ext .vue,.js,.ts,.cjs,.mjs,.jsx,.tsx --fix",
+    "lint:es": "eslint .",
+    "lint:es:fix": "eslint . --fix",
     "lint:mdl": "markdownlint \"**/*.md\" \".github/**/*.md\" --enable sentences-per-line --disable MD025 MD033",
     "lint:style": "stylelint \"**/*.{styl,vue}\" \"src/.vitepress/**/*.{styl,vue}\"",
     "lint:style:fix": "stylelint --fix \"**/*.{styl,vue}\" \"src/.vitepress/**/*.{styl,vue}\""

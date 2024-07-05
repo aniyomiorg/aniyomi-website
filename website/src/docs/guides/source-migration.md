@@ -26,7 +26,7 @@ You will need to remove these manually with a file manager.
 
 1. Tap into a **Series** in your Library.
 1. Tap **Overflow** -> **Migrate**.
-	> **Aniyomi** will do a global search of all the sources you have installed and enabled.
+    > **Aniyomi** will do a global search of all the sources you have installed and enabled.
 1. Select the **Sources** you'd like to search and migrate _to_ and hit the arrow at the bottom right.
 1. Wait until it is found and select _done_ in the top right and you're done.
 

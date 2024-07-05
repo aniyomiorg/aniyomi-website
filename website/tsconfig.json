@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "esnext",
-	"jsx": "preserve",
+    "jsx": "preserve",
     "lib": ["esnext", "dom"],
     "useDefineForClassFields": true,
     "module": "esnext",

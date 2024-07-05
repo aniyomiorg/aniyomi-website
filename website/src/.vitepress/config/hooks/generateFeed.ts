@@ -23,7 +23,7 @@ async function generateFeed(config: SiteConfig, hostname: string) {
   }).load()
 
   // Filter everything that's not of type `article` (e.g. index.md)
-  const filteredPosts = posts.filter((post) => post.frontmatter.type === 'article')
+  const filteredPosts = posts.filter(post => post.frontmatter.type === 'article')
 
   filteredPosts.sort((a, b) => +new Date(b.frontmatter.date as string) - +new Date(a.frontmatter.date as string))
 
@@ -41,14 +41,15 @@ async function generateFeed(config: SiteConfig, hostname: string) {
       .replace(/^# .*$/m, '')
       .trim()
 
-    const post = {
-      title: frontmatter.title,
-      id: fullUrl,
-      link: fullUrl,
-      description: frontmatter.description,
-      content,
-      date: frontmatter.date,
-    } satisfies Item
+    const post
+      = {
+        title: frontmatter.title,
+        id: fullUrl,
+        link: fullUrl,
+        description: frontmatter.description,
+        content,
+        date: frontmatter.date,
+      } satisfies Item
 
     feed.addItem(post)
     json.push({ ...post, content: markdown })

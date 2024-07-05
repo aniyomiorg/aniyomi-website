@@ -10,8 +10,8 @@ const { type } = toRefs(props)
 const md = new MarkdownIt()
 
 const changelog = computed(() => {
-  const flavoredString = (release[type.value].body ?? "")
-    .replace(/(?<=\(|(, ))@(.*?)(?=\)|(, ))/g, "[@$2](https://github.com/$2)")
+  const flavoredString = (release[type.value].body ?? '')
+    .replace(/(?<=\(|(, ))@(.*?)(?=\)|(, ))/g, '[@$2](https://github.com/$2)')
     .replace('https://github.com/aniyomiorg/aniyomi/releases', '/changelogs/')
 
   return md.render(flavoredString)

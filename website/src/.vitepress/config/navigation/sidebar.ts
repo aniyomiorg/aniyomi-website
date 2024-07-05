@@ -145,8 +145,8 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
             {
               text: 'Audio and subtitle settings',
               link: '/docs/guides/video-player/audio-and-subtitle-settings',
-            }
-          ]
+            },
+          ],
         },
         {
           text: 'Shizuku',

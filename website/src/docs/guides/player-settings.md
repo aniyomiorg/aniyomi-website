@@ -10,9 +10,9 @@ This section relates to the watching experience in the app and navigating the pl
 ## Options
 
 ### At what point to mark the episode as seen <Badge type="info" text="85%" />
-This setting let's you configure after watching how much percentage of episode should it be automatically marked as seen.
+This setting lets you configure after watching how much percentage of episode should it be automatically marked as seen.
 
-**70% - 100% (5% increments)**
+#### 70% - 100% (5% increments)
 - This option will mark the episode as seen after you watched the first 70% - 100% of the episode.
 
 ### Preserve watch position on seen episodes <Badge text="On" type="info" />
@@ -95,17 +95,16 @@ This option lets you choose the default orientation of the player.
 This option toggles the horizontal seek gesture, allowing you to seek the video by swiping left or right on the player.
 
 ### Default skip intro length <Badge text="85s" type="info" />
-**1s to 255s (1s increments)**
-- This setting allows you to skip the episode's intro by the chosen duration when you press the button in the player.
 
+#### 1s to 255s (1s increments)
+- This setting allows you to skip the episode's intro by the chosen duration when you press the button in the player.
 
 ### Double tap to skip length <Badge text="10s" type="info" />
 Double tapping on left or right portion of the player will skip video forward or backward respectively by selected time.
 
-**Disabled - 30s**
+#### Disabled - 30s
 - Selecting "Disabled" will deactivate the double tap to skip functionality, replacing it with a double tap to pause/play.
 - Choosing any other time value will result in skipping the episode forward or backward based on the selected duration.
-
 
 ### Enable precise seeking <Badge text="Off" type="info" />
 When enabled, seeking will not focus on keyframes leading to slower but more precise seeking. this may have a negative impact on performance.
@@ -143,13 +142,14 @@ For those people who want to use external players like MX Player, VLC or MPV as 
 ### External player preference <Badge text="None" type="info" />
 Shows you a list of players currently installed on your phone which are supported by Aniyomi as an external player and lets you select your preferred one.
 
-**None**
+#### None
 - If the 'None' option is selected then Aniyomi will present you with all the supported external players available on your phone when you tap on an episode to play it.
 
 ::: tip
 Below 'None' are all of the external players available on your phone that will be displayed and selecting one of them will make it the default for Aniyomi.
 :::
 
+<!-- markdownlint-disable MD004 -->
 ::: details Current supported external players
 * [Just Player](https://play.google.com/store/apps/details?id=com.brouken.player)
 * [mpv-android](https://play.google.com/store/apps/details?id=is.xyz.mpv)
@@ -160,3 +160,4 @@ Below 'None' are all of the external players available on your phone that will b
 * [Web Video Cast](https://play.google.com/store/apps/details?id=com.instantbits.cast.webvideo)
 * [XPlayer](https://play.google.com/store/apps/details?id=video.player.videoplayer)
 :::
+<!-- markdownlint-enable MD004 -->

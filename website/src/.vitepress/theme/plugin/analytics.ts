@@ -30,7 +30,7 @@ function mountGoogleAnalytics(id: string) {
 }
 
 export default function ({ id }: { id: string }) {
-  // eslint-disable-next-line n/prefer-global/process
+  // eslint-disable-next-line node/prefer-global/process
   if (process.env.NODE_ENV === 'production' && id && typeof window !== 'undefined') {
     mountGoogleAnalytics(id)
   }

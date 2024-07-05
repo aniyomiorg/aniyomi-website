@@ -73,7 +73,7 @@ function generateNavigationHtml(navKey: string) {
   const navData = navigationMappings[navKey]
 
   if (!navData) {
-    return "<strong style='color:var(--vp-c-danger-1)'>Unsupported Navigation!</strong>"
+    return '<strong style=\'color:var(--vp-c-danger-1)\'>Unsupported Navigation!</strong>'
   }
 
   const { name, icon, dependsOn } = navData
