@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: Aniyomi
-  text: Full-featured player and reader, based on Tachiyomi.
+  text: Full-featured player and reader, based on <s>Tachiyomi</s> Mihon.
   tagline: Discover and watch anime, cartoons, series, and more – easier than ever on your Android device.
   image:
     alt: Aniyomi Library Tab Dark
