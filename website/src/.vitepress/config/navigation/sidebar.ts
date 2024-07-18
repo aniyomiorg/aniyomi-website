@@ -135,7 +135,14 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
         },
         {
           text: 'Player settings',
-          link: '/docs/guides/player-settings',
+          link: '/docs/guides/player-settings/',
+          collapsed: true,
+          items: [
+            {
+              text: 'Advanced player settings',
+              link: '/docs/guides/player-settings/advanced-player-settings',
+            },
+          ],
         },
         {
           text: 'Video player',

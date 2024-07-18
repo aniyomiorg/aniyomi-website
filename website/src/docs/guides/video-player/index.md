@@ -47,7 +47,7 @@ Will open a dialog to select `Video quality`, `Subtitle`, or `Audio`. The gear i
 
 ### <TitleIcon name="overflow"/> More player settings
 
-Some extra settings not found in [Player settings](/docs/guides/player-settings)
+Some extra settings not found in [Player settings](/docs/guides/player-settings/)
 
 #### Enable Bolume and Brightness Gestures
 
@@ -66,7 +66,7 @@ Specify the hardware video decoding API that should be used if possible. See [mp
 
 #### Audio channels
 
-See [Player settings](/docs/guides/player-settings#audio-channels)
+See [Player settings](/docs/guides/player-settings/#audio-channels)
 
 #### Toggle statistics page
 
