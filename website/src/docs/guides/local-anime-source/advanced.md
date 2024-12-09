@@ -32,7 +32,7 @@ You can copy the following example and edit the details as needed:
 }
 ```
 ::: tip
-If you don't want to manually create the `details.json` file, you can alternatively use [this tool.](https://aniyomi-local.netlify.app)
+If you don't want to create the `details.json` file manually, you can use [this website](https://aniyomi-local.netlify.app)
 :::
 
 ## Editing episode details

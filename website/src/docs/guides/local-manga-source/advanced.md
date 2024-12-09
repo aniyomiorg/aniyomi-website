@@ -32,7 +32,7 @@ You can copy the following example and edit the details as needed:
 }
 ```
 ::: tip
-If you don't want to manually create the `details.json` file, you can alternatively use [this website](https://aniyomi-local.netlify.app/manga) or [this tool.](https://github.com/ghostbear/koguma/releases/latest)
+If you don't want to create the `details.json` file manually, you can use the android app [Koguma](https://github.com/ghostbear/koguma/releases/latest) or [this website](https://aniyomi-local.netlify.app/manga)
 :::
 
 ## Editing chapter details
