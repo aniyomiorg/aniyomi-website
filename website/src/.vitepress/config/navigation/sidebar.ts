@@ -139,8 +139,32 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           items: [
             {
-              text: 'Advanced player settings',
-              link: '/docs/guides/player-settings/advanced-player-settings',
+              text: 'Internal player',
+              link: '/docs/guides/player-settings/internal-player-settings',
+            },
+            {
+              text: 'Gestures',
+              link: '/docs/guides/player-settings/gestures',
+            },
+            {
+              text: 'Decoder',
+              link: '/docs/guides/player-settings/decoder',
+            },
+            {
+              text: 'Subtitles',
+              link: '/docs/guides/player-settings/subtitles',
+            },
+            {
+              text: 'Audio',
+              link: '/docs/guides/player-settings/audio',
+            },
+            {
+              text: 'Custom buttons',
+              link: '/docs/guides/player-settings/custom-buttons',
+            },
+            {
+              text: 'Advanced',
+              link: '/docs/guides/player-settings/advanced',
             },
           ],
         },
@@ -150,8 +174,12 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           items: [
             {
-              text: 'Audio and subtitle settings',
-              link: '/docs/guides/video-player/audio-and-subtitle-settings',
+              text: 'Player sheets',
+              link: '/docs/guides/video-player/sheets',
+            },
+            {
+              text: 'Player panels',
+              link: '/docs/guides/video-player/panels',
             },
           ],
         },
