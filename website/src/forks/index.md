@@ -12,10 +12,6 @@ features:
     details: Aniyomi without the manga features from Mihon - Focused in anime.
     icon: <img src="/forks/logo-animiru.webp" alt="Animiru Logo" height="32" width="32">
     link: /forks/Animiru/
-  - title: Kuukiyomi
-    details: Implements features from various Mihon forks, such as TachiyomiSY and TachiyomiJ2K.
-    icon: <img src="/forks/logo-kuukiyomi.webp" alt="Kuukiyomi Logo" height="32" width="32">
-    link: /forks/Kuukiyomi/
 
 ---
 

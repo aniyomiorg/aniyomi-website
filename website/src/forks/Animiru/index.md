@@ -25,9 +25,6 @@ features:
   - title: Discord rich presence
     details: Let people know that you're a cultured one!
     icon: <img src="/img/logo-discord.svg" alt="Discord Logo" height="32" width="32">
-  - title: Smaller app size
-    details: Without the manga features, the app is almost half the size of Aniyomi.
-    icon: 🤏
 
 theme: "#ec45fd"
 image: /forks/logo-animiru.webp
