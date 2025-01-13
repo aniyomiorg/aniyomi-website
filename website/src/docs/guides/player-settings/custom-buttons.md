@@ -53,11 +53,11 @@ aniyomi.int_picker("Change intro length", "%ds", 0, 255, 1, "user-data/current-a
 function update_button(_, length)
   if length ~= nil then
     if length == 0 then
-    aniyomi.hide_button()
-    return
-  else
-    aniyomi.show_button()
-  end
+      aniyomi.hide_button()
+      return
+    else
+      aniyomi.show_button()
+    end
     aniyomi.set_button_title("+" .. length .. " s")
   end
 end
