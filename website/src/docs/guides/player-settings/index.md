@@ -4,157 +4,38 @@ titleTemplate: Player settings
 description: This section relates to the watching experience in the app and navigating the player.
 ---
 
+<script setup>
+import TitleIcon from "@theme/components/TitleIcon.vue";
+</script>
+
 # Player settings
-This section relates to the watching experience in the app and navigating the player.
 
-## Options
+Settings for everything related to the video player. All settings will be in the category's own page.
 
-### At what point to mark the episode as seen <Badge type="info" text="85%" />
-This setting lets you configure after watching how much percentage of episode should it be automatically marked as seen.
+## [<TitleIcon name="settings_internal"/>Internal player](/docs/guides/player-settings/internal-player-settings)
 
-#### 70% - 100% (5% increments)
-- This option will mark the episode as seen after you watched the first 70% - 100% of the episode.
+This category deals with settings for controls, display, picture-in-picture, and other settings that doesn't fit into any other categories.
 
-### Preserve watch position on seen episodes <Badge text="On" type="info" />
-This option will preserve the watch position on episodes even after it's marked as seen.
+## [<TitleIcon name="settings_gestures"/>Gestures](/docs/guides/player-settings/gestures)
 
-## Internal player
+This category deals with gesture related settings.
 
-### Show content in display cutout <Badge text="On" type="info" />
-This option toggles the margin to the left side of player so that phones with notches won't obstruct the player UI.
+## [<TitleIcon name="settings_decoder"/>Decoder](/docs/guides/player-settings/decoder)
 
-::: tabs
-=== Display cutout turned on
-![Display cutout turned on](/docs/guides/player-settings/display-cutout-on.webp =512x788)
-=== Display cutout turned off
-![Display cutout turned off](/docs/guides/player-settings/display-cutout-off.webp =512x788)
-:::
+This category deals with decoding and other rendering settings.
 
-### Hide player controls when opening the player <Badge text="Off" type="info" />
-This option toggles the visibility of player controls while the player is opening.
+## [<TitleIcon name="settings_subtitles"/>Subtitles](/docs/guides/player-settings/subtitles)
 
-### Audio channels <Badge text="Auto-safe" type="info" />
+This category deals with subtitle related settings.
 
-Control which audio channels are output. There are the following possibilities:
-- **Auto-safe** - Use the system's preferred channel layout. If there is none, force stereo.
-- **Auto** - Send the audio device whatever it accepts, preferring the audio's original channel layout.
-- **Mono** - Force the player to output the audio on a single channel.
-- **Stereo** - Force the player to output to dual channel.
-- **Reverse stereo** - Stereo but the channels are reversed.
+## [<TitleIcon name="settings_audio"/>Audio](/docs/guides/player-settings/audio)
 
-### Advanced player settings
+This category deals with audio related settings.
 
-See [advanced player settings](/docs/guides/player-settings/advanced-player-settings.md)
+## [<TitleIcon name="settings_custom_buttons"/>Custom buttons](/docs/guides/player-settings/custom-buttons)
 
-## Volume and brightness
+This category is for creating and editing custom buttons.
 
-### Enable volume and brightness gestures <Badge text="On" type="info" />
-This option toggles the volume and brightness gestures, allowing you to control the volume and brightness of the video by swiping up or down on the right or left side of the player.
+## [<TitleIcon name="settings_advanced"/>Advanced](/docs/guides/player-settings/advanced)
 
-### Remember last used brightness <Badge text="Off" type="info" />
-This option toggles the ability to remember the last used brightness level.
-
-### Remember last used volume <Badge text="Off" type="info" />
-This option toggles the ability to remember the last used volume level.
-
-## Orientation
-
-### Default orientation <Badge text="Free" type="info" />
-This option lets you choose the default orientation of the player.
-- **Free** - The player will rotate Depending on orientation of the device.
-- **Portrait** - The player will always be in portrait mode.
-- **Reverse Portrait** - The player will always be in reverse portrait mode.
-- **Landscape** - The player will always be in landscape mode.
-- **Reverse Landscape** - The player will always be in reverse landscape mode.
-- **Sensor Portrait** - The player will rotate between portrait and reverse portrait mode depending on the orientation of the device.
-- **Sensor Landscape** - The player will rotate between landscape and reverse landscape mode depending on the orientation of the device.
-
-### Adjust the orientation based on the video's dimensions <Badge text="On" type="info" />
-This feature ensures that the player's orientation is synchronized with the video's orientation. If the video's aspect ratio is greater than 1, the player will adopt landscape mode. Conversely, if the video's aspect ratio is less than 1, the player will switch to portrait mode. This simplifies the alignment between the player and the video's dimensions.
-
-### Default portrait/landscape orientation <Badge text="Sensor" type="info" />
-This option lets you choose the default orientation of the player.
-- **Default Portrait**
-  - **Portrait** - The player will always be in portrait mode.
-  - **Reverse Portrait** - The player will always be in reverse portrait mode.
-  - **Sensor Portrait** - The player will rotate between portrait and reverse portrait mode depending on the orientation of the device.
-- **Default Landscape**
-  - **Landscape** - The player will always be in landscape mode.
-  - **Reverse Landscape** - The player will always be in reverse landscape mode.
-  - **Sensor Landscape** - The player will rotate between landscape and reverse landscape mode depending on the orientation of the device.
-
-## Seeking
-
-### Enable horizontal seek gesture <Badge text="On" type="info" />
-This option toggles the horizontal seek gesture, allowing you to seek the video by swiping left or right on the player.
-
-### Default skip intro length <Badge text="85s" type="info" />
-
-#### 1s to 255s (1s increments)
-- This setting allows you to skip the episode's intro by the chosen duration when you press the button in the player.
-
-### Double tap to skip length <Badge text="10s" type="info" />
-Double tapping on left or right portion of the player will skip video forward or backward respectively by selected time.
-
-#### Disabled - 30s
-- Selecting "Disabled" will deactivate the double tap to skip functionality, replacing it with a double tap to pause/play.
-- Choosing any other time value will result in skipping the episode forward or backward based on the selected duration.
-
-### Enable precise seeking <Badge text="Off" type="info" />
-When enabled, seeking will not focus on keyframes leading to slower but more precise seeking. this may have a negative impact on performance.
-
-### Seek chapters with media controls <Badge text="Off" type="info" />
-When enabled, using next/previous on your media device will go the next/previous chapter, respectively. If the video does not have any chapters, using next will invoke the skip intro button and using previous will do nothing.
-
-### Enable AniSkip <Badge text="Off" type="info" />
-Aniskip is a functionality designed to automatically skip the intros and endings segments of an episode. To use this feature, the anime entry must be tracked through AniList or MyAnimeList.
-
-### Enable auto skip <Badge text="Off" type="info" />
-When enabled, any intros and endigs will be automatically skipped.
-
-### Enable Netflix style <Badge text="Off" type="info" />
-When enabled and an intro or ending is reached, a toast will display showing the time left before it's skipped during which time the user can choose not to skip.
-
-### Button timeout <Badge text="5s" type="info" />
-The time taken before an intro or ending is skipped when **Netflix style** is enabled.
-
-## Picture-In-Picture (PiP)
-### Enable Picture-In-Picture <Badge text="On" type="info" />
-This option toggles the Picture-In-Picture mode, allowing you to watch the video in a floating window while using other apps.
-
-### Show episode toasts when switching episodes in PiP <Badge text="On" type="info" />
-This option toggles the episode toasts that appear whenever a new episode starts playing while in PiP.
-
-### Automatically switch to PiP mode on exiting the player <Badge text="Off" type="info" />
-This option toggles the automatic entry into PiP mode when exiting the player.
-
-### Replaces the "Skip 10 seconds option" with "Previous episode" <Badge text="Off" type="info" />
-Self-explanatory.
-
-## External player
-
-### Always use external player <Badge text="Off" type="info" />
-For those people who want to use external players like MX Player, VLC or MPV as a default player can toggle this option on.
-
-### External player preference <Badge text="None" type="info" />
-Shows you a list of players currently installed on your phone which are supported by Aniyomi as an external player and lets you select your preferred one.
-
-#### None
-- If the 'None' option is selected then Aniyomi will present you with all the supported external players available on your phone when you tap on an episode to play it.
-
-::: tip
-Below 'None' are all of the external players available on your phone that will be displayed and selecting one of them will make it the default for Aniyomi.
-:::
-
-<!-- markdownlint-disable MD004 -->
-::: details Current supported external players
-* [Just Player](https://play.google.com/store/apps/details?id=com.brouken.player)
-* [mpv-android](https://play.google.com/store/apps/details?id=is.xyz.mpv)
-* [MPV-Remote](https://github.com/husudosu/mpv-remote-app)
-* [MX Player](https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad) / [MX Player Pro](https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.pro)
-* [Next Player](https://play.google.com/store/apps/details?id=dev.anilbeesetti.nextplayer)
-* [VLC](https://play.google.com/store/apps/details?id=org.videolan.vlc)
-* [Web Video Cast](https://play.google.com/store/apps/details?id=com.instantbits.cast.webvideo)
-* [XPlayer](https://play.google.com/store/apps/details?id=video.player.videoplayer)
-:::
-<!-- markdownlint-enable MD004 -->
+This category deals with more advanced settings.
