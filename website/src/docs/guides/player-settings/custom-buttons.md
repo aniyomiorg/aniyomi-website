@@ -40,7 +40,7 @@ This one is added in as default. Tapping the custom button will seek ahead by th
 **Lua code**:
 ```lua
 local intro_length = mp.get_property_number("user-data/current-anime/intro-length")
-aniyomi.right_seek_by(intro_length)
+aniyomi.seek_by(intro_length)
 ```
 
 **Lua code (on long press)**:
@@ -128,6 +128,18 @@ Show the [Audio delay](/docs/guides/video-player/panels#audio-delay) panel.
 
 Show the [Video filters](/docs/guides/video-player/panels#video-filters) panel.
 
+### `aniyomi.show_software_keyboard()`
+
+Show a keyboard on screen.
+
+### `aniyomi.hide_software_keyboard()`
+
+Hide the on-screen keyboard.
+
+### `aniyomi.toggle_software_keyboard()`
+
+Toggle the visibility of the on-screen keyboard.
+
 ### `aniyomi.set_button_title(text)`
 
 Set the title of the custom button.
@@ -138,6 +150,18 @@ Set the title of the custom button.
 
 Reset the custom button title.
 
+### `aniyomi.hide_button()`
+
+Hide the primary button from the player.
+
+### `aniyomi.show_button()`
+
+Show the primary button.
+
+### `aniyomi.toggle_button()`
+
+Toggle the visibility of the primary button.
+
 ### `aniyomi.previous_episode()`
 
 Switch to the previous episode.
@@ -145,17 +169,6 @@ Switch to the previous episode.
 ### `aniyomi.next_episode()`
 
 Switch to the next episode.
-
-### `aniyomi.int_picker(title, name_format, start, stop, step, property)`
-
-Open up a wheel picker to set an integer value to a property.
-
-* `title` (string) - Title of the dialog.
-* `name_format` (string) - Format of each entry. Set to `%d` to just display the number.
-* `start` (integer) - Start value for integer range.
-* `stop` (integer) - Stop value for integer range.
-* `step` (integer) - Step value for integer range.
-* `property` (string) - mpv property to assign value to.
 
 ### `aniyomi.pause()`
 
@@ -169,29 +182,39 @@ Resume the player.
 
 Toggle pausing.
 
+### `aniyomi.seek_by(value)` {#aniyomi-seek-by-value}
+
+Seek relative by a value. Enter a negative number to seek backwards.
+
+* `value` (integer) - Seconds to seek by.
+
+### `aniyomi.seek_to(value)` {#aniyomi-seek-to-value}
+
+Seek to a position.
+
+* `value` (integer) - Position to seek to (in seconds).
+
+### `aniyomi.seek_by_with_text(value, text)`
+
+Like [seek_by](#aniyomi-seek-by-value), but display some text in the seek ripple.
+
+* `value` (integer) - Seconds to seek by.
+* `text` (string) - Text to display.
+
 ### `aniyomi.seek_to_with_text(value, text)`
 
-Seek to a position and display some text in the seek ripple.
+Like [seek_to](#aniyomi-seek-to-value), but display some text in the seek ripple.
 
 * `value` (integer) - Position to seek to (in seconds).
 * `text` (string) - Text to display.
 
-### `aniyomi.hide_button()`
+### `aniyomi.int_picker(title, name_format, start, stop, step, property)`
 
-Hide the primary button from the player.
+Open up a wheel picker to set an integer value to a property.
 
-### `aniyomi.show_button()`
-
-Show the primary button.
-
-### `aniyomi.left_seek_by(value)`
-
-Seek backwards.
-
-* `value` (integer) - Seconds to seek back by.
-
-### `aniyomi.right_seek_by(value)`
-
-Seek forwards.
-
-* `value` (integer) - Seconds to seek forwards by.
+* `title` (string) - Title of the dialog.
+* `name_format` (string) - Format of each entry. Set to `%d` to just display the number.
+* `start` (integer) - Start value for integer range.
+* `stop` (integer) - Stop value for integer range.
+* `step` (integer) - Step value for integer range.
+* `property` (string) - mpv property to assign value to.
