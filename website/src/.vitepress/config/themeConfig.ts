@@ -30,7 +30,7 @@ const themeConfig: DefaultTheme.Config = {
 
   footer: {
     message: '<a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Open-source Apache Licensed</a> <span class="divider">|</span> <a href="/privacy/">Privacy policy</a>',
-    copyright: `Copyright © ${new Date().getFullYear()} Aniyomi App`,
+    copyright: `Copyright © ${new Date().getFullYear()} Mihon App, Aniyomi App`,
   },
 
   editLink: {

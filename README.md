@@ -37,6 +37,7 @@ Thank you to all the people who have contributed!
 ### License
 
 <pre>
+Copyright © 2024 The Mihon Open Source Project
 Copyright © 2024 The Aniyomi Open Source Project
 
 This Source Code Form is subject to the terms of the Mozilla Public
