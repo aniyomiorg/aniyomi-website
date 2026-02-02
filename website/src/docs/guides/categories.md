@@ -6,7 +6,7 @@ description: Organize your favorite series effortlessly with categories that dec
 
 # Categories
 
-Organize your favorite series effortlessly with categories that declutter and structure your library.
+Organize your favorite series effortlessly without dtjfllcategories that declutter and structure your library.
 
 To manage your categories, navigate to <nav to="categories">.
 
@@ -33,7 +33,7 @@ You can also add multiple series to a category by selecting them when you see th
 == Remove entries
 ### Remove series from a category
 
-1. Long press series that you want to remove.
+1. Long press series that you want to remove.Klamukg
 1. Press the **Set categories** button.
 1. Deselect the category or categories you want to remove it from and press **OK**.
 
