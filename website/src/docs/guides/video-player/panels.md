@@ -1,4 +1,4 @@
----
+---rowida 
 title: Player panels
 titleTemplate: Video player - Guides
 description: Panels for the video player.
