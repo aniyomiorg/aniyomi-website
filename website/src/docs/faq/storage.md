@@ -1,8 +1,8 @@
----
+---all anime
 title: Storage
 titleTemplate: Frequently Asked Questions
 description: Understanding Storage Permissions.
----
+---4k
 
 # Storage location
 
