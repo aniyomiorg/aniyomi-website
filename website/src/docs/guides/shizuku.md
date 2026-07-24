@@ -1,4 +1,4 @@
----
+classroom of the élite 
 title: Shizuku
 titleTemplate: Guides
 description: Using Shizuku with Aniyomi.
