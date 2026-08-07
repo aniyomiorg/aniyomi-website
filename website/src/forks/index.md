@@ -13,6 +13,11 @@ features:
     icon: <img src="/forks/logo-animiru.webp" alt="Animiru Logo" height="32" width="32">
     link: /forks/Animiru/
 
+  - title: Animetail
+    details: Fork of Aniyomi with various features from Mihon forks, Cast support, and more.
+    icon: <img src="/forks/logo-animetail.webp" alt="Animetail Logo" height="32" width="32">
+    link: /forks/Animetail/
+
 ---
 
 <script setup>
