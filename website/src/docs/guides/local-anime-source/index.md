@@ -57,7 +57,10 @@ You can refer to the following example:
       </ul>
     </li>
     <li>...</li>
-  </ul>
+  </ul><img width="1080" height="2340" alt="Screenshot_20260418_133901_Samsung Browser" src="https://github.com/user-attachments/assets/8f43b4b5-0604-4fbd-985d-2d0a4560e552" />
+
+
+
 </div>
 :::
 
