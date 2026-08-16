@@ -1,3 +1,4 @@
+<img width="1080" height="2340" alt="Screenshot_20260418_133901_Samsung Browser" src="https://github.com/user-attachments/assets/ad984c5a-18ef-4072-bb7f-f8b7d8e8f786" />
 ---
 title: Local source
 titleTemplate: Guides
