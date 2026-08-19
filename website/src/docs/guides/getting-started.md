@@ -1,4 +1,4 @@
----
+sibiyasibusiso2703-ux/aniyomi-website
 title: Getting started
 titleTemplate: Guides
 description: Essential information to help you get set up with Aniyomi.
