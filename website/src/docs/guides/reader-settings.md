@@ -150,7 +150,7 @@ No tap zones to assist with navigation will be active.
 
 ::: tabs
 == None
-Keeps the default zap zones.
+Keeps the default tap zones.
 == Horizontal
 Changes so that the tap zones are flipped horizontally.
 == Vertical
@@ -278,5 +278,5 @@ TBA
 ### Show on long tap <Badge type="info" text="On" />
 TBA
 
-### Save pages into seperate folders <Badge type="info" text="Off" />
+### Save pages into separate folders <Badge type="info" text="Off" />
 TBA

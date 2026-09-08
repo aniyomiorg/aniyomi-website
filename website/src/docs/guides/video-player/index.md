@@ -11,7 +11,7 @@ import TitleIcon from "@theme/components/TitleIcon.vue";
 
 # Video player
 
-This section aims to explain what each button in the player does as well as other features. Each button is explain left-to-right then top-to-bottom.
+This section aims to explain what each button in the player does as well as other features. Each button is explained left-to-right then top-to-bottom.
 
 ![ <ColorTag title="Top" color="#B1E0BB"/> <ColorTag title="Middle" color="#BBB1B6"/> <ColorTag title="Bottom" color="#F1AD8B"/> ](/docs/guides/video-player/player.webp =648x306)
 
@@ -47,7 +47,7 @@ Press to open the [More](/docs/guides/video-player/sheets#more-sheet) sheet.
 
 ### Auto-play is off
 
-Here, additional messages such as the [Autoplay](/docs/guides/video-player/#autoplay) status, current [View mode](/docs/guides/video-player/#cycle-view-mode), and [`aniyomi.show_text(text)`](/docs/guides/player-settings/custom-buttons#aniyomi-show-text-text) shows up.
+Here, additional messages such as the [Autoplay](/docs/guides/video-player/#autoplay) status, current [View mode](/docs/guides/video-player/#cycle-view-mode), and [`aniyomi.show_text(text)`](/docs/guides/player-settings/custom-buttons#aniyomi-show-text-text) show up.
 
 ## Middle section
 

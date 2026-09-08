@@ -6,7 +6,7 @@ description: Internal player settings for the video player.
 
 # Internal player
 
-This section deals with settings for controls, display, picture-in-picture, and other settings that doesn't fit into any other categories.
+This section deals with settings for controls, display, picture-in-picture, and other settings that don't fit into any other categories.
 
 ## Options
 
@@ -91,7 +91,7 @@ Opacity of player [Panels](/docs/guides/video-player/panels).
 
 ## Picture-in-Picture (PiP)
 
-### Enable to use of PiP mode <Badge text="Off" type="info" />
+### Enable the use of PiP mode <Badge text="Off" type="info" />
 
 This option toggles the Picture-In-Picture mode, allowing you to watch the video in a floating window while using other apps.
 

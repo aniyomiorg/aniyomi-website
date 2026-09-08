@@ -10,7 +10,7 @@ Before submitting your contribution, please make sure to take a moment and read 
 
 You will need [Node.js](http://nodejs.org) **version 20+**, and [pnpm](https://pnpm.io/installation) **version 8+**.
 
-After cloning the repo and entering the the directory, go to the `/website` folder and run:
+After cloning the repo and entering the directory, go to the `/website` folder and run:
 
 ``` bash
 # Installs any dependencies needed.

@@ -96,7 +96,7 @@ All images inside the archive regardless of folder structure will become pages f
 <div class="tree">
   <ul>
     <img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
-    <span class="folder root">[your storage location]]/local</span>
+    <span class="folder root">[your storage location]/local</span>
     <li>
       <img src="/img/folder.svg" alt="Folder" class="tree-icon icon-folder">
       <span class="folder main">[the series title]</span>
