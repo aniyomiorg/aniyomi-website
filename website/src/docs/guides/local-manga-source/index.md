@@ -1,26 +1,26 @@
 ---
-title: Local source
-titleTemplate: Guides
-description: For users who would like to download and organize their own media.
+标题：本地源
+titleTemplate：参考线
+描述：适用于希望下载和组织自己的媒体的用户。
 ---
 
-# Local source
+#本地源
 
-If you like to download and organize your media, then you want to know how to manage your own series in Aniyomi.
+如果你喜欢下载和组织你的媒体，那么你想知道如何管理你自己的系列在阿尼约米。
 
-::: warning
-This page explores some advanced features.
+**警告
+本页将探索一些高级功能。
 :::
 
-## Creating local series
+##创建本地序列
 
-1. In the location you specified as your storage location (e.g., `/Aniyomi/`), there should be a `local` folder. Place correctly structured series inside that (e.g. `/Aniyomi/local/`).
+1.在您指定为存储位置的位置(例如，`/Aniyomi/`)，应该有一个`当地的`文件夹。将结构正确的系列放入其中(例如`/Aniyomi/local/`).
 
-    > If adding series in folders it is recommended to add a file named `.nomedia` to the local folder so images do not show up in the gallery.
+    >如果在文件夹中添加系列，建议添加名为`.nomedia`复制到本地文件夹，以便图像不会显示在画廊中。
 
-1. You should now be able to access the series in <nav to="sources"> under **Local source**.
+1.现在，您应该能够访问<NAV到="来源">在……下面**本地源**.
 
-If you add more chapters then you'll have to manually refresh the chapter list (by pulling down the list).
+如果您添加了更多章节，则必须手动刷新章节列表(通过下拉该列表)。
 
 Supported chapter formats are folders with pictures inside (such as `.jpg`, `.png`, etc) or archive files (`ZIP`/`CBZ`, `RAR`/`CBR`, and `EPUB`).
 But expect better performance with directories and `ZIP`/`CBZ`.
