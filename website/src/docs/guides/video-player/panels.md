@@ -46,7 +46,7 @@ Reset all subtitle typography settings.
 
 #### <TitleIcon name="font_family"/> Font family
 
-Select font family. Options includes "Sans Serif" (default) and all fonts placed in the `mpv-config/fonts` subdirectory for [Storage location](/docs/faq/storage#storage-location). <MpvLink link="https://mpv.io/manual/master/#options-sub-font"/>
+Select font family. Options include "Sans Serif" (default) and all fonts placed in the `mpv-config/fonts` subdirectory for [Storage location](/docs/faq/storage#storage-location). <MpvLink link="https://mpv.io/manual/master/#options-sub-font"/>
 
 #### <TitleIcon name="font_size"/> Font size
 
@@ -72,7 +72,7 @@ Settings to change the color of subtitles.
 
 ![Subtitle colors settings panel](/docs/guides/video-player/subtitle-settings-colors.dark.webp#dark =648x543)
 
-To change a color, first select one of three possibles properties to change color for, then use the sliders to change the color. The properties are as follows:
+To change a color, first select one of three possible properties to change color for, then use the sliders to change the color. The properties are as follows:
 
 * <TitleIcon name="font_color"/>- Color for text. <MpvLink link="https://mpv.io/manual/master/#options-sub-color"/>
 * <TitleIcon name="border_color"/>- Color for background/outline. <MpvLink link="https://mpv.io/manual/master/#options-sub-outline-color"/>
@@ -124,7 +124,7 @@ Set audio delay. Instead of trying to fine tune the delay manually, you can also
 ### Set as default
 <!-- markdownlint-enable MD024 -->
 
-Set the current delay as the default. Press <TitleIcon name="delay_reset"/>to reset both the delay.
+Set the current delay as the default. Press <TitleIcon name="delay_reset"/>to reset the delay.
 
 ## Video filters
 

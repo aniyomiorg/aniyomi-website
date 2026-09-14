@@ -10,7 +10,7 @@ import TitleIcon from "@theme/components/TitleIcon.vue";
 
 # Custom buttons
 
-This sections deals with custom buttons and how they work.
+This section deals with custom buttons and how they work.
 
 ::: warning
 This page explores some advanced features.
@@ -18,15 +18,15 @@ This page explores some advanced features.
 
 ## What are custom buttons?
 
-Custom buttons provides a way to execute lua code by pressing a button in the player. Aniyomi also provides an interface to interact with some parts of the player. By default, Aniyomi comes with a button to seek 85 seconds forward which is meant to skip intros. The duration can be changed by long pressing the button.
+Custom buttons provide a way to execute lua code by pressing a button in the player. Aniyomi also provides an interface to interact with some parts of the player. By default, Aniyomi comes with a button to seek 85 seconds forward which is meant to skip intros. The duration can be changed by long pressing the button.
 
 ## Adding a custom button
 
-To add a custom button, press the `Add` button in the bottom right. A button must have a unique title, as long with some lua code that will be executed when pressed. Additionally, the custom button may include some code that will be executed when long pressed, and code that will be executed once on player startup.
+To add a custom button, press the `Add` button in the bottom right. A button must have a unique title, along with some lua code that will be executed when pressed. Additionally, the custom button may include some code that will be executed when long pressed, and code that will be executed once on player startup.
 
 ## Editing a custom button
 
-The up or down arrow will the determine the order of the custom buttons. Press the <TitleIcon name="custom_button_star"/>button to set a button as the primary one, <TitleIcon name="custom_button_edit"/>to edit a custom button, and <TitleIcon name="custom_button_delete"/>to delete a custom button.
+The up or down arrow will determine the order of the custom buttons. Press the <TitleIcon name="custom_button_star"/>button to set a button as the primary one, <TitleIcon name="custom_button_edit"/>to edit a custom button, and <TitleIcon name="custom_button_delete"/>to delete a custom button.
 
 ::: warning For your information
 Only one button can be set as a primary, which will appear in the player. The rest will appear in the [More](/docs/guides/video-player/sheets#more-sheet) sheet.

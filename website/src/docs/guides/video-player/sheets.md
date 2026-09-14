@@ -72,15 +72,15 @@ Opens up the [Video filters](/docs/guides/video-player/panels#video-filters) pan
 
 ### Hardware decoding mode
 
-Specify the hardware video decoding API that should be used if possible. See [mpv's documentation](https://mpv.io/manual/master/#options-hwdec) for more info. Possible values is as follows:
+Specify the hardware video decoding API that should be used if possible. See [mpv's documentation](https://mpv.io/manual/master/#options-hwdec) for more info. Possible values are as follows:
 - **Auto** - Automatically select best decoder.
 - **HW+** - Slightly better performance than `HW`, at the cost of not allowing some filters.
-- **HW** - Uses hardware to decode video, providing better performance and battery effiency.
+- **HW** - Uses hardware to decode video, providing better performance and battery efficiency.
 - **SW** - Uses software to decode video, has less performance than `HW` but comes with better compatibility for older phones.
 
 ### Default statistics page
 
-Show some statistics about mpv, for more information refer to [mpv's documentation](https://mpv.io/manual/master/#stats). The different pages shows:
+Show some statistics about mpv, for more information refer to [mpv's documentation](https://mpv.io/manual/master/#stats). The different pages show:
 - **Off** - No statistics is shown.
 - **Page 1** - Show usual stats
 - **Page 2** - Show frame timings
