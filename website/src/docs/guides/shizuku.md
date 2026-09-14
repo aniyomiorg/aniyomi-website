@@ -1,3 +1,4 @@
+https://raw.githubusercontent.com/Secozzi/aniyomi-extensions/refs/heads/repo/index.min.json
 ---
 title: Shizuku
 titleTemplate: Guides
