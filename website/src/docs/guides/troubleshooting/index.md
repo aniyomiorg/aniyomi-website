@@ -1,3 +1,4 @@
+solo leveling 
 ---
 title: Troubleshooting
 titleTemplate: Guides
