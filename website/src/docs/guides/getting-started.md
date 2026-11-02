@@ -1,5 +1,5 @@
----
-title: Getting started
+name 
+title: anime 
 titleTemplate: Guides
 description: Essential information to help you get set up with Aniyomi.
 ---
